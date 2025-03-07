@@ -1,7 +1,11 @@
-// Dynamically update the current year in the footer
-const currentYear = new Date().getFullYear();
-document.getElementById("currentyear").textContent = currentYear;
+// Dynamically set the current year in the footer......
+const currentYearElement = document.getElementById("currentyear");
+if (currentYearElement) {
+    currentYearElement.textContent = new Date().getFullYear();
+}
 
-// Dynamically update the last modified date
-const lastModified = document.lastModified;
-document.getElementById("lastModified").textContent = `Last Modified: ${lastModified}`;
+// Display the last modified date in the footer.....
+const lastModifiedElement = document.getElementById("lastModified");
+if (lastModifiedElement) {
+    lastModifiedElement.textContent = `Last Modified: ${document.lastModified}`;
+}
