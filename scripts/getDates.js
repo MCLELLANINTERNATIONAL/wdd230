@@ -1,5 +1,3 @@
-// getdates.js
-
 // Dynamically update the current year in the footer
 const currentYear = new Date().getFullYear();
 document.getElementById("currentyear").textContent = currentYear;
