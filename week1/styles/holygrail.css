@@ -28,6 +28,8 @@ nav {
 main {
     background: coral;
     grid-column: 2 / 3;
+    height: 100%;
+    padding: 1rem;
 }
 
 .right-sidebar {
