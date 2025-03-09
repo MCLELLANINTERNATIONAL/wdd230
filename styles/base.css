@@ -30,14 +30,15 @@ nav {
 
 nav ul {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 10px 0;
 }
 
 nav ul li a {
@@ -62,6 +63,9 @@ main {
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
 }
 
 h1,
@@ -81,7 +85,6 @@ footer {
     text-align: center;
     padding: 15px;
     background-color: #6a18e4b4;
-    ;
     color: white;
     margin-top: 20px;
 }
