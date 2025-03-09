@@ -8,6 +8,8 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto auto 1fr auto;
 }
 
 header {
@@ -53,7 +55,7 @@ nav ul li a.active {
 }
 
 nav ul li a:hover {
-    color: #ffcc00;
+    color: #ffcc00e4;
 }
 
 main {
@@ -66,6 +68,7 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
+    grid-column: 1 / 3;
 }
 
 h1,
@@ -73,12 +76,14 @@ h2 {
     color: #222;
 }
 
-.card {
+.card,
+.card1 {
     background-color: #fff;
     padding: 15px;
     margin: 15px 0;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    grid-column: 1;
 }
 
 footer {
