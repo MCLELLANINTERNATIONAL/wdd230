@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f4f4f4;
+    /* Light background for readability */
+    color: #333;
+    /* Main text color */
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0057A0;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-weight: 500;
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #0057A0;
+    /* Blue for headings */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #00f400;
+    /* Green for subheadings */
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+p,
+ul {
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Image Styles */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/* Accent Styles */
+.accent {
+    color: #00f400;
+    /* Green for highlights */
+    font-weight: 600;
+}
