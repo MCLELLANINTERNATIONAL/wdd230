@@ -30,7 +30,8 @@ header p {
 }
 
 /* Section Styles */
-section {
+section,
+footer {
     margin-bottom: 20px;
     padding: 15px;
     background-color: #fff;
