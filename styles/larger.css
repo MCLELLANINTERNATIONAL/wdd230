@@ -1,12 +1,19 @@
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 760px) {
 
-    nav ul {
-        flex-direction: row;
-        justify-content: center;
+    .navigation {
+        display: flex;
     }
 
-    nav ul li {
-        margin: 0 15px;
+    .navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 100%;
+	}
+	.navigation a {
+		text-align: center;
+	}
+
+    #menu {
+        display: none; /* hide hamburger button */
     }
 
     main {
@@ -23,6 +30,11 @@
         margin-left: 0;
     }
 
+    h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
     .card,
     .card1 {
         grid-column: auto;
@@ -30,22 +42,11 @@
 }
 
 
-h2 {
-    font-size: 2rem;
-    text-align: center;
-}
 
-#menu {
-    display: none; /* hide hamburger button */
-}
 
-.navigation {
-    flex-direction: row;
-}
 
-.navigation a {
-    display: block;
-    flex: 1 1 100%;
-}
+	
+	
+	
 
 
