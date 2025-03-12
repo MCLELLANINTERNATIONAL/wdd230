@@ -28,7 +28,7 @@ header h1 {
 
 header p {
     margin: 5px 0 0;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 /* Section Styles */
@@ -38,6 +38,31 @@ section {
     background-color: white;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.51);
+}
+
+.color-box {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: 1px solid #000;
+}
+
+.Royalblue {
+    background-color: royalblue;
+}
+
+.Green1 {
+    background-color: #63EE63E5;
+}
+
+.Green2 {
+    background-color: #00f400;
+}
+
+.Darkgrey {
+    background-color: #525252;
 }
 
 h2 {
