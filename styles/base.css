@@ -1,6 +1,6 @@
 * {
     margin: 0;
-	padding: 0;
+	padding: auto;
     box-sizing: border-box;
 }
 
@@ -91,11 +91,11 @@ nav {
 }
 
 #menu.show::before {
-	content: "❌";
+	content: "❎ ";
 }
 
 main {
-    max-width: 800px;
+    max-width: 760px;
     margin: 20px auto;
     padding: 20px;
     background-color: white;
@@ -130,10 +130,10 @@ h2 {
 .card,
 .card1 {
     background-color: #fff;
-    padding: 15px;
-    margin: 15px 0;
+    padding: 40px;
+    margin: 3px;
     border-radius: 5px;
-    box-shadow: 0 2px 5px #5E14CCB4;
+    box-shadow: 0px 2px 5px #5E14CCB4;
     grid-column: 1;
 }
 
