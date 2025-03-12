@@ -3,23 +3,25 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-color: #f4f4f4;
     /* Light background for readability */
-    color: #333;
+    color: darkslategray;
     /* Main text color */
     margin: 0;
     padding: 20px;
     line-height: 1.6;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.387);
 }
 
 header {
-    background-color: #0057A0;
+    background-color: #18c818e5;
     color: #fff;
     text-align: center;
     padding: 20px;
+    font-weight: 700;
 }
 
 header h1 {
     margin: 0;
-    color: white;
+    color: royalblue;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
@@ -30,17 +32,16 @@ header p {
 }
 
 /* Section Styles */
-section,
-footer {
+section {
     margin-bottom: 20px;
     padding: 15px;
-    background-color: #fff;
+    background-color: white;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.51);
 }
 
 h2 {
-    color: #0057A0;
+    color: #18c818e5;
     /* Blue for headings */
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -48,9 +49,9 @@ h2 {
 }
 
 h3 {
-    color: #00f400;
+    color: royalblue;
     /* Green for subheadings */
-    font-weight: 500;
+    font-weight: 700;
     margin-bottom: 5px;
 }
 
@@ -76,8 +77,12 @@ img {
 footer {
     text-align: center;
     font-size: 0.9em;
-    color: #666;
+    font-weight: 700;
+    background-color: #18c818e5;
+    color: WHITE;
     margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
 }
 
 footer p {
@@ -88,5 +93,5 @@ footer p {
 .accent {
     color: #00f400;
     /* Green for highlights */
-    font-weight: 600;
+    font-weight: 700;
 }
