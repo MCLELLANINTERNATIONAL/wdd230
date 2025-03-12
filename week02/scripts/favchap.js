@@ -9,31 +9,35 @@ button.addEventListener('click', () => {
     if (input.value.trim() !== '') {
         // Create li element
         const li = document.createElement('li');
-        
+
         // Create delete button
         const deleteButton = document.createElement('button');
-        
+
+        // Add class styling
+        li.classList.add('list-item');
+        deleteButton.classList.add('delete');
+
         // Populate li with input value
         li.textContent = input.value;
-        
+
         // Populate delete button with ❌
         deleteButton.textContent = '❌';
-        
+
         // Append delete button to li
-        li.append(deleteButton);
-        
+        li.appendChild(deleteButton);
+
         // Append li to list
-        list.append(li);
-        
+        list.appendaChild(li);
+
         // Add event listener to delete button
         deleteButton.addEventListener('click', () => {
             list.removeChild(li);
             input.focus();
         });
-        
+
         // Reset input field
         input.value = '';
-        
+
         // Send focus back to input
         input.focus();
     } else {
