@@ -1,4 +1,6 @@
 * {
+    margin: 0;
+	padding: 0;
     box-sizing: border-box;
 }
 
@@ -18,6 +20,7 @@ header {
     background-color: #7706a7;
     color: white;
     font-weight: 700;
+    font-size: 3rem;
     padding: 10px 20px;
 }
 
@@ -27,21 +30,41 @@ header img {
 }
 
 nav {
+    max-width: auto;
+	margin: 1rem auto;
     background-color: #5E14CCB4;
     padding: 10px 0;
 }
 
-nav ul {
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #000;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "❌";
+}
+
+navigation ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    list-style: none;
     padding: 0;
     margin: 0;
 }
 
 nav ul li {
     margin: 10px 0;
+    list-style: none;
 }
 
 nav ul li a {
@@ -49,14 +72,25 @@ nav ul li a {
     text-decoration: none;
     font-weight: 700;
     transition: color 0.3s ease-in-out;
+    margin-left: 1rem;
 }
 
 nav ul li a.active {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 nav ul li a:hover {
     color: #3BFF38;
+    background-color: navy;
+	font-weight: 700;
+}
+
+.open a {
+	display: block;
+}
+
+.active::before { 
+	content: "📍";  /* just a wayfinding symbol for the user */
 }
 
 main {
@@ -76,6 +110,21 @@ h1,
 h2 {
     color: #222;
 }
+
+h1 {
+	text-align: left;
+	font-family: times, serif;
+	font-size: 1.5rem;
+	margin-left: 1rem;
+}
+
+h2 {
+	font-size: 1.2rem;
+	color: navy;
+	text-align: left;
+	margin: 1rem;
+}
+
 
 .card,
 .card1 {
