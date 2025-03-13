@@ -1,6 +1,6 @@
 * {
     margin: 0;
-	padding: auto;
+    padding: auto;
     box-sizing: border-box;
 }
 
@@ -31,22 +31,22 @@ header img {
 
 #menu {
     display: block;
-	font-size: 2.5rem;
+    font-size: 2.5rem;
     font-weight: 700;
     text-decoration: none;
-	border: 0;
-	background: none;
-	color: white;
-	position: absolute;
+    border: 0;
+    background: none;
+    color: white;
+    position: absolute;
 }
 
 #menu::before {
-	content: "☰";
+    content: "☰";
 }
 
 nav {
     max-width: auto;
-	margin: 0rem auto;
+    margin: 0rem auto;
     background-color: #5E14CCB4;
     padding: 10px 0;
 }
@@ -83,7 +83,7 @@ nav {
 .navigation a:hover {
     color: #3BFF38;
     background-color: navy;
-	font-weight: 700;
+    font-weight: 700;
 }
 
 .show li {
@@ -91,7 +91,7 @@ nav {
 }
 
 #menu.show::before {
-	content: "❎ ";
+    content: "❎ ";
 }
 
 main {
@@ -113,19 +113,34 @@ h2 {
 }
 
 h1 {
-	text-align: left;
-	font-family: times, serif;
-	font-size: 1.5rem;
-	margin-left: 1rem;
+    text-align: left;
+    font-family: times, serif;
+    font-size: 1.5rem;
+    margin-left: 1rem;
 }
 
 h2 {
-	font-size: 1.2rem;
-	color: navy;
-	text-align: left;
-	margin: 1rem;
+    font-size: 1.2rem;
+    color: navy;
+    text-align: left;
+    margin: 1rem;
 }
 
+main img {
+    float: right;
+    margin: 0 0 1rem 1rem;
+    border: 1px solid #77777773;
+    box-shadow: 0 0 15px rgba(128, 128, 128, 0.69);
+}
+
+#mode {
+    position: absolute;
+    top: 1.5rem;
+    right: 0.5rem;
+    font-size: 3rem;
+    cursor: pointer;
+    font-size: 2rem;
+}
 
 .card,
 .card1 {
@@ -145,5 +160,3 @@ footer {
     font-weight: 700;
     margin-top: 20px;
 }
-
-
