@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: auto;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -45,8 +45,8 @@ header img {
 }
 
 nav {
-    max-width: auto;
-    margin: 0rem auto;
+    max-width: 760px;
+    margin: 0 auto;
     background-color: #5E14CCB4;
     padding: 10px 0;
 }
