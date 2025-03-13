@@ -152,6 +152,10 @@ main img {
     grid-column: 1;
 }
 
+.card1 {
+    line-height: 1.8;
+}
+
 footer {
     text-align: center;
     padding: 15px;
