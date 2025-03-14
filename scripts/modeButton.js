@@ -1,14 +1,20 @@
 const modeButton = document.querySelector("#mode");
 const main = document.querySelector("main");
+const h1 = document.querySelector("h1");
 
 modeButton.addEventListener("click", () => {
-	if (modeButton.textContent.includes("🕶️")) {
-		main.style.background = "rgba(255, 255, 0, 1";
-		main.style.color = "#fff";
-		modeButton.textContent = "🔆";
-	} else {
-		main.style.background = "#FFD1DC";
-		main.style.color = "#E75480";
-		modeButton.textContent = "🕶️";
+	main.classList.toggle("dark");
+
+	if (main.classList.contains("dark")) {
+		// Dark Mode
+		main.style.background = "#9932CC";
+		h1.style.color = "#FFFFFF";
+		modeButton.innerHTML = "🔆";
+	}
+	else {
+		// Light Mode
+		main.style.background = "#FFFFFF";
+		h1.style.color = "#222222"; // 
+		modeButton.innerHTML = "◐";
 	}
 });

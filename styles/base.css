@@ -15,9 +15,10 @@ body {
 }
 
 header {
+    position: relative;
     display: flex;
     align-items: center;
-    background-color: #7706a7;
+    background-color: #5E14CCB4;
     color: white;
     font-weight: 700;
     font-size: 3rem;
@@ -27,6 +28,16 @@ header {
 header img {
     border-radius: 50%;
     margin-right: 10px;
+}
+
+#mode {
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+    font-size: 24px;
+    cursor: pointer;
+    font-size: 2rem;
+    transition: transform 0.3s ease-in-out;
 }
 
 #menu {
@@ -47,7 +58,7 @@ header img {
 nav {
     max-width: 100%;
     margin: 0 auto;
-    background-color: #5E14CCB4;
+    background-color: #7706a7;
     padding: 10px 0;
 }
 
@@ -95,7 +106,7 @@ nav {
 }
 
 main {
-    max-width: 760px;
+    max-width: 100%;
     margin: 20px auto;
     padding: 20px;
     background-color: white;
@@ -131,15 +142,6 @@ main img {
     margin: 0 0 1rem 1rem;
     border: 1px solid #77777773;
     box-shadow: 0 0 15px rgba(128, 128, 128, 0.69);
-}
-
-#mode {
-    position: absolute;
-    top: 1.5rem;
-    right: 0.5rem;
-    font-size: 3rem;
-    cursor: pointer;
-    font-size: 2rem;
 }
 
 .card,
