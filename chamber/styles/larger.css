@@ -8,7 +8,7 @@
 		flex: 1 1 100%;
 	}
 	.navigation a {
-		text-align: left;
+		text-align: center;
 	}
 
     #menu {
@@ -34,14 +34,8 @@
         text-align: center;
     }
 
-    events, 
-    weather {
-        grid-column: 1/2;
-        grid-row: 1/3;
-    }
-
-    spotlights weather {
-        grid-column: auto 1fr;
-        grid-row: 3/4;
+    .card,
+    .card1 {
+        grid-column: auto;
     }
 }
