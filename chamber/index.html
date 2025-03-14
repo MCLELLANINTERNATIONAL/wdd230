@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="WDD 230 - Edinburgh Chamber of Commerce by Kim Brown, Web Development, JavaScript, CSS, HTML">
+    <meta name="author" content="Kim Brown">
+    <title>Edinburgh Chamber of Commerce</title>
+    
+    <!-- Social Media Meta Tags -->
+    <meta property="og:title" content="Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="hero.jpg">
+    <meta property="og:url" content="https://mclellaninternational.github.io/wdd230/chamber/index.html"">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Open+Sans:wght@400;500;700&display=swap"rel="stylesheet">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">    
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/getDates.js" defer></script>
+    <script src="scripts/hamButton.js" defer></script>
+    <script src="scripts/modeButton.js" defer></script>
+  
+</head>
+<body>
+    
+<header>
+</html><img src="images/profile1.jpeg" alt="Kim" width="90" height="84">
+<span>Edinburgh Chamber of Commerce</span>
+<div id="mode">
+    <img src="images/dark.png" alt="dark mode" id="darkBtn"   width="44" height="44">
+</div>
+
+<h1>Edinburgh Chamber of Commerce</h1>
+<nav>
+    <button id="menu-toggle">☰</button>
+    <ul id="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Membership</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+</header>
+
+<main>
+<section id="hero">
+    <img src="hero.jpg" alt="Chamber of Commerce Hero Image">
+    <h2>Welcome to Our Chamber</h2>
+    <p>Supporting businesses and community growth.</p>
+    <a href="#membership" class="cta">Join Now</a>
+</section>
+
+<section id="events">
+    <h2>Upcoming Events</h2>
+    <p>Stay tuned for upcoming networking and community events.</p>
+</section>
+
+<section id="weather">
+    <h2>Local Weather</h2>
+    <p>Weather updates will be dynamically displayed here.</p>
+</section>
+
+<section id="spotlights">
+    <h2>Business Spotlights</h2>
+    <article>
+        <h3>Company 1</h3>
+        <p>Highlighting local businesses and their contributions.</p>
+    </article>
+    <article>
+        <h3>Company 2</h3>
+        <p>Dedicated to innovation and community support.</p>
+    </article>
+    <article>
+        <h3>Company 3</h3>
+        <p>Leading industry expert in sustainable development.</p>
+    </article>
+</section>
+</main>  
+
+
+<footer>
+    <p>Contact: info@edinburghchamberofcommerce.com | Phone: 123-456-7890</p>
+    <p>&copy; <span id="year"></span> Eddinburgh Chamber of Commerce | Project for WDD 230</p>
+    <p>Last Updated: <span id="last-modified"></span></p>
+</footer>
+
+</body>
+
+</html>
