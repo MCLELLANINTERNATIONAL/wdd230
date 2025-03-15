@@ -65,7 +65,7 @@ async function getWeather() {
   try {
     const response = await fetch(weatherURL);
     if (!response.ok) {
-      throw new Error(`Weather API error: ${response.statusText}`);
+      throw new Error("Weather API error: ${response.statusText}");
     }
     
     const data = await response.json();
@@ -75,32 +75,38 @@ async function getWeather() {
     const weatherCode = data.current.weather_code;
     const condition = getWeatherDescription(weatherCode);
     const icon = getWeatherIcon(weatherCode);
-    const iconURL = "https://openweathermap.org/img/wn/${icon}.png"; // OpenWeatherMap icons
+    const iconURL = "https://openweathermap.org/img/wn/${icon}@2x.png"; // OpenWeatherMap icons
     const humidity = data.current.relative_humidity_2m || "N/A";
     const windSpeed = Math.round(data.current.wind_speed_10m);
-    const updateTime = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+    const updateTime = new Date().toLocaleTimeString([], { hour: "2-digit", minute: '2-digit' });
 
-    // Create weather display with icon
-    const weatherHTML = `
-      <div class="weather-display">
-        <img src="${iconURL}" alt="${condition}" width="50" height="50">
-        <div class="weather-details">
-          <p><strong>Edinburgh, Scotland</strong> (as of ${updateTime})</p>
-          <p>${temp}°C - ${condition}</p>
-          <p>Humidity: ${humidity}%</p>
-          <p>Wind: ${windSpeed} km/h</p>
-        </div>
+  // Debugging log to verify icon URL
+  console.log("Weather Icon URL:", iconURL);
+
+  // Create weather display with icon
+  const weatherHTML = `
+    <div class="weather-display">
+      <img src="${iconURL}" alt="${condition}" width="50" height="50">
+      <div class="weather-details">
+        <p><strong>Edinburgh, Scotland</strong> (as of ${updateTime})</p>
+        <p>${temp}°C - ${condition}</p>
+        <p>Humidity: ${humidity}%</p>
+        <p>Wind: ${windSpeed} km/h</p>
       </div>
-    `;
+    </div>
+  `;
 
-    // Update the weather element
-    weatherElement.innerHTML = weatherHTML;
+  // Update the weather element
+  weatherElement.innerHTML = weatherHTML;
 
-  } catch (error) {
-    console.error("Weather data error:", error);
-    weatherElement.innerHTML = '<p style="color: #d9534f;"><strong>Weather:</strong> Unable to load weather data. Please try again later.</p>';
-  }
+} catch (error) {
+  console.error("Weather data error:", error);
+  weatherElement.innerHTML = '<p style="color: #d9534f;"><strong>Weather:</strong> Unable to load weather data. Please try again later.</p>';
 }
+}
+
+
+
 
 // Call the function to fetch weather
 getWeather();
