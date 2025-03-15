@@ -254,6 +254,67 @@ main img {
     background-color: #0056b3;
 }
 
+#weather {
+    background-color: #fff;
+    padding: 33px;
+    margin: 1px;
+    border-radius: 1px;
+    box-shadow: 0px 2px 5px royalblue;
+    grid-column: 1;
+    max-width: 760px;
+}
+
+#weather {
+    text-align: center;
+}
+
+#spotlights {
+    background-color: #fff;
+    padding: 12px;
+    margin: 3px;
+    border-radius: 1px;
+    box-shadow: 0px 2px 5px royalblue;
+    grid-column: 1;
+    max-width: 760px;
+}
+.weather-display {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.weather-display img {
+    margin-right: 1rem;
+}
+
+.weather-details p {
+    margin: 0.2rem 0;
+}
+
+#weather {
+    background-color: #fff;
+    padding: 33px;
+    margin: 1px;
+    border-radius: 1px;
+    box-shadow: 0px 2px 5px royalblue;
+    grid-column: 1;
+    max-width: 760px;
+}
+
+#weather {
+    text-align: center;
+}
+
+#spotlights {
+    background-color: #fff;
+    padding: 12px;
+    margin: 3px;
+    border-radius: 1px;
+    box-shadow: 0px 2px 5px royalblue;
+    grid-column: 1;
+    max-width: 760px;
+}
+
 footer {
     text-align: center;
     font-size: 0.9rem;

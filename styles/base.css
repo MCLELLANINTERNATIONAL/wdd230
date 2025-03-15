@@ -158,6 +158,21 @@ main img {
     line-height: 1.8;
 }
 
+/* Weather styles */
+.weather-display {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.weather-display img {
+    margin-right: 1rem;
+}
+
+.weather-details p {
+    margin: 0.2rem 0;
+}
+
 footer {
     text-align: center;
     padding: 15px;
