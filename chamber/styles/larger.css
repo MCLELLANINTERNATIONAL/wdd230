@@ -34,6 +34,20 @@
         max-width: 100%;
     }
 
+    #events h3 {
+        text-align: center;
+    }
+
+    .events-container {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .event-box {
+        width: 45%;
+    }
+    
+
     #weather {
         grid-column: 1 / span 2;
         grid-row: 3;
