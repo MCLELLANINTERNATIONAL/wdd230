@@ -123,20 +123,22 @@ main {
 
 #welcome, #events, #weather {
     background-color: #fff;
-    padding: 25px;
+    padding: 33px;
     margin: 1px;
     border-radius: 1px;
     box-shadow: 0px 2px 5px royalblue;
     grid-column: 1;
+    max-width: 760px;
 }
 
 #spotlights {
     background-color: #fff;
-    padding: 15px;
+    padding: 12px;
     margin: 3px;
     border-radius: 1px;
     box-shadow: 0px 2px 5px royalblue;
     grid-column: 1;
+    max-width: 760px;
 }
 
 h1,
@@ -160,6 +162,7 @@ h2 {
 
 main img {
     float: right;
+    max-width: 65%;
     margin: 0 0 1rem 1rem;
     border: 1px solid #77777773;
     box-shadow: 0 0 15px rgba(128, 128, 128, 0.69);
@@ -168,7 +171,7 @@ main img {
 
 footer {
     text-align: center;
-    font-size: 0.9em;
+    font-size: 0.9rem;
     font-weight: 700;
     background-color: #63EE63E5;
     color: #525252;
@@ -194,13 +197,13 @@ footer p {
 
 .footer-nav a {
     display: block;
-    text-align: left;
+    text-align: center;
     padding: 0;
     color: rgb(10, 64, 228);
     text-decoration: none;
     font-weight: 700;
     transition: color 0.5s ease-in-out;
-    font-size: clamp(1.1rem, 2vmin, 1.1rem);
+    font-size: clamp(0.75rem, 2vmin, 1rem);
     margin-left: 2rem;
 }
 
