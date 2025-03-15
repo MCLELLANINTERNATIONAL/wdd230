@@ -1,8 +1,7 @@
-// Weather API for Troon, Scotland using OpenMeteo
-const lat = 55.5419;  // Latitude for Troon, Scotland
-const lon = -4.6617;  // Longitude for Troon, Scotland
-const weatherURL = ⁠ https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m,relative_humidity_2m,wind_speed_10m,weather_code&timezone=auto ⁠;
-
+// Weather API for Edinburgh, Scotland using OpenMeteo
+const lat = 55.9533;  // Latitude for Edinburgh, Scotland
+const lon = -3.1883;  // Longitude for Edinburgh, Scotland
+const weatherURL = "https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m,relative_humidity_2m,wind_speed_10m,weather_code&timezone=auto";
 // Select HTML elements
 const weatherElement = document.querySelector('.weather-info');
 
@@ -75,7 +74,7 @@ async function getWeather() {
       const weatherCode = data.current.weather_code;
       const condition = getWeatherDescription(weatherCode);
       const icon = getWeatherIcon(weatherCode);
-      const iconURL = ⁠ https://openweathermap.org/img/wn/${icon}@2x.png ⁠; // Using OpenWeatherMap icons for consistency
+      const iconURL = "https://openweathermap.org/img/wn/${icon}@2x.png"; // Using OpenWeatherMap icons for consistency
       const humidity = data.current.relative_humidity_2m || "N/A";
       const windSpeed = Math.round(data.current.wind_speed_10m);
       const updateTime = new Date(data.current.time).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
@@ -96,7 +95,7 @@ async function getWeather() {
       // Update the weather element
       weatherElement.innerHTML = weatherHTML;
     } else {
-      throw Error(⁠ Weather API error: ${response.statusText} ⁠);
+      throw Error(⁠Weather API error: ${response.statusText} ⁠);
     }
   } catch (error) {
     console.error("Weather data error:", error);
