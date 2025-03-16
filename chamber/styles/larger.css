@@ -67,6 +67,11 @@
         max-width: 100%
     }
 
+    #weather img {
+        max-width: 95%;
+        margin: 10px; 
+    }
+
     #spotlights {
         grid-column: 3;
         grid-row: 1 / span 3;
