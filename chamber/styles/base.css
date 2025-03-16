@@ -121,6 +121,39 @@ main {
     gap: 20px;
 }
 
+#welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: darkorange;
+    padding: 50px 20px;
+}
+
+#welcome img {
+    max-width: 95%;
+    text-align: center;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#welcome h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: royalblue;
+    margin-bottom: 15px;
+}
+
+#welcome h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+    max-width: 760px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
 .cta-button {
     display: inline-block;
     padding: 12px 24px;
@@ -163,14 +196,9 @@ main {
     max-width: 760px;
 }
 
-h1,
-h2 {
-    color: #222;
-}
-
 h1 {
     text-align: left;
-    font-family: times, serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
     margin-left: 1rem;
 }
@@ -268,16 +296,6 @@ main img {
     text-align: center;
 }
 
-#spotlights {
-    background-color: #fff;
-    padding: 12px;
-    margin: 3px;
-    border-radius: 1px;
-    box-shadow: 0px 2px 5px royalblue;
-    grid-column: 1;
-    max-width: 760px;
-}
-
 #weather {
     background-color: #fff;
     padding: 33px;
@@ -311,12 +329,82 @@ main img {
 
 #spotlights {
     background-color: #fff;
-    padding: 12px;
+    color:#3BFF38;
     margin: 3px;
     border-radius: 1px;
-    box-shadow: 0px 2px 5px royalblue;
+    text-align: center;
     grid-column: 1;
-    max-width: 760px;
+    max-width: 100%;
+}
+
+#spotlights h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: royalblue;
+    margin-bottom: 5px;
+}
+
+.launchpad {
+    background-color: rgb(12, 225, 12);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.launchpad h3, .carbon h3, .windpower h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.launchpad h4 , 
+.carbon h4 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgb(92, 90, 90);
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.windpower h4 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: darkorange;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.launchpad p, 
+.carbon p, 
+.windpower p {
+    font-size: 1.1rem;
+    color: white;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+.carbon {
+    background-color: darkorange;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: left;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.windpower {
+    background-color: rgb(86, 121, 225);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: left;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 footer {
