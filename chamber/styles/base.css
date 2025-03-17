@@ -430,7 +430,7 @@ main img {
 }
 
 .windpower {
-    background-color: darkorange;
+    background-color:rgba(0, 166, 255, 0.688);
     padding: 30px;
     border-radius: 10px;
     max-width: 900px;
@@ -441,7 +441,7 @@ main img {
 }
 
 .carbon {
-    background-color: navy;
+    background-color: darkorange;
     padding: 30px;
     border-radius: 10px;
     max-width: 900px;
