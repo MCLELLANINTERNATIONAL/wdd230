@@ -31,11 +31,10 @@ header img {
 
 #mode {
     position: absolute;
-    top: 3.9rem;
+    top: 4rem;
     right: 0.75rem;
-    font-size: 20px;
+    font-size: 0.75rem;
     cursor: pointer;
-    font-size: 1.5rem;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -146,7 +145,7 @@ main {
 .profile-carousel {
     position: relative;
     width: 100%;
-    max-width: 600px; /* Adjust size if needed */
+    max-width: 1250px; /* Adjust size if needed */
     height: auto;
     overflow: hidden;
     display: flex;
@@ -157,11 +156,10 @@ main {
 .profile-carousel img {
     position: absolute;
     max-width: 100%;
-    max-width: 600px;
     text-align: center;
     height: auto;
     border-radius: 10px;
-    opacity: 0;
+    opacity: 1;
     margin-bottom: 20px;
     transition: transform 0.3s ease-in-out;
 }
@@ -169,6 +167,10 @@ main {
 .profile-carousel img:first-child {
     opacity: 1;
     position: static;
+}
+
+.profile-carousel img:hover {
+    transform: scale(1.1);
 }
 
 #welcome h2 {
@@ -381,6 +383,7 @@ main img {
     max-width: 900px;
     margin: 0 auto;
     text-align: left;
+    gap:10px;
 }
 
 .launchpad h3, .carbon h3, .windpower h3 {
