@@ -11,6 +11,10 @@
 		text-align: center;
 	}
 
+    .navigation.show {
+        flex-direction: block; /* Keep stacked layout */
+    }
+
     #menu {
         display: none; /* hide hamburger button */
     }
