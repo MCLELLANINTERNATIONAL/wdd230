@@ -12,7 +12,7 @@
 	}
 
     .navigation.show {
-        flex-direction: block; /* Keep stacked layout */
+        flex-direction: row; /* Keep stacked layout */
     }
 
     #menu {
