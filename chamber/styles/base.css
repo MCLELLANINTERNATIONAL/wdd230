@@ -430,7 +430,7 @@ main img {
 }
 
 .windpower {
-    background-color: rgb(86, 121, 225);
+    background-color: darkorange;
     padding: 30px;
     border-radius: 10px;
     max-width: 900px;
