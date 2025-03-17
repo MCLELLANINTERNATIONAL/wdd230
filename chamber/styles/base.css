@@ -392,7 +392,7 @@ main img {
 .launchpad h3, .carbon h3, .windpower h3 {
     font-size: 1.5rem;
     font-weight: bold;
-    color: white;
+    color: #262626;
     margin-bottom: 10px;
     gap: 10px;
 }
@@ -401,7 +401,7 @@ main img {
 .carbon h4 {
     font-size: 1.3rem;
     font-weight: bold;
-    color: rgb(92, 90, 90);
+    color: #423D3D;
     font-weight: bold;
     margin-bottom: 15px;
 }
@@ -418,7 +418,7 @@ main img {
 .carbon p, 
 .windpower p {
     font-size: 1.1rem;
-    color: white;
+    color: #4F4F4F;
     font-weight: bold;
     line-height: 1.6;
 }
