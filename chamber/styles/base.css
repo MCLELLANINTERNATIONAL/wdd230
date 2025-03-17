@@ -414,10 +414,16 @@ main img {
     margin-bottom: 15px;
 }
 
-.launchpad p, 
-.carbon p {
+.launchpad p {
     font-size: 1.1rem;
     color: #4F4F4F;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+.carbon p {
+    font-size: 1.1rem;
+    color:#3D3D3D;
     font-weight: bold;
     line-height: 1.6;
 }
