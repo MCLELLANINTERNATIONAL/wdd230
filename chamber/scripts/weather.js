@@ -86,7 +86,6 @@ async function getWeather() {
   // Create weather display with icon
   const weatherHTML = `
     <div class="weather-display">
-      <img src="${iconURL}" alt="${condition}" width="50" height="50">
       <div class="weather-details">
         <p><strong>Edinburgh, Scotland</strong> (as of ${updateTime})</p>
         <p>${temp}°C - ${condition}</p>
