@@ -178,7 +178,7 @@ main {
 #welcome h2 {
     font-size: 2rem;
     font-weight: bold;
-    color: #006FE6;
+    color: #173592;
     margin-bottom: 15px;
 }
 
@@ -195,7 +195,7 @@ main {
     display: inline-block;
     padding: 12px 24px;
     margin-top: 15px;
-    background-color: 006FE6;
+    background-color: #0071EB;
     color: white;
     font-size: 18px;
     font-weight: bold;
@@ -304,7 +304,7 @@ main img {
 }
 
 .book-now {
-    background-color: #006FE6;
+    background-color: #0071EB;
     color: white;
     padding: 10px 15px;
     border: none;
