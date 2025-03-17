@@ -39,6 +39,16 @@ header img {
     transition: transform 0.3s ease-in-out;
 }
 
+.top-header,
+.nav-section {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-section {
+    background-color: navy; /* Adjust color to match */
+}
+
 #menu {
     display: block;
     font-size: 2rem;
