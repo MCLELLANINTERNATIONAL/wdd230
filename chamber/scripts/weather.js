@@ -75,7 +75,9 @@ async function getWeather() {
     const weatherCode = data.current.weather_code;
     const condition = getWeatherDescription(weatherCode);
     const icon = getWeatherIcon(weatherCode);
-    const iconURL = "https://openweathermap.org/img/wn/${icon}@2x.png"; // OpenWeatherMap icons
+    const iconURL = `https://openweathermap.org/img/wn/${icon}@2x.png`; // Use backticks
+    //openweathermap.org/img/wn/${icon}@2x.png'; // Use backticks
+    ; // OpenWeatherMap icons
     const humidity = data.current.relative_humidity_2m || "N/A";
     const windSpeed = Math.round(data.current.wind_speed_10m);
     const updateTime = new Date().toLocaleTimeString([], { hour: "2-digit", minute: '2-digit' });
@@ -86,6 +88,7 @@ async function getWeather() {
   // Create weather display with icon
   const weatherHTML = `
     <div class="weather-display">
+      <img src="${iconURL}" alt="${condition}" />
       <div class="weather-details">
         <p><strong>Edinburgh, Scotland</strong> (as of ${updateTime})</p>
         <p>${temp}°C - ${condition}</p>
