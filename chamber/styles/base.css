@@ -143,12 +143,32 @@ main {
     padding: 50px 20px;
 }
 
-#welcome img {
-    max-width: 95%;
+.profile-carousel {
+    position: relative;
+    width: 100%;
+    max-width: 600px; /* Adjust size if needed */
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-carousel img {
+    position: absolute;
+    max-width: 100%;
+    max-width: 600px;
     text-align: center;
     height: auto;
     border-radius: 10px;
+    opacity: 0;
     margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-carousel img:first-child {
+    opacity: 1;
+    position: static;
 }
 
 #welcome h2 {
