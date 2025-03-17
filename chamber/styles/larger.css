@@ -21,7 +21,7 @@
 
     main {
         display: grid;
-        grid-template-columns: 1fr 1fr 1.2fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: auto auto 1fr;
         gap: 5px;
     }
@@ -40,10 +40,8 @@
     }
     
     .profile-carousel img {
-        max-width: 100%;
-        height: auto;
-        margin: 10px;
-    }
+            min-width: 800px;
+        }
 
     .profile-carousel img:hover {
         transform: scale(1.3);

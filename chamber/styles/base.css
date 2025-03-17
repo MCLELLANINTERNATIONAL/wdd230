@@ -157,6 +157,8 @@ main {
     position: absolute;
     max-width: 100%;
     text-align: center;
+    width: 400px;
+    height: 400px;
     height: auto;
     border-radius: 10px;
     opacity: 1;
@@ -373,7 +375,7 @@ main img {
     font-size: 2rem;
     font-weight: bold;
     color: royalblue;
-    margin-bottom: 5px;
+    margin-bottom: 30px;
 }
 
 .launchpad {
@@ -384,6 +386,7 @@ main img {
     margin: 0 auto;
     text-align: left;
     gap:10px;
+    margin-bottom: 20px;
 }
 
 .launchpad h3, .carbon h3, .windpower h3 {
@@ -420,18 +423,19 @@ main img {
     line-height: 1.6;
 }
 
-.carbon {
-    background-color: darkorange;
+.windpower {
+    background-color: rgb(86, 121, 225);
     padding: 30px;
     border-radius: 10px;
     max-width: 900px;
     margin: 0 auto;
     text-align: left;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
 }
 
-.windpower {
-    background-color: rgb(86, 121, 225);
+.carbon {
+    background-color: darkorange;
     padding: 30px;
     border-radius: 10px;
     max-width: 900px;
