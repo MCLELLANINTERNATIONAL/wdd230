@@ -23,7 +23,6 @@
     <script src="scripts/getDates.js" defer></script>
     <script src="scripts/hamButton.js" defer></script>
     <script src="scripts/modeButton.js" defer></script>
-    <script src="scripts/weather.js" defer></script>
     <script src="week02/scripts/favChap.js" defer></script>
     <script src="scripts/weather.js" defer></script>
 </head>
@@ -58,8 +57,11 @@
         </section>
         <section class="card1">
             <h2>Information</h2>
-            <p class="weather-info">Weather: Loading weather data for Edinburgh,
-                Scotland...</p>
+            <div class="weather-container">
+                <div class="weather-label">
+                    <h3>Weather</h3>
+                    <div class="weather-info"></div>
+                </div>
             <p>Page Visits: Placeholder</p>
         </section>
     </main>
