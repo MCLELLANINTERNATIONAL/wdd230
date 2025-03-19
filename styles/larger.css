@@ -19,7 +19,7 @@
     main {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto 1fr;
+        grid-template-rows: auto auto auto 1fr;
         gap: 20px;
     }
 
@@ -39,7 +39,24 @@
     .card1 {
         grid-column: auto;
     }
+
+    .edin-map {
+        grid-column: 1 / span 2;
+        grid-row: 4;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .map iframe {
+        min-height: auto;
+        max-width: 100%;
+        width: 1500px;
+        height: 600px; /* Increase height for large screens */
+        grid-column: 1 / span 2;
+        grid-row: 4;
+    }
 }
+
 
 
 

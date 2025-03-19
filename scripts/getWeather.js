@@ -1,13 +1,13 @@
 // Weather API for Troon, Scotland using OpenMeteo
-const lat = 55.5419;  // Latitude for Troon, Scotland
-const lon = -4.6617;  // Longitude for Troon, Scotland
+const lat = 55.5419;  // Latitude for Edinburgh, Scotland
+const lon = -4.6617;  // Longitude for Edinburgh, Scotland
 const weatherURL = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m,relative_humidity_2m,wind_speed_10m,weather_code&timezone=auto`;
 
 // Select HTML elements
 const weatherElement = document.querySelector('.weather-info');
 
 // Set initial loading state
-weatherElement.innerHTML = '<p><em>Loading weather data for Troon, Scotland...</em></p>';
+weatherElement.innerHTML = '<p><em>Loading weather data for Edinburgh, Scotland...</em></p>';
 
 // Function to get weather description based on weather code
 function getWeatherDescription(code) {
@@ -82,7 +82,7 @@ async function getWeather() {
       <div class="weather-display">
         <img src="${iconURL}" alt="${condition}" width="50" height="50">
         <div class="weather-details">
-          <p><strong>Troon, Scotland</strong> (as of ${updateTime})</p>
+          <p><strong>Edinburgh, Scotland</strong> (as of ${updateTime})</p>
           <p>${temp}°C - ${condition}</p>
           <p>Humidity: ${humidity}%</p>
           <p>Wind: ${windSpeed} km/h</p>
