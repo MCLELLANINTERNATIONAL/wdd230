@@ -263,6 +263,11 @@ main img {
     font-size: 24px;
 }
 
+.events-banner p {
+    text-align: center;
+    text-wrap: wrap;
+}
+
 .events-container {
     display: flex;
     flex-direction: column;
