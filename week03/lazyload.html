@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="WDD 230 - Web Frontend Development by Kim Brown, Web Development, JavaScript, CSS, HTML">
+    <meta name="author" content="Kim Brown">
+    <title>Lazy Load</title>  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/lazyload.css">
+    <script src="scripts/getDates.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Lazy Load Demonstration</h1>
+    </header>
+
+    <main>
+        <figure>
+            <img src="images/italy.webp" alt="Itlay" loading="lazy" width="400" height="600">
+            <figcaption>Italy Coastal Landscape</figcaption>
+        </figure>
+        <figure>
+            <img src="images/Landscape5.webp" alt="Landscape 5" loading="lazy" width="400" height="600">
+            <figcaption>Lighthouse</figcaption>
+        </figure>
+        <figure>
+            <img src="images/landscape6.webp" alt="Landscape 6" laoding="lazy" width="400" height="600">
+            <figcaption>Alaska</figcaption>
+        </figure>
+        <figure>
+            <img src="images/landscape7.webp" alt="Landscape 7" loading="lazy" width="400" height="600">
+            <figcaption>Japan</figcaption>
+        </figure>
+        <figure>
+            <img src="images/landscape8.webp" alt="Landscape 8" loading="lazy" width="400" height="600">
+            <figcaption>Norway</figcaption>
+        </figure>
+        <figure>
+            <img src="images/landscape9.webp" alt="Landscape 9" loading="lazy" width="400" height="600">
+            <figcaption>Indian Landscape</figcaption>
+        </figure>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Kim Brown 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Edinburgh,Scotland
+            🏴󠁧󠁢󠁳󠁣󠁴󠁿</p>
+        <p id="lastModified"></p>  
+    </footer>
+    
+</body>
+</html>
