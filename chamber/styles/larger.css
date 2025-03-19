@@ -21,8 +21,8 @@
 
     main {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: auto auto 1fr;
+        grid-template-columns: 1fr 1fr 1.24fr;
+        grid-template-rows: auto auto auto 1fr;
         gap: 5px;
     }
     #welcome {
@@ -54,9 +54,30 @@
         text-wrap: wrap;
     }
 
-    #events {
+    #podcast {
         grid-column: 1 / span 2;
         grid-row: 2;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    .podcast-player {
+        min-height: 80hv;
+        max-width: 100%;
+        grid-column: 1 / span 2;
+        grid-row: 2;
+    }
+    
+    .podcast-player iframe {
+            width: 700px;
+            height: 400px; /* Increase height for large screens */
+            grid-column: 1 / span 2;
+            grid-row: 2;
+        }
+
+    #events {
+        grid-column: 1 / span 2;
+        grid-row: 3/ span 4;
         max-width: 100%;
     }
 
@@ -74,9 +95,10 @@
     }
     
     #weather {
-        grid-column: 1 / span 2;
-        grid-row: 3;
-        max-width: 100%
+        grid-column: 3;
+        grid-row: 4;
+        max-width: 100%;
+        margin-top: 30px;
     }
 
     #weather img {
@@ -86,7 +108,7 @@
 
     #spotlights {
         grid-column: 3;
-        grid-row: 1 / span 3;
+        grid-row: 1/ span 3;
         max-width: 100%;
         text-wrap: wrap;
     }
@@ -107,7 +129,7 @@
     }
 
     header h1 {
-        grid-column: 2 / 4;
+        grid-column: 2 / 3;
         text-align: center;
         font-size: 2.5rem;
         margin-left: 0;
@@ -118,3 +140,6 @@
         text-align: center;
     }
 }
+
+
+
