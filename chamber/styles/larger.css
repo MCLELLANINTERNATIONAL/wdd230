@@ -62,7 +62,7 @@
     }
 
     .podcast-player {
-        min-height: 80hv;
+        min-height: auto;
         max-width: 100%;
         grid-column: 1 / span 2;
         grid-row: 2;
