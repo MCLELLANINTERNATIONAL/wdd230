@@ -31,10 +31,8 @@
     .hero img {
         grid-column: 1 / span 2;
         grid-row: 1; 
-    }
-
-    .hero span {
-	    left: 20%;
+        width: 1500px;
+        height: 640px;
     }
     
     .title {
