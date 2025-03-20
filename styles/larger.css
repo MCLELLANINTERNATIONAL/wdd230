@@ -26,22 +26,23 @@
     .hero {
         grid-column: 1 / span 2;
         grid-row: 1;
-    }
-
-    .hero-content {
         max-width: 100%;
         height: auto;
     }
     
-    .hero-content img {
+    .hero img {
         width: 100%;
         height: auto;
         max-width: 100%;
-    } 
+    }
+
+    .herolabel {
+        position:absolute;
+    }
     
-    .hero-content h1 {
+    .title {
         grid-column: 1 / span 2;
-        grid-row: 1;
+        grid-row: 2;
         text-align: center;
         font-size: 2.5rem;
     }
@@ -49,7 +50,7 @@
     .card,
     .card1 {
         grid-column: auto;
-        grid-row: 2;
+        grid-row: 3;
     }
 
     .card-banner {
@@ -64,7 +65,7 @@
 
     .edin-map {
         grid-column: 1 / span 2;
-        grid-row: 3;
+        grid-row: 4;
         margin-top: 10px;
         margin-bottom: 10px;
     }
@@ -75,7 +76,7 @@
         width: 1500px;
         height: 600px; /* Increase height for large screens */
         grid-column: 1 / span 2;
-        grid-row: 3;
+        grid-row: 4;
     }
 }
 
