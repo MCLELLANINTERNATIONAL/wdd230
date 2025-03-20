@@ -173,7 +173,8 @@ main {
 }
 
 .card ul {
-    margin-left: 100px;
+    list-style: none;
+    margin-left: 20px;
     font-size: 1rem;
     font-weight: bold;
 }
