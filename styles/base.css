@@ -114,46 +114,36 @@ main {
 }
 
 .hero {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-    margin: 10px auto;
-    margin-right: 10px;
-	position: relative;
-	height: 300px;
+    padding: 2px;
+    margin: 0;
+	width: 100%;
+    max-width: auto;
+	height: auto;
     flex-direction: column;
-    align-items: center;
-    width: 100%;
-    max-width: 100%; /* Restrict max width on large screens */
 }
 
 .hero img {
-    max-width: 1500px;
+    max-width: 100%;
+    width: 100%;
     height: auto;
-    border-radius: 10px;
-    margin-bottom: 10px;
-	width: 100%;
-	height: auto;
-	object-fit: cover;
+    border-radius: 0;
 }
 
-.herolabel {
+.hero span{
 	position: absolute;
-	top: 30px;
-	left: 30px;
+	top: 8%;
+	left: 5%;
 	background: radial-gradient(#fff, #4D5B97);
 	border: 1px solid rgba(0,0,0,.75);
-	padding: 1.2rem;
+	padding: 1.6rem;
 	box-shadow: 0 0 3rem #fff;
 	opacity: 0.75;
-	/* Buenas */
-}
-
-.herolabel p {
 	margin: 0;
-	padding: .25rem;
-	font-weight: 700;
+	font-weight: bold;
 	font-size: 1.5rem;
 	font-family:"Great Vibes", serif;
 }
@@ -161,10 +151,9 @@ main {
 .title h1 {
     text-align: center;
     font-family: times, serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #222;
 }
-
 
 .card,
 .card1 {
