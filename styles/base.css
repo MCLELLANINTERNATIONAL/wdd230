@@ -201,17 +201,19 @@ main {
     margin-left: 30px;
 }
 
-
 /* Weather styles */
 .weather-info {
     display: flex;
     align-items: center;
+    gap: 8px;
     margin-left: 30px;
     margin-bottom: 1rem;
 }
 
 .weather-info img {
-    margin-right: 1rem;
+    width: 40px;
+    height: auto;
+    margin-right: 6px;
 }
 
 .weather-label h3, .visit p {
