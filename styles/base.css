@@ -146,9 +146,7 @@ main {
 .card1 {
     background-color: #fff;
     border: 1px solid #ddd;
-    padding: 0px;
-    margin: 3px;
-    border-radius: 5px;
+    padding: 0;
     box-shadow: 0px 5px 10px gray;
     overflow: hidden;
     grid-column: 1;
@@ -161,15 +159,13 @@ main {
 .card-banner, .card1-banner {
     background-color: #5E14CCB4;
     width: 100%;
-    padding-block-start: 10px;
+    padding-block-start: 12px;
     font-size: 1.3rem;
     font-weight: bold;
     text-align: center;
     color: #fff;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
     margin: 0;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .card ul {
@@ -205,7 +201,7 @@ main {
 .weather-info {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 1px;
     margin-left: 30px;
     margin-bottom: 1rem;
 }
