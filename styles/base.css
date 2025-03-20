@@ -135,8 +135,8 @@ main {
 
 .hero span{
 	position: absolute;
-	top: 8%;
-	left: 5%;
+	top: 6%;
+	left: 2%;
 	background: radial-gradient(#fff, #4D5B97);
 	border: 1px solid rgba(0,0,0,.75);
 	padding: 1.2rem;
