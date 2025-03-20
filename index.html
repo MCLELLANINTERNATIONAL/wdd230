@@ -4,13 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="WDD 230 - Web Frontend Development by Kim Brown, Web Development, JavaScript, CSS, HTML">
+    <meta name="description" content="WDD 230 - Web Frontend Development by Kim Brown, Web Development, JavaScript, CSS, HTML">
     <meta name="author" content="Kim Brown">
     <title>Kim Brown - WDD 230 - Web Frontend Development</title>
     <meta property="og:title" content="Kim Kathleen Brown">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="images/hero.png">
+    <meta property="og:image" content="images/hero.webp">
     <meta property="og:url" content="https://mclellaninternational.github.io/wdd230/index.html">   
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,7 +31,7 @@
         <img src="images/profile1.jpeg" alt="Kim" width="90" height="84">
         <span>Kim Kathleen Brown</span>
         <div id="mode">
-            <img src="images/dark.png" alt="dark mode" id="darkBtn"   width="44" height="44">
+            <img src="images/dark.png" alt="dark mode" id="darkBtn" width="44" height="44">
         </div>
     </header>
     <button type="button" id="menu"></button>
@@ -45,9 +44,17 @@
         </ul>
     </nav>
     <main>
-        <h1>WDD 230: Web Frontend Development</h1>
+        <Section class="hero">
+            <div class="hero-content">
+                <img src="images/hero.webp" alt="Rome Temple" loading="lazy" width="500" height="400">
+                <h1>WDD 230: Web Frontend Development</h1>   
+            </div>
+        </Section>
+
         <section class="card">
-            <h2>Learning Activities</h2>
+            <div class="card-banner">
+                <h2>Learning Activities</h2>
+            </div>
             <ul>
                 <li><a href="week02/design.html">Design</a></li>
                 <li><a href="week02/bom.html">BOM</a></li>
@@ -56,18 +63,24 @@
                 <li><a href="week03/responsive-images.html">Responsive Images</a></li>
             </ul>
         </section>
+
         <section class="card1">
-            <h2>Information</h2>
+            <div class="card1-banner">
+                <h2>Information</h2>
+            </div>
             <div class="weather-container">
                 <div class="weather-label">
                     <h3>Weather</h3>
-                    <div class="weather-info"></div>
-                </div>
-            <p>Page Visits: Placeholder</p>
-        </section>
+                <div class="weather-info"></div>
+            </div>
+            <div class="visit">
+                <p>Page Visits: Placeholder</p>
+            </div>
+            </section>
+        
         <section class="edin-map">
             <div class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12165.713780083488!2d-3.2087305718971577!3d55.946196575763246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887b800a5982623%3A0x64f2147b7ce71727!2sEdinburgh!5e0!3m2!1sen!2suk!4v1742418591624!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12165.713780083488!2d-3.2087305718971577!3d55.946196575763246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887b800a5982623%3A0x64f2147b7ce71727!2sEdinburgh!5e0!3m2!1sen!2suk!4v1742418591624!5m2!1sen!2suk" width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
     </main>

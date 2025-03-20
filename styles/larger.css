@@ -23,26 +23,48 @@
         gap: 20px;
     }
 
-    h1 {
-        grid-column: 1 / 3;
-        text-align: center;
-        font-size: 2.5rem;
-        margin-left: 0;
+    .hero {
+        grid-column: 1 / span 2;
+        grid-row: 1;
     }
 
-    h2 {
-        font-size: 2rem;
+    .hero-content {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .hero-content img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    } 
+    
+    .hero-content h1 {
+        grid-column: 1 / span 2;
+        grid-row: 1;
         text-align: center;
+        font-size: 2.5rem;
     }
 
     .card,
     .card1 {
         grid-column: auto;
+        grid-row: 2;
+    }
+
+    .card-banner {
+        width: 100%;
+    }
+
+    .card h2,
+    .card1 h2 {
+        font-size: 2rem;
+        text-align: center;
     }
 
     .edin-map {
         grid-column: 1 / span 2;
-        grid-row: 4;
+        grid-row: 3;
         margin-top: 10px;
         margin-bottom: 10px;
     }
@@ -53,7 +75,7 @@
         width: 1500px;
         height: 600px; /* Increase height for large screens */
         grid-column: 1 / span 2;
-        grid-row: 4;
+        grid-row: 3;
     }
 }
 
