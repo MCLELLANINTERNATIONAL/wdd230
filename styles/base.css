@@ -139,8 +139,9 @@ main {
 	left: 2%;
 	background: radial-gradient(#fff, #4D5B97);
 	border: 1px solid rgba(0,0,0,.75);
-	padding: 1.2rem;
-	box-shadow: 0 0 3rem #fff;
+	color: black;
+    padding: 1.2rem;
+	box-shadow: 0 5px 10px grey;
 	opacity: 0.75;
 	margin: 0;
 	font-weight: bold;
@@ -152,6 +153,7 @@ main {
     text-align: center;
     font-family: times, serif;
     font-size: 1.5rem;
+    font-weight: bold;
     color: #222;
 }
 
