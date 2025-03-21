@@ -552,6 +552,27 @@ main img {
     margin-bottom: 30px;
 }
 
+.temple-gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+figure {
+    margin: 0;
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    background: #fff;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+}
+
+figcaption {
+    te
+
 #weather {
     background-color: #fff;
     padding: 33px;
