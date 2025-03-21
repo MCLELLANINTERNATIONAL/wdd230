@@ -571,7 +571,10 @@ figure img {
 }
 
 figcaption {
-    te
+    text-align: center;
+    font-weight: bold;
+    padding: 0.5rem;
+}
 
 #weather {
     background-color: #fff;

@@ -168,6 +168,46 @@
         text-align: center;
     }
 
+    .temple-gallery {
+       
+        grid-column: 2/span3;
+        grid-row: 1/ span 4
+    }
+
+    .temple-gallery {
+        display: grid;
+        grid-column: 2/ span 3;
+        grid-row: 1/ span 4;
+        gap: 2rem;
+    }
+
+    figure {
+        margin: 0;
+        border: 1px solid #ccc;
+        padding: 2rem;
+        background: #fff;
+        border-radius: 8px;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+
+    figure img {
+        width: 100%;
+        height: auto;
+        border-bottom: 2px solid #ddd;
+        margin-bottom: 0.5rem;
+    }
+
+    figcaption {
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.1rem;
+    }
+
+    figure:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    }
+
     #weather {
         grid-column: 3;
         grid-row: 4;
