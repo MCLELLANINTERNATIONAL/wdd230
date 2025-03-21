@@ -142,6 +142,7 @@ main {
     align-items: center;
     text-align: center;
     background-color: darkorange;
+    border-radius: 90%;
     padding: 50px 20px;
 }
 
@@ -164,7 +165,6 @@ main {
     width: 400px;
     height: 400px;
     height: auto;
-    border-radius: 10px;
     opacity: 1;
     margin-bottom: 20px;
     transition: transform 0.3s ease-in-out;
@@ -245,20 +245,20 @@ main img {
     align-items: center;
 }
 
-#video {
+.video {
     background-color: #ffffff;
     padding: 30px 20px;
     max-width: 800px;
-    margin: 40px auto;
+    margin: 10px auto;
     text-align: center;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
 }
 
-#video h2 {
-    font-size: 1.8rem;
+.video h2 {
+    font-size: 2rem;
     margin-bottom: 20px;
-    color: #333;
+    color: navy;
 }
 
 .podcast-player {
@@ -355,6 +355,44 @@ main img {
     background-color: #0056b3;
 }
 
+.festivals {
+    background-color: lightskyblue;
+    padding: 33px;
+    margin: 1px;
+    border-radius: 50%;
+    grid-column: 1;
+    max-width: 760px;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.festivals h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: navy;
+}
+  
+.festivals p {
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.festivals-container {
+    display: inline-block;
+    grid-column: 1;
+}
+
+.festivals-container img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+
 #calendar-container {
     max-width: 100%;
     margin: 1%;
@@ -364,8 +402,8 @@ main img {
 }
 #calendar {
     max-width: 100%;
-    margin: 20px auto;
-    grid: 1;
+    margin: 0;
+    grid-column: 1;
 }
 
 .visits-container {
@@ -401,6 +439,7 @@ main img {
 .visits {
     color: white;
     font-weight: bold;
+    grid-column: 1;
 }
 
 .last-visit-message {
@@ -527,7 +566,7 @@ main img {
 
 .weather-container img {
     height: auto;
-    border-radius: 10px;
+    border-radius: 90%;
     margin-bottom: 10px;
     max-width: 100%;
     display: block;
