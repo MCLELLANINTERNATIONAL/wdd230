@@ -1,0 +1,114 @@
+@media screen and (min-width: 760px) {
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 100%;
+	}
+	.navigation a {
+		text-align: center;
+	}
+
+    .navigation.show {
+        flex-direction: row; /* Keep stacked layout */
+    }
+
+    #menu {
+        display: none; /* hide hamburger button */
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto 1fr;
+        gap: 5px;
+    }
+
+    #podcast {
+        grid-column: 1;
+        grid-row: 2;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    .podcast-player {
+        min-height: auto;
+        max-width: 100%;
+        grid-column: 1;
+        grid-row: 2;
+    }
+    
+    .podcast-player iframe {
+            width: 700px;
+            height: 400px; /* Increase height for large screens */
+            grid-column: 1;
+            grid-row: 2;
+        }
+
+    #events {
+        grid-column: 1;
+        grid-row: 2;
+        max-width: 100%;
+    }
+
+    #events h3 {
+        text-align: center;
+    }
+
+    .events-container {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .event-box {
+        width: 45%;
+    }
+    
+    #calender {
+        grid-column: 1;
+        grid-row: 3;
+        max-width: 100%;
+        margin-top: 30px;
+    }
+
+    #calender img {
+        max-width: 95%;
+        margin: 10px; 
+    }
+
+    #spotlights {
+        grid-column: 3;
+        grid-row: 1/ span 3;
+        max-width: 100%;
+        text-wrap: wrap;
+    }
+
+    .launchpad, .carbon, .windpower {
+        padding: 10px;
+        text-wrap: wrap;
+    }
+
+    .launchpad h3, .carbon h3, .windpower h3 {
+        text-wrap: wrap;
+        text-align: center;
+    }
+
+    .launchpad h4, .carbon h4, .windpower h4 {
+        text-wrap: wrap;
+        text-align: center;
+    }
+
+    header h1 {
+        grid-column: 2 / 3;
+        text-align: center;
+        font-size: 2.5rem;
+        margin-left: 0;
+    }
+
+    h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+}
