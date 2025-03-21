@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Get the current count from localStorage or initialize to 0 if it doesn't exist
     let numVisits = Number(localStorage.getItem("numVisits")) || 0;
 
-    // 3️⃣ Determine if this is the first visit or display the number of visits
+    // Determine if this is the first visit or display the number of visits
     if (numVisits !== 0) {
         visitsDisplay.textContent = `Visit count: ${numVisits}`;
     } else {
