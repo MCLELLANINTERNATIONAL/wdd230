@@ -38,25 +38,6 @@ header img {
     transition: transform 0.3s ease-in-out;
 }
 
-.visits {
-    display: block;
-    font-size: 1rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-    color: #2c3e50;
-}
-
-/* Sidebar message box */
-.sidebar-message {
-    background-color: #ffffff;
-    border-left: 5px solid #3498db;
-    padding: 1rem;
-    font-size: 1rem;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    max-width: 400px;
-    border-radius: 8px;
-}
-
 .top-header,
 .nav-section {
     margin: 0;
@@ -264,6 +245,22 @@ main img {
     align-items: center;
 }
 
+#video {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+#video h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
 .podcast-player {
     min-height: auto;
     max-width: 100%;
@@ -272,6 +269,8 @@ main img {
     justify-content: center;
     display: flex;
 }
+
+
 
 .events-banner {
     background-size: cover;
@@ -337,6 +336,60 @@ main img {
 
 .book-now:hover {
     background-color: #0056b3;
+}
+
+#calendar-container {
+    max-width: 100%;
+    margin: 1%;
+    padding: 35%;
+    background: white;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+}
+#calendar {
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+.visits-container {
+    background-color: #ffffff;
+    padding: 1rem;
+    margin: 0.5rem auto;
+    max-width: 600px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Sidebar message box */
+.sidebar-message {
+    background-color: navy;
+    color: white;
+    border-left: 5px solid rgb(9, 228, 9);
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 0 2px 6px rgba(12, 237, 19, 0.942);
+    max-width: 400px;
+    border-radius: 8px;
+    margin-left: 1%;
+    grid-column: 1;
+}
+
+.visits-label {
+    font-weight: bold;
+    color: white;
+}
+
+/* Visit count inserted by JS */
+.visits {
+    color: white;
+    font-weight: bold;
+}
+
+.last-visit-message {
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
+    color: white;
+    font-style: italic;
 }
 
 #spotlights {

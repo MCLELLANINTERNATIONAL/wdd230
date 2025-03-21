@@ -14,15 +14,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">    
+    <link rel="icon" href="favicon.ico" type="image/x-icon">  
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/discover.css">
-    <link rel="stylesheet" href="styles/discoverlarger.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/5.11.3/main.min.css">
     <script src="script/bookEvent.js" defer></script>
     <script src="scripts/getDates.js" defer></script>
     <script src="scripts/hamButton.js" defer></script>
     <script src="scripts/modeButton.js" defer></script>
     <script src="scripts/localStorage.js" defer></script>
+    <script src="scripts/calendar.js" defer></script>
 
 </head>
 
@@ -30,11 +32,6 @@
     <header>
         <img src="images/edlogo.webp" alt="Kim" width="80" height="80">
         <h1>Edinburgh Chamber of Commerce</h1>
-        <div class="visits"
-            <div class="sidebar-message">
-                <p><span class="label">Number of Page Visits: </span><span class="visits"></span></p>
-            </div>
-        </div>
         <div id="mode">
             <img src="images/dark.webp" alt="dark mode" id="darkBtn" width="44" height="44">
         </div>
@@ -52,14 +49,35 @@
     </div>
 
     <main>
-        <section class="calender">
-       
-       
+    <section id="video">
+        <h2>Facts About Edinburgh</h2>
+        <div class="podcast-player">
+            <iframe src="https://www.youtube.com/embed/zZ0udJEwbHs" title="How Big Is Edinburgh? - United Kingdom Explorers" loading="lazy" width="460" height="215" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>   
+        </div>
+        <div>
+            <iframe src="https://www.youtube.com/embed/GDIgSuDOfks" title="Kim McAllister - Why is Scotland the best place to start a business?" loading="lazy" width="460" height="215" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        </section>
 
 
 
 
 
+    <div id="calendar-container">
+         <div id="calendar"></div>
+    </div>        
+    </div>
+    
+    <div class="visits-container">
+        <div class="sidebar-message">
+            <p>
+                <span class="visits-label">Number of Page Visits: </span>
+                <span class="visits"></span>
+            </p>
+            <p class="last-visit-message"></p>
+        </div>
+    </div>
+    
     </main>
 
     <footer>
