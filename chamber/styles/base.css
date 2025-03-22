@@ -253,7 +253,6 @@ main img {
     max-width: 600px;
     margin: 10px auto;
     text-align: center;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
     grid-column: 1;
 }
@@ -563,11 +562,13 @@ figure {
     border: 1px solid #ddd;
     padding: 0.5rem;
     background: #fff;
+    gap: 10px;
 }
 
 figure img {
     width: 100%;
     height: auto;
+    max-width: 1500px;
     border-radius: 15px 150px;
 }
 

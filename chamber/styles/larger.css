@@ -54,6 +54,26 @@
         text-wrap: wrap;
     }
 
+    .video {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .video h2 {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .video-player 
+    {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .video-player iframe {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
     .festivals {
         padding: 15px;
         grid-column: 1;
@@ -170,7 +190,7 @@
 
     .temple-gallery {
        
-        grid-column: 2/span3;
+        grid-column: 2/ span 3;
         grid-row: 1/ span 4
     }
 
@@ -178,7 +198,6 @@
         display: grid;
         grid-column: 2/ span 3;
         grid-row: 1/ span 4;
-        gap: 2rem;
     }
 
     figure {
@@ -188,19 +207,27 @@
         background: #fff;
         border-radius: 8px;
         transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        grid-column: 2/ span 3;
+        grid-row: 1/ span 4;
     }
 
     figure img {
         width: 100%;
         height: auto;
+        max-width: 1500;
         border-bottom: 2px solid #ddd;
         margin-bottom: 0.5rem;
+        gap: 1rem;
+        grid-column: 2/ span 3;
+        grid-row: 1/ span 4;
     }
 
     figcaption {
         text-align: center;
         font-weight: bold;
         font-size: 1.1rem;
+        grid-column: 2/ span 3;
+        grid-row: 1/ span 4;
     }
 
     figure:hover {
