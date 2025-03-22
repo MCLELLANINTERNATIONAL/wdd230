@@ -551,13 +551,13 @@ main img {
     margin-bottom: 30px;
 }
 
-.temple-gallery {
+.gallery {
     display: grid;
     grid-column: 1;
     gap: 1rem;
 }
 
-figure {
+.gallery figure {
     margin: 0;
     border: 1px solid #ddd;
     padding: 0.5rem;
@@ -565,14 +565,14 @@ figure {
     gap: 10px;
 }
 
-figure img {
+.gallery figure img {
     width: 100%;
     height: auto;
     max-width: 1500px;
     border-radius: 15px 150px;
 }
 
-figcaption {
+.gallery figcaption {
     text-align: center;
     font-weight: bold;
     padding: 0.5rem;
