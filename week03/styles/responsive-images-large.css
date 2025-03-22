@@ -1,0 +1,23 @@
+@media screen and (min-width: 1024px) {
+	main {
+		max-width: 1024px;
+		padding: 0 2rem;
+	}
+
+	.hero {
+		height: 400px;
+	}
+
+	.herolabel {
+		top: 50px;
+		left: 50px;
+		padding: 2rem;
+		font-size: 1.25rem;
+		opacity: 0.85;
+		box-shadow: 0 0 5rem #fff;
+	}
+
+	.herolabel p {
+		font-size: 2rem;
+	}
+}
