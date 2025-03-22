@@ -404,7 +404,7 @@ main img {
     background: white;
     border: 5px solid royalblue;
     border-radius: 15px 150px;
-    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 15px rgba(12, 237, 19, 0.942);;
 }
 
 #calendar {
