@@ -562,13 +562,16 @@ main img {
 }
 
 .gallery figure {
+    position: relative;
     margin: 0;
     padding: 0.5rem;
+    overflow: hidden;
     background: #fff;
     gap: 10px;
 }
 
 .gallery figure img {
+    display: block;
     width: 100%;
     height: auto;
     max-width: 1500px;
@@ -576,10 +579,20 @@ main img {
 }
 
 .gallery figcaption {
+    position: absolute;
+    bottom: 10%;
+    left: 60%;
+    transform: translateX(-50%);
+    background: radial-gradient(#fff, #8693cd);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(28, 78, 229);
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
-    padding: 0.5rem;
+    width: 50%;
+    padding: 0.5rem 1rem;
+    box-sizing: border-box;
+  border-radius: 0 0 15px 15px;
 }
 
 #weather {
