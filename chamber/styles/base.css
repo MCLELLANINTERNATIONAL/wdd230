@@ -563,6 +563,13 @@ main img {
 
 .gallery figure {
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	width: 100%;
+    max-width: 100%;
+	height: auto;
+    flex-direction: column; 
     margin: 0;
     padding: 0.5rem;
     overflow: hidden;
@@ -576,6 +583,7 @@ main img {
     height: auto;
     max-width: 1500px;
     border-radius: 15px 150px;
+    box-shadow: 0 5px 10px rgba(4, 183, 10, 0.942);;
 }
 
 .gallery figcaption {
