@@ -143,6 +143,7 @@ main {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    text-wrap: wrap;
     background-color: darkorange;
     border-radius: 90%;
     padding: 50px 20px;
