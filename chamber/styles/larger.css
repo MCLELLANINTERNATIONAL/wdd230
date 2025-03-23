@@ -21,8 +21,8 @@
 
     main {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: auto auto;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: auto auto auto auto;
         margin-left: 6%;
         gap: 5px;
     } 
@@ -91,14 +91,13 @@
         width: 100%;
         right: auto;
         top: auto;
-        grid-column: 1;
+        grid-column: 1/ span 2;
         grid-row: 4; 
         margin-left: 5%;
-    
     }
 
     header h1 {
-        grid-column: 2 / 3;
+        grid-column: 2;
         text-align: center;
         font-size: 2.5rem;
         margin-left: 0;
@@ -110,7 +109,7 @@
     }
 
     .gallery { 
-        grid-column: 2/ span 3;
+        grid-column: 2;
         grid-row: 1/ span 4;
         margin-left: 15%;
         margin-right: auto;
