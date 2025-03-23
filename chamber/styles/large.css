@@ -21,9 +21,10 @@
 
     main {
         display: grid;
-        grid-template-columns: 1fr 1fr 1.24fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr auto auto auto;
         gap: 5px;
+        margin-left: 2.5%;
     }
     #welcome {
         flex-direction: column;
@@ -110,7 +111,7 @@
     #podcast {
         grid-column: 1 / span 2;
         grid-row: 2;
-        margin-top: 30px;
+        margin-top: 90px;
         margin-bottom: 10px;
     }
 
@@ -132,6 +133,7 @@
         grid-column: 1 / span 2;
         grid-row: 3/ span 4;
         max-width: 100%;
+        margin-top: 90px;
     }
 
     #events h3 {

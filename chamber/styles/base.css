@@ -20,7 +20,7 @@ header {
     background-color: #63EE63E5;
     color: #525252;
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 15px 20px;
 }
 
@@ -134,6 +134,8 @@ main {
     border-radius: 8px;
     display: grid;
     gap: 5px;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 #welcome {
