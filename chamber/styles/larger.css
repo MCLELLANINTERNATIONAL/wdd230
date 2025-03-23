@@ -23,6 +23,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: auto auto;
+        margin-left: 6%;
         gap: 5px;
     } 
 

@@ -126,14 +126,13 @@ header img {
 }
 
 main {
-    max-width: 100%;
+    max-width: 95%;
     margin: 5px 5px;
     margin-top: 5px;
-    padding: 20px;
+    padding: 3.5px;
     background-color: white;
     border-radius: 8px;
     display: grid;
-    grid-template-columns: 1fr;
     gap: 5px;
 }
 
