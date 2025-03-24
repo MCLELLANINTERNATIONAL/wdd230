@@ -134,8 +134,6 @@ main {
     border-radius: 8px;
     display: grid;
     gap: 5px;
-    margin-left: 1%;
-    margin-right: 1%;
 }
 
 #welcome {
@@ -145,14 +143,14 @@ main {
     text-align: center;
     text-wrap: wrap;
     background-color: darkorange;
-    border-radius: 90%;
+    border-radius: 50%;
     padding: 50px 20px;
 }
 
 .profile-carousel {
     position: relative;
     width: 100%;
-    max-width: 1250px;
+    max-width: 1000px;
     /* Adjust size if needed */
     height: auto;
     overflow: hidden;
@@ -186,14 +184,14 @@ main {
     font-size: 2rem;
     font-weight: bold;
     color: #173592;
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
 }
 
 #welcome h3 {
     font-size: 1.2rem;
     font-weight: 700;
     color: #3D3D3D;
-    max-width: 760px;
+    max-width: 700px;
     line-height: 1.5;
     margin-bottom: 20px;
 }
@@ -255,7 +253,6 @@ main img {
     margin: 10px auto;
     text-align: center;
     border-radius: 12px;
-    grid-column: 1;
 }
 
 .video h2 {
@@ -364,7 +361,6 @@ main img {
     margin: 1px;
     margin-top: 10px;
     border-radius: 50%;
-    grid-column: 1;
     max-width: 760px;
     text-align: left;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -388,7 +384,6 @@ main img {
 
 .festivals-container {
     display: inline-block;
-    grid-column: 1;
 }
 
 .festivals-container img {
@@ -473,10 +468,11 @@ main img {
     max-width: 400px;
     border-radius: 8px;
     margin-left: 1%;
-    grid-column: 1;
 }
 
 .visits-label {
+    display: flex;
+    flex-direction: column;
     font-weight: bold;
     color: white;
 }
@@ -485,7 +481,6 @@ main img {
 .visits {
     color: white;
     font-weight: bold;
-    grid-column: 1;
 }
 
 .last-visit-message {
@@ -501,7 +496,6 @@ main img {
     margin: 3px;
     border-radius: 1px;
     text-align: center;
-    grid-column: 1;
     max-width: 100%;
 }
 
@@ -595,7 +589,6 @@ main img {
 
 .gallery {
     display: grid;
-    grid-column: 1;
     gap: 1rem;
 }
 
@@ -607,7 +600,7 @@ main img {
 	width: 100%;
     max-width: 100%;
 	height: auto;
-    flex-direction: column; 
+    flex-direction: row; 
     margin: 0;
     padding: 0.5rem;
     overflow: hidden;
@@ -617,6 +610,7 @@ main img {
 
 .gallery figure img {
     display: block;
+    flex-direction: row;
     width: 100%;
     height: auto;
     max-width: 1500px;
@@ -626,19 +620,19 @@ main img {
 
 .gallery figcaption {
     position: absolute;
-    bottom: 10%;
+    bottom: 15%;
     left: 60%;
     transform: translateX(-50%);
     background: radial-gradient(#fff, #8693cd);
     background-color: rgba(0, 0, 0, 0.5);
     color: rgb(28, 78, 229);
     text-align: center;
-    font-size: 1.2rem;
+    flex-direction: row;
+    font-size: 1rem;
     font-weight: bold;
-    width: 50%;
-    padding: 0.5rem 1rem;
-    box-sizing: border-box;
-  border-radius: 0 0 15px 15px;
+    width: 30%;
+    padding: 1rem 0.02rem;
+    border-radius: 0 0 15px 15px;
 }
 
 #weather {
@@ -676,6 +670,7 @@ main img {
     padding: 15px 25px;
     border-radius: 10px;
     text-align: center;
+    flex-direction: row;
     text-wrap: wrap;
     white-space: nowrap;
     width: 80%;

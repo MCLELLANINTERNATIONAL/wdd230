@@ -124,6 +124,7 @@
         background: #fff;
         border-radius: 15px 150px;
         transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        flex-direction: row;
     }
 
     .gallery figure img {
@@ -133,13 +134,11 @@
         border-bottom: 2px solid #ddd;
         margin-bottom: 0.5rem;
         gap: 1rem;
+        flex-direction: row;
     }
 
     .gallery figcaption {
-        text-align: center;
-        font-weight: bold;
-        font-size: 1.5rem;
-        padding: 0.4rem
+        flex-direction: row;
     }
 
     .gallery figure:hover {
