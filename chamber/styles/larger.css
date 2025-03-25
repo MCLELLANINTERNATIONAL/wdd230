@@ -33,7 +33,7 @@
     }
 
     .video h2 {
-        margin-top: 90px;
+        margin-top: 30px;
         grid-column: 1;
         grid-row: 1;
     }
@@ -49,7 +49,6 @@
     }
     
     .festivals {
-        margin-top: 60px;
         padding: 15px;
         grid-column: 1;
         grid-row:2;
@@ -66,14 +65,19 @@
         grid-column: 1;
         grid-row: 2;
     }
+
+    #calendar {
+        margin-top: 160px;
+    }
   
     .visits-container {
+        margin-top: 100px;
         width: 100%;
         right: auto;
         top: auto;
         grid-column: 1/ span 2;
         grid-row: 4; 
-        margin-left: 5%;
+        margin-left: 1%;
     }
 
     header h1 {
