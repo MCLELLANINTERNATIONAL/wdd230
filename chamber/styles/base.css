@@ -395,8 +395,8 @@ main img {
 
 .calendar-container {
     max-width: 100%;
-    margin: 1%;
-    padding: 35%;
+    margin: 0;
+    padding: 30%;
     background: white;
     border: 5px solid royalblue;
     border-radius: 15px 150px;
@@ -405,10 +405,9 @@ main img {
 
 #calendar {
     max-width: 95%;
-    margin: 2rem auto;
+    margin: 2px;
     padding: 1rem;
     background-color: #ffffff;
-    border-radius: 12px;
 }
 
 .fc-toolbar-title {
@@ -609,6 +608,7 @@ main img {
 }
 
 .gallery figure img {
+    position: relative;
     display: block;
     flex-direction: row;
     width: 100%;
@@ -618,7 +618,7 @@ main img {
     box-shadow: 0 5px 10px rgba(4, 183, 10, 0.942);;
 }
 
-.gallery figcaption {
+.gallery .label {
     position: absolute;
     bottom: 15%;
     left: 60%;
@@ -632,7 +632,7 @@ main img {
     font-weight: bold;
     width: 36%;
     padding: 0.5rem 0.02rem;
-    border-radius: 0 0 15px 15px;
+    border-radius: 15px;
 }
 
 #weather {
