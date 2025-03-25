@@ -66,9 +66,10 @@
         grid-row: 2;
     }
 
-    #calendar {
+    .calendar-container {
         margin-top: 160px;
     }
+
   
     .visits-container {
         margin-top: 100px;
@@ -126,6 +127,7 @@
 
     .gallery figure:hover {
         transform: scale(1.05);
+        cursor: pointer;
         border: 5px solid royalblue;
         box-shadow: 0 5px 10px rgba(4, 191, 11, 0.942);
     }
