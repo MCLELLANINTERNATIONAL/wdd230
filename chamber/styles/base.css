@@ -402,7 +402,7 @@ main img {
 
 .gallery .label {
     position: absolute;
-    bottom: 15%;
+    bottom: 40%;
     left: 60%;
     transform: translateX(-50%);
     background: radial-gradient(#fff, #8693cd);
