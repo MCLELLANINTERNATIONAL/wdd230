@@ -103,7 +103,7 @@
     .gallery figure {
         width: 90%;        
         height: auto;
-        margin: 0;
+        margin: 20px;
         padding: 2rem;
         background: #fff;
         border-radius: 15px 150px;
