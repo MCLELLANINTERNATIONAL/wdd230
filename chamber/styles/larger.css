@@ -66,27 +66,6 @@
         grid-column: 1;
         grid-row: 2;
     }
-
-    #calendar {
-        max-width: 900px;    
-        margin-top: 100px;
-        padding: 2px;
-        grid-column: 1;
-        grid-row: 3;
-    }
-
-    .calendar-container {
-        margin-top: 230px;
-    }
-    
-    .fc-toolbar-title {
-        font-size: 1.6rem;
-      }
-    
-    .fc-button {
-        font-size: 1rem;
-        padding: 0.5rem 1rem;
-    }
   
     .visits-container {
         width: 100%;
