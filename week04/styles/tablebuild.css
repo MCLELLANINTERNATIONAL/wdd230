@@ -1,0 +1,77 @@
+:root {
+	--back: #4CAF50; /* Header background black */
+	--forelight: #fff; /* Header text white */
+	--zebra: #c0f8c6; /* Light gray for alternating rows */
+	--border: #827f7f;
+	--shadow: rgba(0, 0, 0, 0.2);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+table {
+	width: 80%;
+	margin: 40px auto;
+	border: thin solid var(--border);
+	box-shadow: 0 0 10px var(--shadow);
+	border-collapse: collapse;
+}
+
+caption {
+   	padding: 12px;
+   	caption-side: bottom;
+	color: var(--back);
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+/* Header styling */
+thead tr:first-child {
+	background-color: var(--back);
+	color: var(--forelight);
+	font-size: 2rem;
+	font-weight: 700;
+}
+  
+thead tr:nth-child(2) {
+	background-color: var(--zebra);
+	color: blue;
+	font-weight: 500;
+}
+
+th, td {
+    padding: 12px;
+	border: 1px solid var(--border);
+    text-align: center;
+	align-items: center;
+	font-weight: bold;
+}
+
+/* Body styling */
+tbody {
+    background-color: #ffff;
+}
+
+
+/* Zebra striping for table rows */
+tbody tr:nth-child(odd) {
+    background-color: (var(--forelight));
+}
+
+tbody tr:nth-child(even) {
+    background-color: (var(--zebra));
+}
+
+
+
+
+
+
+
