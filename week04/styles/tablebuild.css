@@ -1,7 +1,8 @@
 :root {
 	--back: #4CAF50; /* Header background black */
 	--forelight: #fff; /* Header text white */
-	--zebra: #c0f8c6; /* Light gray for alternating rows */
+	--zebra: #c0f8c6;
+	--zebra2: #dcf3de;/* Light gray for alternating rows */
 	--border: #827f7f;
 	--shadow: rgba(0, 0, 0, 0.2);
 }
@@ -54,19 +55,13 @@ th, td {
 	font-weight: bold;
 }
 
-/* Body styling */
-tbody {
-    background-color: #ffff;
-}
-
-
 /* Zebra striping for table rows */
 tbody tr:nth-child(odd) {
-    background-color: (var(--forelight));
+    background-color: var(--forelight);
 }
 
 tbody tr:nth-child(even) {
-    background-color: (var(--zebra));
+    background-color: var(--zebra2);
 }
 
 
