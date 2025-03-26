@@ -1,7 +1,8 @@
 :root {
-    --primary-color: #004b87;
+    --primary-color:  #5E14CCB4;
     --secondary-color: #e0f0ff;
-    --font-stack: 'Segoe UI', sans-serif;
+    --button: rgb(2, 173, 2);
+
 }
 
 * {
@@ -10,10 +11,10 @@
 }
   
 body {
-    font-family: var(--font-stack);
+    font-family: 'Roboto', sans-serif;
     margin: 0;
-    background-color: var(--secondary-color);
     color: #333;
+    font-weight: bold;;
 }
   
 header, footer {
@@ -22,21 +23,103 @@ header, footer {
     padding: 1rem;
     text-align: center;
 }
-  
-nav ul {
-    list-style-type: none;
-    padding: 0;
+
+header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #5E14CCB4;
+    color: white;
+    font-weight: 700;
+    font-size: 3rem;
+    padding: 10px 20px;
 }
-  
-nav li {
-    display: inline;
-    margin-right: 1rem;
+
+header img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#mode {
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+    font-size: 24px;
+    cursor: pointer;
+    font-size: 2rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+#menu {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    border: 0;
+    background: none;
+    color: white;
+    position: absolute;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+nav {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #7706a7;
+    padding: 10px 0;
+}
+
+.navigation {
+    list-style: none;
+    padding: 15px 20px;
+    margin: 0 auto;
+    max-width: 760px;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.5s ease-in-out;
+    font-size: clamp(1rem, 2vmin, 1.5rem);
+    margin-left: 4rem;
+}
+
+.navigation a.active {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: #3BFF38;
+    background-color: navy;
+    font-weight: 700;
+}
+
+.show li {
+    display: block;
+}
+
+#menu.show::before {
+    content: "❎ ";
 }
   
 main {
-    max-width: 600px;
+    min-width: 400px;
+    max-width: 1500px;
     margin: 2rem auto;
-    padding: 1rem;
+    padding: 1.2rem;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -48,17 +131,21 @@ form {
 }
   
 label {
-    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    margin-bottom: 1.2rem;
 }
   
 input, button {
     padding: 0.5rem;
     margin-top: 0.3rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
   
 button {
-    background-color: var(--primary-color);
+    background-color: var(--button);
     color: white;
     border: none;
     cursor: pointer;
@@ -67,4 +154,11 @@ button {
   
 button:hover {
     background-color: #003765;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    font-weight: 700;
+    margin-top: 20px;
 }
