@@ -244,8 +244,8 @@ main img {
     margin: 2rem auto;
     padding: 1rem;
     background-color: #fff;
-    border: 5px solid royalblue;
-    box-shadow: 0 5px 10px rgba(4, 191, 11, 0.942);
+    border: 10px solid royalblue;
+    box-shadow: 10px 10px 0 rgba(4, 191, 11, 0.942);
 }
 
 #calendar {
@@ -341,12 +341,11 @@ main img {
 .sidebar-message {
     background-color: navy;
     color: white;
-    border-left: 5px solid rgb(9, 228, 9);
-    border-bottom: 5px solid rgb(9, 228, 9); 
+    border-left: 10px solid rgb(9, 228, 9);
+    border-bottom: 10px solid rgb(9, 228, 9); 
     padding: 1rem;
     font-size: 1rem;
     font-weight: bold;
-    box-shadow: 0 2px 6px rgba(12, 237, 19, 0.942);
     max-width: 400px;
     border-radius: 8px;
     margin-left: 1%;
@@ -411,7 +410,7 @@ main img {
     max-width: 1500px;
     border-radius: 15px 150px;
     border-left: 5px solid rgb(9, 228, 9);
-    border-bottom: 5px solid rgb(9, 228, 9);
+    border-bottom: 10px solid rgb(9, 228, 9);
 }
 
 .gallery .label {
