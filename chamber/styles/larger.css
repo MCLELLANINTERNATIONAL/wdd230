@@ -1,4 +1,7 @@
 @media screen and (min-width: 760px) {
+    .header, .footer {
+        grid-column: 1/ span 3;
+    }
     .navigation {
         display: flex;
     }
