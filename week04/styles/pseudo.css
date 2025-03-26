@@ -10,12 +10,11 @@ body {
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	justify-content: center;
 }
 
 h1 {
 	margin: .75rem;
+	text-align: center;
 }
 
 main {
@@ -23,15 +22,18 @@ main {
 	border: 1px solid rgb(0 0 0 / 0.1);
 	padding: 0.5rem;
 	background-color: #eee;
+	align-items: center;
+	text-align: center;
 }
 
 p {
-	margin: 1rem;
+	align-items: center;
+	text-align: center;
 }
 
 .datatable {
 	width: 200px;
-	margin-top: 2rem;
+	margin: 2rem auto 0 auto;
 }
 
 .row {
