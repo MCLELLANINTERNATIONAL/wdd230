@@ -3,6 +3,11 @@
     --secondary-color: #e0f0ff;
     --font-stack: 'Segoe UI', sans-serif;
 }
+
+* {
+	margin: 0;
+	padding: 0;
+}
   
 body {
     font-family: var(--font-stack);
