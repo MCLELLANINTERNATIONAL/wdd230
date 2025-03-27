@@ -199,6 +199,7 @@ main {
 }
 
 .week-label {
+    line-height: 2.5rem;
     font-weight: bold;
     text-decoration: none; /* Ensures weeks are not underlined */
     margin-right: 5px; /* Adds spacing between label and links */
@@ -242,19 +243,22 @@ main {
 }
 
 .weather-info img {
-    width: 40px;
+    width: 80px;
     height: auto;
+    margin-top: 0;
     margin-right: 6px;
 }
 
 .weather-label h3, .visit p {
+    margin-top: 0;
+    margin-bottom: 0;
     margin-left: 30px;
     color: darkorchid;
     font-weight: bold;
 }
 
 .weather-info p {
-    margin: 0.2rem 0;       
+    margin: 0;       
 }
 
 #visits {
