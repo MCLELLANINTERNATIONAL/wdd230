@@ -238,21 +238,21 @@ main {
     display: flex;
     align-items: center;
     gap: 1px;
-    margin-left: 30px;
+    margin-left: 60px;
     margin-bottom: 1rem;
 }
 
 .weather-info img {
-    width: 80px;
-    height: auto;
+    width: 100px;
+    height: 60px;
     margin-top: 0;
-    margin-right: 6px;
+    margin-left: 60px;
 }
 
 .weather-label h3, .visit p {
     margin-top: 0;
     margin-bottom: 0;
-    margin-left: 30px;
+    margin-left: 60px;
     color: darkorchid;
     font-weight: bold;
 }
