@@ -1,30 +1,13 @@
-:root {
-    --primary-color:  #5E14CCB4;
-    --secondary-color: #ffe0f76c;
-    --button: rgb(2, 173, 2);
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
-}
-
-* {
-	margin: 0;
-	padding: 0;
-    box-sizing: border-box;
-}
-  
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
     color: #333;
-    font-weight: bold;;
-    font-weight: bold;
-    background-color: var(--secondary-color);
-}
-  
-header, footer {
-    background-color: var(--primary-color);
-    color: white;
-    padding: 1rem;
-    text-align: center;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto auto 1fr auto;
 }
 
 header {
@@ -33,7 +16,7 @@ header {
     align-items: center;
     background-color: #5E14CCB4;
     color: white;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 3rem;
     padding: 10px 20px;
 }
@@ -51,15 +34,6 @@ header img {
     cursor: pointer;
     font-size: 2rem;
     transition: transform 0.3s ease-in-out;
-}
-
-#mode img {
-    cursor: pointer;
-    transition: transform 0.3s;
-}
-
-#mode img:hover {
-    transform: scale(1.1);
 }
 
 #menu {
@@ -126,67 +100,24 @@ nav {
 #menu.show::before {
     content: "❎ ";
 }
-  
+
 main {
-    width: 90%;
-    max-width: 1500px;
-    margin: 2rem auto;
-    padding: 1.2rem;
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 20px;
     background-color: white;
+    box-shadow: 0 0 10px #7706a7;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-form, input, button, label {
-    transition: all 0.3s ease-in-out;
-}
-  
-form {
-    display: flex;
-    flex-direction: column;
-}
-  
-label {
-    display: flex;
-    flex-direction: column;
-    font-weight: bold;
-    margin-bottom: 1.2rem;
-}
-  
-input, button, select, textarea {
-    padding: 0.8rem;
-    margin-top: 0.3rem;
-    font-size: 1.2rem;
-    font-weight: bold;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-input:focus, textarea:focus, select:focus {
-    border-color: var(--primary-color);
-    outline: none;
-}
-
-input[type=range] {
-    width: 100%;
-}
-  
-button {
-    background-color: var(--button);
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 4px;
-    transition: background 0.3s;
-}
-  
-button:hover {
-    background-color: #003765;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
 }
 
 footer {
     text-align: center;
     padding: 15px;
+    background-color: #5E14CCB4;
+    color: white;
     font-weight: 700;
     margin-top: 20px;
 }
