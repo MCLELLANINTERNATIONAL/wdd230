@@ -26,6 +26,7 @@
     <script src="scripts/hamButton.js" defer></script>
     <script src="scripts/modeButton.js" defer></script>
     <script src="scripts/form.js" defer></script>
+    <script src="scripts/radioStar.js" defer></script>
     <script src="scripts/localStorage.js" defer></script>
 </head>
     
@@ -49,10 +50,12 @@
     <main>
         <form action="record.html" method="get" id="form">
           <label for="username">Username:
-            <input type="text" id="username" name="username" required />
+            <abbr title="This field is mandatory" aria-label="required">*</abbr>
+            <input type="text" id="alpha" name="alpha" required pattern="[A-Za-z]*">
           </label>
     
           <label for="password">Password:
+            <abbr title="This field is mandatory" aria-label="required">*</abbr>
             <input 
               type="password" 
               id="password" 
@@ -64,6 +67,7 @@
           </label>
     
           <label for="confirmPassword">Confirm Password:
+            <abbr title="This field is mandatory" aria-label="required">*</abbr>
             <input 
               type="password" 
               id="confirmPassword" 
@@ -73,6 +77,7 @@
           </label>
     
           <label for="email">BYUI Email:
+            <abbr title="This field is mandatory" aria-label="required">*</abbr>
             <input 
               type="email" 
               id="email" 

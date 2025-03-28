@@ -1,6 +1,6 @@
 :root {
     --primary-color:  #5E14CCB4;
-    --secondary-color: #ffe0f76c;
+    --secondary-color: #5e14cc2f;
     --button: rgb(2, 173, 2);
 
 }
@@ -47,7 +47,6 @@ header img {
     position: absolute;
     top: 1.5rem;
     right: 1rem;
-    font-size: 24px;
     cursor: pointer;
     font-size: 2rem;
     transition: transform 0.3s ease-in-out;
@@ -132,9 +131,9 @@ main {
     max-width: 1500px;
     margin: 2rem auto;
     padding: 1.2rem;
-    background-color: white;
+    background-color:   #5e14cc2a;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 form, input, button, label {
@@ -156,7 +155,7 @@ label {
 input, button, select, textarea {
     padding: 0.8rem;
     margin-top: 0.3rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: bold;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -167,8 +166,26 @@ input:focus, textarea:focus, select:focus {
     outline: none;
 }
 
-input[type=range] {
+input[type=text], 
+input[type=range], 
+input[type=radio] {
     width: 100%;
+}
+
+#alpha:focus, #fruit:focus {
+	background-color:  #5e14cc35;
+}
+
+#alpha:valid, #fruit:valid {
+	background-color:  #5e14cc20;
+}
+#alpha:invalid, #alpha:invalid {
+	background-color:  #5e14cc7c;
+	border: 1px solid ;
+}
+#alpha:invalid::before {
+	content: "❌";
+    background-color: red;
 }
   
 button {
