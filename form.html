@@ -23,8 +23,7 @@
     <script src="scripts/modeButton.js" defer></script>
     <script src="scripts/localStorage.js" defer></script>
     <script src="scripts/form.js" defer></script>
-    <script src="scripts/radioStar.js" defer></script>
-   
+    <script src="scripts/radioStar.js" defer></script>   
 </head>
     
 <body>
@@ -47,42 +46,23 @@
     <main>
         <form action="record.html" method="get" id="form">
           <label for="username">Username:
-            <abbr title="This field is mandatory" aria-label="required">*</abbr>
+            <abbr title="This field is mandatory">*</abbr>
             <input type="text" id="alpha" name="alpha" required pattern="[A-Za-z]*">
           </label>
     
           <label for="password">Password:
-            <abbr title="This field is mandatory" aria-label="required">*</abbr>
-            <input 
-              type="password" 
-              id="password" 
-              name="password" 
-              pattern="[a-zA-Z0-9]{8,}" 
-              title="Password must be at least 8 characters long and alphanumeric"
-              required 
-            />
+            <abbr title="This field is mandatory">*</abbr>
+            <input type="password" id="password" name="password" pattern="[a-zA-Z0-9]{8,}" title="Password must be at least 8 characters long and alphanumeric" required>
           </label>
     
           <label for="confirmPassword">Confirm Password:
-            <abbr title="This field is mandatory" aria-label="required">*</abbr>
-            <input 
-              type="password" 
-              id="confirmPassword" 
-              name="confirmPassword" 
-              required 
-            />
+            <abbr title="This field is mandatory">*</abbr>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
           </label>
     
           <label for="email">BYUI Email:
-            <abbr title="This field is mandatory" aria-label="required">*</abbr>
-            <input 
-              type="email" 
-              id="email" 
-              name="email" 
-              pattern="[a-zA-Z0-9._%+\-]+@byui\.edu" 
-              title="Please enter a valid BYUI email address"
-              required 
-            />
+            <abbr title="This field is mandatory">*</abbr>
+            <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+\-]+@byui\.edu" title="Please enter a valid BYUI email address" required>
           </label>
     
           <label for="rating">Page Rating: <span id="ratingValue">5</span>
@@ -94,8 +74,7 @@
               max="10" 
               step="1" 
               value="5" 
-              oninput="document.getElementById('ratingValue').textContent = this.value" 
-            />
+              oninput="document.getElementById('ratingValue').textContent = this.value">
           </label>
     
           <button type="submit">Submit Form</button>
