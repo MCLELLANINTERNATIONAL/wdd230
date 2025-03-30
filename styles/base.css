@@ -24,6 +24,7 @@ header {
 header img {
     border-radius: 50%;
     margin-right: 10px;
+    object-fit: cover;
 }
 
 #mode {
@@ -131,6 +132,7 @@ main {
     width: 100%;
     height: auto;
     border-radius: 0;
+    object-fit: cover;
 }
 
 .hero span{
