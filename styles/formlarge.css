@@ -1,4 +1,4 @@
-@media (min-width: 30rem) {
+@media (min-width: 38rem) {
     .navigation {
         display: flex;
     }
@@ -16,10 +16,9 @@
     }
 
     main {
-    width: 90%;
-    max-width: 1500px;
-    padding: 2rem;
-    font-size: 1.1rem;
+      display: grid;
+      max-width: 1500px;
+      font-size: 1.2rem;
     }
 
     form {
@@ -30,14 +29,10 @@
       font-size: 1.1rem;
     }
 
-
     button {
       max-width: 300px;
       align-self: center;
     }
-
-    footer {
-      font-size: 1.1rem;
-    }
+    
 }
   
