@@ -45,27 +45,28 @@
     </nav>
     <main>
         <form action="record.html" method="get" id="form">
-          <label for="username">Username:
-            <abbr title="This field is mandatory">*</abbr>
+          <label for="alpha">
+            <span class="label-text">Username: <span class="required"> *</span></span>
             <input type="text" id="alpha" name="alpha" required pattern="[A-Za-z]*">
           </label>
     
-          <label for="password">Password:
-            <abbr title="This field is mandatory">*</abbr>
+          <label for="password">
+            <span class="label-text">Password: <span class="required"> *</span></span>
             <input type="password" id="password" name="password" pattern="[a-zA-Z0-9]{8,}" title="Password must be at least 8 characters long and alphanumeric" required>
           </label>
     
-          <label for="confirmPassword">Confirm Password:
-            <abbr title="This field is mandatory">*</abbr>
+          <label for="confirmPassword">
+            <span class="label-text">Confirm Password: <span class="required"> *</span></span>
             <input type="password" id="confirmPassword" name="confirmPassword" required>
           </label>
     
-          <label for="email">BYUI Email:
-            <abbr title="This field is mandatory">*</abbr>
+          <label for="email">
+            <span class="label-text">BYU-I Email: <span class="required"> *</span></span>
             <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+\-]+@byui\.edu" title="Please enter a valid BYUI email address" required>
           </label>
     
-          <label for="rating">Page Rating: <span id="ratingValue">5</span>
+          <label for="rating">
+            <span class="label-text">Page Rating: <span id="ratingValue">5</span></span>
             <input type="range" id="rating" name="rating" min="1" max="10" step="1" value="5" oninput="document.getElementById('ratingValue').textContent=this.value">
           </label>
     
