@@ -5,19 +5,13 @@
     --secondary-color: #5e14cc2f;
     --button: rgb(2, 173, 2);
 }
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
   
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: var(--secondary-color);
-    color: #333;  
+    grid-template-columns: 1fr auto;
+    grid-row: auto auto 1fr auto;
 }
 
 header {
@@ -113,78 +107,13 @@ nav {
 }
   
 main {
+    text-align: center;
     width: 90%;
     max-width: 1500px;
     margin: 2rem auto;
     padding: 1.2rem;
     background-color: #5e14cc2a;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-form, input, button, label {
-    transition: all 0.3s ease-in-out;
-}
-  
-form {
-    display: flex;
-    flex-direction: column;
-}
-  
-label {
-    display: flex;
-    flex-direction: column;
-    font-weight: bold;
-    margin-bottom: 1.2rem;
-}
-  
-input, button, select, textarea {
-    padding: 0.8rem;
-    margin-top: 0.3rem;
-    font-size: 1rem;
-    font-weight: bold;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-input:focus, textarea:focus, select:focus {
-    border-color: var(--primary-color);
-    outline: none;
-}
-
-input[type=text], 
-input[type=range], 
-input[type=radio] {
-    width: 100%;
-}
-
-#alpha:focus, #fruit:focus {
-	background-color:  #5e14cc35;
-}
-
-#alpha:valid, #fruit:valid {
-	background-color:  #5e14cc20;
-}
-#alpha:invalid, #alpha:invalid {
-	background-color:  #5e14cc7c;
-	border: 1px solid ;
-}
-#alpha:invalid::before {
-	content: "❌";
-    background-color: red;
-}
-  
-button {
-    background-color: var(--button);
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 4px;
-    transition: background 0.3s;
-}
-  
-button:hover {
-    background-color: #003765;
+    border-radius: 10px;
 }
 
 footer {
