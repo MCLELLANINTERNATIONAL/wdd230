@@ -143,7 +143,7 @@ input, button, select, textarea {
     margin-top: 0.3rem;
     font-size: 1rem;
     font-weight: bold;
-    border: 5px solid var(--primary-color);
+    border: 4px solid var(--primary-color);
     border-radius: 8px;
 }
 
@@ -161,12 +161,12 @@ input[type=radio] {
 
 #alpha:focus, #fruit:focus {
 	background-color: white;
-    border-radius: 8px solid var(--primary-color);
+    border-color: var(--primary-color);
+    border-radius: 8px;
 }
 
 #alpha:valid, #fruit:valid {
-	background-color:  #5e14cc20;
-    
+	background-color:  #5e14cc20; 
 }
 #alpha:invalid, #alpha:invalid {
 	background-color:  rgba(232, 170, 170, 0.282);
