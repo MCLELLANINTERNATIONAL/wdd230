@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2family=Great+Vibes&display=swap');
 
 :root {
     --primary-color:  #5E14CCB4;
@@ -17,12 +17,12 @@ body {
     margin: 0;
     padding: 0;
     background-color: var(--secondary-color);
-    color: #333;  
+    color: #333; 
+   
 }
 
 header {
     position: relative;
-    display: flex;
     align-items: center;
     background-color: var(--primary-color);
     color: white;
@@ -56,6 +56,9 @@ header img {
     background: none;
     color: white;
     position: absolute;
+    cursor: pointer;
+    left: 50%;
+    transform: translateY(-50%);
 }
 
 #menu::before {
@@ -138,7 +141,7 @@ label {
     margin-bottom: 1.2rem;
 }
   
-input, button, select, textarea {
+input, select, textarea {
     padding: 0.8rem;
     margin-top: 0.3rem;
     font-size: 1rem;
@@ -148,7 +151,6 @@ input, button, select, textarea {
 }
 
 input:focus, textarea:focus, select:focus {
-    border-color: var(--primary-color);
     outline: none;
     background-color: white;
 }
@@ -161,7 +163,7 @@ input[type=radio] {
 
 #alpha:focus, #fruit:focus {
 	background-color: white;
-    border-color: var(--primary-color);
+    border-color: 4px solid var(--primary-color);
     border-radius: 8px;
 }
 
@@ -183,14 +185,14 @@ input[type=radio] {
     font-size: 1em;
 }
   
-button {
+.button {
     background-color: var(--button);
     color: white;
     font-weight: bold;
     font-size: 1.5rem;
     border: none;
     cursor: pointer;
-    border-radius: 4px;
+    border-radius: 2px;
     transition: background 0.3s;
 }
   
