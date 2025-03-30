@@ -123,7 +123,6 @@ main {
 }
 
 form, input, button, label {
-    border-radius: var(--secondary-color);
     transition: all 0.3s ease-in-out;
 }
   
