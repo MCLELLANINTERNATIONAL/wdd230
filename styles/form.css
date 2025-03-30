@@ -3,7 +3,7 @@
 :root {
     --primary-color:  #5E14CCB4;
     --secondary-color: #5e14cc2f;
-    --button: #20E920;
+    --button: rgb(8, 181, 11);
 }
 
 * {
@@ -183,7 +183,7 @@ input[type=radio] {
   
 button {
     background-color: var(--button);
-    color: black;
+    color: white;
     font-weight: bold;
     font-size: 1.5rem;
     border: none;
