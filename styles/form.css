@@ -60,6 +60,10 @@ header img {
     position: absolute;
 }
 
+button #menu {
+    margin-left: 4px;
+}
+
 #menu::before {
     content: "☰";
 }
@@ -183,20 +187,23 @@ input[type=radio] {
     font-weight: bold;
     font-size: 1em;
 }
-  
+
 .button {
+    display: inline-block;
     background-color: var(--button-color);
     color: white;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    padding: 0.6rem 1.5rem; /* controls height and horizontal padding */
     border: none;
+    border-radius: 8px; /* smoother corners */
     cursor: pointer;
-    border-radius: 2px;
-    transition: background 0.3s;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
   
 button:hover {
     background-color: #003765;
+    transform: scale(1.05); /* optional for a subtle pop effect */
 }
 
 footer {

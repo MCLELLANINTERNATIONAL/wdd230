@@ -52,6 +52,10 @@ header img {
     content: "☰";
 }
 
+button#menu {
+    margin-left: 4px;
+}
+
 nav {
     max-width: 100%;
     margin: 0 auto;
