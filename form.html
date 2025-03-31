@@ -44,10 +44,11 @@
       </ul>
     </nav>
     <main>
+      <h1>Create Account</h1>
         <form action="record.html" method="get" id="form">
           <label for="alpha">
             <span class="label-text">Username: <span class="required"> *</span></span>
-            <input type="text id="alpha" pattern="[A-Za-z]*" required>
+            <input type="text" id="alpha" pattern="[A-Za-z]*" title="Letters only">
           </label>
     
           <label for="password">
@@ -57,7 +58,7 @@
     
           <label for="confirmPassword">
             <span class="label-text">Confirm Password: <span class="required"> *</span></span>
-            <input type="password" id="confirmPassword" required>
+            <input type="password" id="confirmPassword" title="Password does not match">
           </label>
     
           <label for="email">
