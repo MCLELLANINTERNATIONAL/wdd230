@@ -1,5 +1,5 @@
 const rangevalue = document.getElementById("rangevalue");
-const range = document.getElementById("ratingvalue");
+const range = document.getElementById("range");
 
 // RANGE event listener
 range.addEventListener('change', displayRatingValue);
