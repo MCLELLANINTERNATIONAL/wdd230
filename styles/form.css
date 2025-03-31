@@ -4,7 +4,6 @@
     --primary-color: #5E14CCB4;
     --secondary-color: #5e14cc2f;
     --nav-color: #7706a7;
-    --button-color: rgb(4, 149, 6);
 }
 
 * {
@@ -128,7 +127,7 @@ main {
     box-shadow: 0 0 10px rgba(232, 228, 228, 0.561);
 }
 
-form, input, button, label {
+form, input, label {
     transition: all 0.3s ease-in-out;
 }
   
@@ -144,7 +143,7 @@ label {
     margin-bottom: 1.2rem;
 }
   
-input, select, textarea {
+input, text, select, textarea {
     padding: 0.8rem;
     margin-top: 0.3rem;
     font-size: 1rem;
@@ -190,20 +189,28 @@ input[type=radio] {
 
 .button {
     display: inline-block;
-    background-color: var(--button-color);
+    align-self: center;
+    background-color: rgb(4, 149, 6);
     color: white;
+    width: 180px;
     font-weight: bold;
     font-size: 1.2rem;
-    padding: 0.6rem 1.5rem; /* controls height and horizontal padding */
+    padding: 0.8rem 1.5rem; /* controls height and horizontal padding */
     border: none;
     border-radius: 8px; /* smoother corners */
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
   
-button:hover {
+.button:hover {
     background-color: #003765;
     transform: scale(1.05); /* optional for a subtle pop effect */
+}
+
+#passwordError {
+    color: red;
+    font-size: 0.9rem;
+    display: none;
 }
 
 footer {

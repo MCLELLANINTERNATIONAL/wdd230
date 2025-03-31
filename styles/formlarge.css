@@ -29,9 +29,8 @@ main {
     font-size: 1.1rem;
   }
 
-  button {
+  .button {
     max-width: 350px;
-    align-self: center;
   }
 
 }
