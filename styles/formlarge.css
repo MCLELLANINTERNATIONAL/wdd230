@@ -14,24 +14,25 @@ text-align: center;
 #menu {
     display: none; /* hide hamburger button */
 }
-    main {
-      display: grid;
-      max-width: 1500px;
-      font-size: 1.2rem;
-    }
+    
+main {
+    display: grid;
+    max-width: 1500px;
+    font-size: 1.2rem;
+  }
 
-    form {
-      gap: 1.5rem;
-    }
+  form {
+    gap: 1.5rem;
+  }
 
-    label {
-      font-size: 1.1rem;
-    }
+  label {
+    font-size: 1.1rem;
+  }
 
-    button {
-      max-width: 300px;
-      align-self: center;
-    }
+  button {
+    max-width: 350px;
+    align-self: center;
+  }
 
 }
   
