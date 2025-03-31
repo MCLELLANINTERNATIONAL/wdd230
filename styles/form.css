@@ -170,7 +170,7 @@ input[type=radio] {
 #alpha:valid, #fruit:valid {
 	background-color:  #5e14cc20; 
 }
-#alpha:invalid, #alpha:invalid {
+#alpha:invalid {
 	background-color:  rgba(232, 170, 170, 0.282);
 	border: 1px solid ;
 }
