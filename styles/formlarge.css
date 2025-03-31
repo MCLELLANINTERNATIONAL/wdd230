@@ -1,17 +1,19 @@
 @media (min-width: 38rem) {
-    .navigation li {
-		display: block; /* change state in small view */
-		flex: 1 1 100%;
-	  }
+  .navigation {
+    display: flex;
+}
 
-	  .navigation a {
-		text-align: center;
-	  }
+.navigation li {
+display: block; /* change state in small view */
+flex: 1 1 100%;
+}
+.navigation a {
+text-align: center;
+}
 
-    #menu {
-        display: none; /* hide hamburger button */
-    }
-
+#menu {
+    display: none; /* hide hamburger button */
+}
     main {
       display: grid;
       max-width: 1500px;
