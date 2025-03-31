@@ -9,7 +9,7 @@ body {
     margin: 0;
     padding: 0;
     grid-template-columns: 1fr auto;
-    grid-row: auto auto 1fr auto;
+    grid-row: auto;
 }
 
 header {
