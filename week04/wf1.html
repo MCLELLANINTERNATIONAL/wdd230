@@ -14,68 +14,78 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="bookmark" href="week02/bom.html" title="Book of Mormon - Top 10">
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/large.css">
     <link rel="stylesheet" href="styles/wf1small.css">
     <link rel="stylesheet" href="styles/wf1medium.css">
     <link rel="stylesheet" href="styles/wf1large.css">
     <script src="scripts/getDates.js" defer></script>
-    <script src="scripts/hamButton.js" defer></script>
-    <script src="scripts/modeButton.js" defer></script>
-    <script src="scripts/localStorage.js" defer></script>
     <script src="scripts/wf1.js" defer></script>
 
 </head>
     
 <body>
     <header>
-        <span>Heading</span>
+        <span><h1>Course Proposal</h1></span>
+        <span><h2>Designing Web Forms</h2></span>
     </header>
-    <button type="button" id="menu"></button>
     <nav>
-        <ul class="navigation">
-            <li><a href="about.html" title="About" class="active">About</a></li>
-            <li><a href="purpose.html" title="Purpose">Purpose</a></li>
-            <li><a href="winners.html" title="Winners">Winners</a></li>
-            <li><a href="contact.html" title="Contact">Contact</a></li>
-        </ul>
+    <ul class="navigation">
+        <li><a href="about.html" title="About" class="active">About</a></li>
+        <li><a href="purpose.html" title="Purpose">Purpose</a></li>
+        <li><a href="winners.html" title="Winners">Winners</a></li>
+        <li><a href="contact.html" title="Contact">Contact</a></li>
+    </ul>
     </nav>
     <main>
         <h1>Course Proposal Application</h1>
-            <form method="get" action="thanks.html" class="wf1">
-            <fieldset>
-                <legend>Application Information</legend>
-                    <label>First Name* <input type="text" name="fname" required></label>
-                    <label>Last Name*<input type="text" name="lname" required></label>
-                    <label>Phone<input type="teel" name="phone" placeholder="1234567890"></label>
-                    <label>Email*<input type="email" name="email" placeholder="someone"></label>
-                    <label>Website<input type="url" name="url" placeholder="http://"></label>
-                </fieldset>
-                <fieldset>
-                    <legend>Course Information</legend>
-                    <div>Audience</div>
-                    <label><input type="radio" name="audience" value="beginner">Beginner</label>
-                    <label><input type="radio" name="audience" value="beginner">Intermediate/label>
-                    <label><input type="radio" name="audience" value="beginner">Advanced</label>
+        <form method="get" action="thanks.html" class="wf1">
+        <fieldset>
+            <legend>Application Information</legend>
+                <label>First Name* <input type="text" name="fname" required></label>
+                <label>Last Name*<input type="text" name="lname" required></label>
+                <label>Phone<input type="tel" name="phone" placeholder="1234567890"></label>
+                <label>Email*<input type="email" name="email" placeholder="someone@gmail.com" reqired></label>
+                <label>Website<input type="url" name="url" placeholder="http://"></label>
+        </fieldset>
+        <fieldset>
+            <legend>Course Information</legend>
+            <div>Audience</div>
+            <label><input type="radio" name="audience" value="beginner">Beginner</label>
+            <label><input type="radio" name="audience" value="beginner">Intermediate</label>
+            <label><input type="radio" name="audience" value="beginner">Advanced</label>
 
-                    <div>Software Needed</div>
-                    <label><input type="checkbox" name="audience" value="beginner">Beginner</label>
-                    <label><input type="checkbox" name="audience" value="beginner">Intermediate/label>
-                    <label><input type="checkbox" name="audience" value="beginner">Advanced</label>
+            <div>Software Needed</div>
+            <label><input type="checkbox" name="editing" value="yes">Photo Editing</label>
+            <label><input type="checkbox" name="code" value="yes">Coding</label>
+            <label><input type="checkbox" name="process" value="yes">Preprocessor</label>
+            <label><input type="checkbox" name="client" value="yes">FTP Client</label> 
+        </fieldset>
+        <fieldset>
+            <legend>Funding</legend>
+            <label>Anticipated Completion Date <input type="date" name="completionDate"</label>
+            <label>Course Subject
+                <select name="Subject">
+                    <option value="">Please Select &#9662;</option>
+                    <option value="Software">Software Development</option>
+                    <option value="Software">Creative Professional</option>
+                    <option value="Software">Information Technology</option>
+                    <option value="Software">Manufacturing</option>
+                    <option value="Software">Business Professional</option>
+                    <option value="Software">Cyber Security</option>
+                </select>
+            </label>
+            <label>How Many Authors <input type="number" name="authors"></label>    
+        </fieldset>
+                
+        <input type="submit" value="Propose My Course">
+    </form>
+    </main>
 
-                </fieldset>
-        
-        
-        </form>
     <footer>
-        <p>&copy; <span id="currentyear"></span> 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Kim Brown 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Edinburgh,Scotland
-            🏴󠁧󠁢󠁳󠁣󠁴󠁿</p>
+        <p>&copy; <span id="currentyear"></span> 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Kim Brown 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Edinburgh,Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿</p>
         <p id="lastModified"></p>
     </footer>
-
 </body>
 
 </html>
