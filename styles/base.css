@@ -171,8 +171,8 @@ main {
     grid-column: 1;
 }
 
-.card1 {
-    line-height: 2.2rem;
+.card, .card1 {
+    line-height: 2rem;
 }
 
 .card-banner, .card1-banner {
@@ -203,7 +203,7 @@ main {
 }
 
 .week-label {
-    line-height: 2.5rem;
+    line-height: 2rem;
     font-weight: bold;
     text-decoration: none; /* Ensures weeks are not underlined */
     margin-right: 5px; /* Adds spacing between label and links */
@@ -262,7 +262,8 @@ main {
 
 .weather-info p {
     margin: 0; 
-    align-items: center;      
+    align-items: center;
+    margin-bottom: 20px;      
 }
 
 #visits {
