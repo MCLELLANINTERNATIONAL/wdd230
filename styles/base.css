@@ -50,7 +50,7 @@ header img {
     content: "☰";
 }
 
-button#menu {
+button #menu {
     margin-left: 4px;
 }
 
