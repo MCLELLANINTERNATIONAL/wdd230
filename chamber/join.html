@@ -45,7 +45,6 @@
     </div>
 
     <main>
-        <h1>Join Our Chamber of Commerce</h1>
         <aside class="membership-benefits">
             <h2>Membership Benefits</h2>
             <ul>
@@ -55,73 +54,44 @@
             <li><strong>Gold:</strong> + Homepage spotlight, VIP invites, advertising</li>
             </ul>
         </aside>
-        <div class="form-layout">
-        <form method="get" action="thankyou.html">
-            <label>
-            First Name:
-            <input type="text" name="fname" id="fname" required>
-            </label>
-
-            <label>
-            Last Name:
-            <input type="text" name="lname" id="lname" required>
-            </label>
-
-            <label>
-            Title/Position:
-            <input type="text" name="title" id="title" pattern="[A-Za-z\s\-]{7,}">
-            </label>
-
-            <label>
-            Email:
-            <input type="email" name="email" id="email" required placeholder="example@email.com">
-            </label>
-
-            <label>
-            Mobile Phone:
-            <input type="tel" name="phone" id="phone" required>
-            </label>
-
-            <label>
-            Business/Organization Name:
-            <input type="text" name="business" id="business" required>
-            </label>
-
+        <h1>Join Our Chamber of Commerce</h1>
+        <form method="get" action="thanks.html" class="wf1">
             <fieldset>
-            <legend>Membership Level:</legend>
-            
-            <label>
-                <input type="radio" name="membership" id="np" value="np" required>
-                NP Membership (Free)
-            </label><br>
-            
-            <label>
-                <input type="radio" name="membership" id="bronze" value="bronze">
-                Bronze Membership
-            </label><br>
-            
-            <label>
-                <input type="radio" name="membership" id="silver" value="silver">
-                Silver Membership
-            </label><br>
-            
-            <label>
-                <input type="radio" name="membership" id="gold" value="gold">
-                Gold Membership
-            </label>
+                <legend>Application Information</legend>
+                    <label>First Name* <input type="text" name="fname" required></label>
+                    <label>Last Name*<input type="text" name="lname" required></label>
+                    <label>Title/Position•<input type="text" name="tname" required></label> 
+                    <label>Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label> 
+                    <label>Mobile Number*<input type="tel" name="phone" placeholder="1234567890"></label>
+                    <label>Business/Organisation Name*<input type="text" name="bname" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Membership</legend>
+                <label>Anticipated Joining Date<input type="date" name="completion date"></label>
+                <label>Membership Level</label>
+                    <select name="level">
+                        <option value="">Please Select &#9662;</option>
+                        <option value="Membership">NP Membership is for non-profit organisations and there is no fee.</option>
+                        <option value="Membership">Bronze Membership</option>
+                        <option value="Membership">Silver Membership</option>
+                        <option value="Membership">Gold Membership</option>
+                    </select>  
+            </fieldset>
+            <fieldset>
+                <legend>Business Description</legend>
+                    <label>
+                        <textarea name="description" id="description" rows="5"></textarea>
+                    </label>
             </fieldset>
 
-            <label>
-            Business Description:
-            <textarea name="description" id="description" rows="5"></textarea>
-            </label>
-
-            <input type="hidden" name="timestamp" id="timestamp">
-
-            <input type="submit" value="Apply for Membership">
+            <div>
+                <input type="submit" value="Membership Application">
+            </div>
+            <input type="hidden" name="timeStamp" id="timeStamp">
         </form>
-        </div>
+
     </main> 
+    
     <footer>
         <p>Contact Us: Phone:0123-456-7890</p>
         <p>Email: info@edinburghchamberofcommerce.com</p>
