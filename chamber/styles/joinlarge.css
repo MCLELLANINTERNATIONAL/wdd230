@@ -37,18 +37,6 @@
 /*----------- Membership tiers --------------*/
 
 
-/*----------- Benefits Fees table --------------*/
-.table {
-    grid-column: 3;
-    grid-row: 1;
-}
-
-.table h2 {
-    grid-column: 3;
-    grid-row: auto;
-    text-align: center;
-}
-
 /*----------- benefits-gallery --------------*/
     .benefits-gallery {
         display: grid;
@@ -91,11 +79,29 @@
         box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
     }
 
-
     figure:hover {
         transform: scale(1.05);
         box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
     }
+
+/*----------- Benefits Fees table --------------*/
+    .table {
+        grid-column: 3;
+        grid-row: 1;
+    }
+
+    .table h2 {
+        grid-column: 3;
+        grid-row: auto;
+        text-align: center;
+    }
+
+/*----------- Form --------------*/
+
+
+
+
+
 
 /*----------- footer --------------*/
         
