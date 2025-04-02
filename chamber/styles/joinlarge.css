@@ -1,4 +1,4 @@
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 38rem) {
     
 /*----------- header nav --------------*/   
     .navigation {
@@ -26,115 +26,99 @@
     main {
         display: grid;
         grid-template-columns: 1fr 1fr fr;
-        grid-template-rows: auto 1fr auto;
-        margin-left: 6%;
-        gap: 5px;
+        grid-template-rows: auto auto auto;
+        margin-left: 2%;
+        gap: 1rem;
     } 
 
+    main h2 {
+        grid-column: 1/ span 3;
+        grid-row: 1;
+    }
+
 /*----------- Overview/ Why join --------------*/
+    .overview {
+        gap: 1rem;
+        grid-column: 1 / span 3;
+        grid-row: 1;
+    }
 
+    /* Make .ov span all 3 columns */
+    .ov {
+        grid-column: 1 / span 3;
+    }
 
-/*----------- Membership tiers --------------*/
-
+    /* Optional: Make .wbjoin paragraph behave as individual grid items */
+    .wbjoin p {
+        grid-column: 1/ span 3;   
+    }
 
 /*----------- benefits-gallery --------------*/
     .benefits-gallery {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-column: 1/ 3;
+        grid-column: 1 / span 2;
         grid-row: 3;
         gap: 2rem;
         width: 100%;
         height: auto;
     }
 
-    .gallery figure {
-        width: 500px;
+    .benefits-gallery figure {
+        width: 400px;
         height: auto;
         margin: 0;
-        border: 1px solid #ccc;
         padding: 1rem;
         background: #fff;
         border-radius: 8px;
         transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-        grid-column: 1/ 3;
-        grid-row: 3;
     }
 
-    .gallery figure img {
+    .benefits-gallery h2 {
+        grid-column: 1/ span 3;
+        grid-row: 1;
+    }
+
+    .benefits-gallery figure img {
         width: 100%;
         height: auto;
-        max-width: 1500;
         border-bottom: 2px solid #ddd;
         margin-bottom: 0.5rem;
         gap: 0.5rem;
-        grid-column: 1/ 3;
-        grid-row: 3;
     }
 
-    .gallery figcaption {
+    .benefits-gallery figcaption {
         text-align: center;
         font-weight: bold;
         font-size: 1.1rem;
-        grid-column: 1/ 3;
-        grid-row: 3;
     }
 
-    figure:hover {
-        transform: scale(1.05);
-        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
-    }
-
-    figure:hover {
+    .benefits-gallery figure:hover {
+        border: 1px solid #2330be;
         transform: scale(1.05);
         box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
     }
 
 /*----------- Benefits Fees table --------------*/
-    .table {
-        grid-column: 3;
-        grid-row: 1;
-    }
+.table {
+    grid-column: 1/ span 2;
+    grid-row: 3;
+}
 
-    .table h2 {
-        grid-column: 3;
-        grid-row: 1;
-        text-align: center;
-    }
+/*----------- Membership tiers --------------*/
+.tier {
+    grid-column: 3;
+    grid-row: 2;
+    align-self: start;
+}
 
 /*----------- Form --------------*/
     .eccf {
-        grid-template-columns: 1fr 1fr 1fr;  /* 3 columns on large screens */
-        grid-row: 3
-    }
-
-    /* Make description box (textarea) occupy the third column */
-    #description {
-        grid-column: 3;
+        grid-column: 3;  /* 3 columns on large screens */
         grid-row: 3;
     }
-
-    /* Make other inputs occupy the first two columns */
-    .eccf label[for="name"],
-    .eccf label[for="email"],
-    .eccf label[for="phone"] {
-        grid-column: span 3;
-    }
-
-    /* Adjust fieldset */
-    .eccf fieldset {
-        grid-column: 3;
-        grid-row: 3;
-    }
-
-    /* Adjust submit button to be centered */
-    .eccf input[type="submit"] {
-        grid-column: 3;
-        grid-row: 3;
-        justify-self: center;
-    }
-
 
 /*----------- footer --------------*/
         
 }
+

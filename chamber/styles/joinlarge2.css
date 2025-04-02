@@ -1,0 +1,63 @@
+@media screen and (min-width: 38rem) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto auto auto;
+        grid-gap: 1rem;
+        margin: 2rem;
+    }
+
+    /* Overview spanning all columns */
+    .overview {
+        grid-column: 1 / span 3;
+    }
+    
+    .ov, .wbjoin p {
+        grid-column: 1 / span 3;
+    }
+
+    /* Benefits Gallery */
+    .benefits-gallery {
+        grid-column: 1 / span 2;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 items in a row */
+        gap: 1rem;
+    }
+
+    .benefits-gallery figure {
+        width: 100%;
+        background: #fff;
+        border-radius: 8px;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+
+    .benefits-gallery figure:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Membership Tier Dropdown */
+    section:nth-of-type(4) {  /* The membership dropdown section */
+        grid-column: 3;
+        grid-row: 2;
+        align-self: start;
+    }
+
+    /* Membership Fees Table */
+    .table {
+        grid-column: 1 / span 2;
+        grid-row: 3;
+    }
+
+    /* Form */
+    .eccf {
+        grid-column: 3;
+        grid-row: 3 / span 2; /* Make it taller if needed */
+        align-self: start;
+    }
+
+    /* Optional: Adjust star rating if you want it more compact */
+    .star-rating {
+        justify-content: flex-start;
+    }
+}
