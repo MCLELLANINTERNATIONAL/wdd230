@@ -227,7 +227,7 @@ figcaption p {
 /*----------- Membership Fees table --------------*/
 
 .table {
-	width: 80%;
+	width:98%;
 	margin: 40px auto;
 	border-collapse: collapse;
 }
@@ -320,7 +320,7 @@ table button:hover {
     padding: .75rem;
     color: #555;
     width: 100%;
-    max-width: 400px;
+    max-width: 500px;
     appearance: none;
     box-sizing: border-box;
 }
