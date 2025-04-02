@@ -1,3 +1,15 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+:root {
+	--back: #4CAF50; /* Header background black */
+	--forelight: #fff; /* Header text white */
+	--zebra: #c0f8c6;
+	--zebra2: #dcf3de;/* Light gray for alternating rows */
+	--border: #827f7f;
+	--shadow: rgba(0, 0, 0, 0.2);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +22,8 @@ body {
     padding: 0;
     min-height: 100vh;
 }
+
+/*--------------- Header -------------*/
 
 header {
     position: relative;
@@ -40,7 +54,7 @@ header img {
     object-fit: cover;
 }
 
-/*----------- Nav Menu --------------*/
+/*----------- Header Nav Menu --------------*/
 
 .top-header,
 .nav-section {
@@ -174,7 +188,86 @@ main h3 {
 
 
 
-/*----------- Popular benefits --------------*/
+/*----------- Membership Fees table --------------*/
+
+table {
+	width: 80%;
+	margin: 40px auto;
+	border: thin solid var(--border);
+	box-shadow: 0 0 10px var(--shadow);
+	border-collapse: collapse;
+}
+
+/* Header styling */
+thead tr:first-child {
+	background-color: var(--back);
+	color: var(--forelight);
+	font-size: 2rem;
+	font-weight: 700;
+}
+  
+thead tr:nth-child(2) {
+	background-color: var(--zebra);
+	color: blue;
+	font-weight: 500;
+}
+
+th, td {
+    padding: 12px;
+	border: 1px solid var(--border);
+    text-align: center;
+	align-items: center;
+	font-weight: bold;
+}
+
+/* Zebra striping for table rows */
+tbody tr:nth-child(odd) {
+    background-color: var(--forelight);
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--zebra2);
+}
+
+table button {
+    background-color: #099840;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1em;
+}
+  
+table button:hover {
+    background-color: #003d33;
+}
+
+
+/*----------- Benefits-gallery --------------*/
+.benefits-gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+figure {
+    margin: 0;
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    background: #fff;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+}
+
+figcaption {
+    text-align: center;
+    font-weight: bold;
+    padding: 0.5rem;
+}
 
 
 
