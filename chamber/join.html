@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="WDD 230 - Edinburgh Chamber of Commerce by Kim Brown, Web Development, JavaScript, CSS, HTML">
+        content="WDD 230 - Join Edinburgh Chamber of Commerce by Kim Brown, Web Development, JavaScript, CSS, HTML">
     <meta name="author" content="Kim Brown">
-    <title>Edinburgh Chamber of Commerce</title>
+    <title>Edinburgh Chamber of Commerce: Join</title>
     <meta property="og:title" content="Chamber of Commerce">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://mclellaninternational.github.io/wdd230/chamber/images/edin.png">
-    <meta property="og:url" content="https://mclellaninternational.github.io/wdd230/chamber/index.html">
+    <meta property="og:url" content="https://mclellaninternational.github.io/wdd230/chamber/join.html">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
@@ -45,91 +45,137 @@
     </div>
 
     <main>
-        <aside class="membership-benefits">
-            <h2>Membership Benefits</h2>
-            <ul>
-            <li><strong>NP:</strong> Free access to networking events</li>
-            <li><strong>Bronze:</strong> Newsletter features, event invites</li>
-            <li><strong>Silver:</strong> + Training workshops, discounted events</li>
-            <li><strong>Gold:</strong> + Homepage spotlight, VIP invites, advertising</li>
-            </ul>
-        </aside>
-        <h1>Join Our Chamber of Commerce</h1>
-        <form method="get" action="thanks.html" class="wf1">
-            <fieldset>
-                <legend>Application Information</legend>
-                    <label>First Name* <input type="text" name="fname" required></label>
-                    <label>Last Name*<input type="text" name="lname" required></label>
-                    <label>Title/Position<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="WDD 230 - Edinburgh Chamber of Commerce by Kim Brown, Web Development, JavaScript, CSS, HTML">
-    <meta name="author" content="Kim Brown">
-    <title>Edinburgh Chamber of Commerce</title>
-    <meta property="og:title" content="Chamber of Commerce">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="https://mclellaninternational.github.io/wdd230/chamber/images/edin.png">
-    <meta property="og:url" content="https://mclellaninternational.github.io/wdd230/chamber/index.html">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">    
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/join.css">
-    <link rel="stylesheet" href="styles/joinlarge.css">
-    <script src="scripts/getDates.js" defer></script>
-    <script src="scripts/hamButton.js" defer></script>
-    <script src="scripts/modeButton.js" defer></script>
-    <script src="scripts/timeStamp.js" defer></script>
-</head>
-
-<body>
-    <header>
-        <img src="images/edlogo.webp" alt="Kim" width="80" height="80">
-        <h1>Edinburgh Chamber of Commerce: Join</h1>
-        <div id="mode">
-            <img src="images/dark.webp" alt="dark mode" id="darkBtn" width="44" height="44">
+        <div>
+            <h1>Membership Overview</h1>
+            <p>Edinburgh Chamber of Commerce (ECC) is the very centre of Edinburgh’s business community, representing almost 7,000 businesses from start-ups and micro businesses to larger corporates. We support our member companies in connecting, growth and prospering both in Scotland, UK, as well as overseas.</p>
+            <p>We advocate on behalf of Edinburgh’s business community in the most important forums of policy debate, championing the needs of Edinburgh businesses and promoting ‘Global Edinburgh’ as the best city in the world to do business.</p>
         </div>
-    </header>
-    <div class="nav-section">     
-        <button type="button" id="menu"></button>
-            <nav class="header-nav">
-            <ul class="navigation">
-                <li><a href="#" title="index.html" class="active">Home</a></li>
-                <li><a href="#" title="discover.html">Discover</a></li>
-                <li><a href="#" title="directory.html">Directory</a></li>
-                <li><a href="#" title="join.html">Join</a></li>
-            </ul>
-        </nav>
-    </div>
+        <div>    
+            <h2>Benefits of Joining</h2>
+            <P>Joining ECC gives you access to a range of business services, from networking events to bespoke advice. Our various tiers are tailored to provide businesses of all sectors and sizes the support they need. Whether you’re looking for profile-building opportunities or want to enjoy discounts on products like trade documents, there are plenty of reasons to join our network and see your business grow.</P>
+        </div>
+        
+        <Section>
+            <aside class="tiers">
+                <h2>Membership Tiers</h2>
+                <ul>
+                    <li><strong>NP:</strong> Free access to networking events</li>
+                    <li><strong>Bronze:</strong> Newsletter features, event invites, access to Lounge, magazine</li>
+                    <li><strong>Silver:</strong> + Training workshops, discounted events, community app</li>
+                    <li><strong>Gold:</strong> + Homepage spotlight, VIP invites, advertising</li>
+                </ul>
+            </aside>
+        </section>
+        
+        <section class="fees">
 
-    <main>
-        <aside class="membership-benefits">
-            <h2>Membership Benefits</h2>
-            <ul>
-            <li><strong>NP:</strong> Free access to networking events</li>
-            <li><strong>Bronze:</strong> Newsletter features, event invites</li>
-            <li><strong>Silver:</strong> + Training workshops, discounted events</li>
-            <li><strong>Gold:</strong> + Homepage spotlight, VIP invites, advertising</li>
-            </ul>
-        </aside>
-        <h1>Join Our Chamber of Commerce</h1>
+        </section>
+        <section>
+            <h2>Popular Membership Benefits</h2>
+            <div class="benefits">
+            <figure>
+                <img src="images/.webp" alt="Benefit 1">
+                <figcaption>
+                    <h3>Members' Lounge in the City</h3>
+                    <p>Free access to ECC’s Members’ Lounge, open Monday - Friday from 9am - 5pm. Providing members with a drop-in workspace to work from between meetings or connect with clients.</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images/.webp" alt="Benefit 2">
+                <figcaption>
+                    <h3>Attend 120+ Events</h3>
+                    <p>Attend business and networking events, growing your connections and gaining industry insights.</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images/.webp" alt="Benefit 3">
+                <figcaption>
+                    <h3>Dicounted Trade Documentation</h3>
+                    <p>ECC is the Scotland’s second largest trade documents issuer. We provide a range of international trade documents, including ATA Carnets, Certificates of Origin and Customs Declarations. As a member you can receive up to 50% discount,off many trade documents.</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src=".webp" alt="Benefit 4">
+                <figcaption>
+                    <h3>Profile Building Oportunities</h3>
+                    <p>Promote your events, offers and venues on the ECC website. Showcase your expertise in our Edinburgh Business Matters magazine and ECC Community App, plus feature in the Members' Directory.</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images/.webp" alt="Benefit 5">
+                <figcaption>
+                    <h3>Marketing Data, Credit Reports, Business Information Services</h3>
+                    <p>Access a wide range of business development support services for free. Receive targeted B2B mailing lists of up to 200 companies per month as well as company information, credit reports and market data reports to assist you deliver data-driven marketing. </p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images/.webp" alt="Benefit 6">
+                <figcaption>
+                    <h3>ECC Community App</h3>
+                    <p>Customise your profile, connect with business professionals and contribute to common interest groups.</p>
+                </figcaption>
+            </figure>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Membership Fees</h2>
+            <table>
+            <thead>
+                <tr>
+                    <th colspan="4">Annual Cost Guide 2025</th>
+                </tr>
+                <tr>
+                    <th>Tier Levels</th>
+                    <th>Benefits</th>
+                    <th>Price</th>
+                    <th>Join</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> NP for non-profit organisations</td>
+                    <td> Free access to networking events</td>
+                    <td> £0.00</td>
+                    <td><button type="button">Sign Up</button></td>
+                </tr>
+                <tr>
+                    <td> Bronze</td>
+                    <td> Newsletter features, event invites, access to Lounge, magazine</td>
+                    <td> £689</td>
+                    <td><button type="button">Sign Up</button></td>
+                </tr>
+                <tr>
+                    <td> Silver</td>
+                    <td> + Training workshops, discounted events, community app</td>
+                    <td> £974</td>
+                    <td><button type="button">Sign up</button></td>
+                </tr>
+                <tr>
+                    <td> Gold</td>
+                    <td> + Homepage spotlight, VIP invites, advertising</td>
+                    <td> £1226</td>
+                    <td><button type="button">Sign Up</button></td>
+                </tr>
+            </tbody>
+        </table> 
+        </section>
+        
+        <section>
+        <h1>Sign Up</h1>
         <form method="get" action="thanks.html" class="wf1">
             <fieldset>
                 <legend>Application Information</legend>
-                    <label>First Name* <input type="text" name="fname" required></label>
-                    <label>Last Name*<input type="text" name="lname" required></label>
-                    <label>Title/Positionr*<input type="text" name="tname" required></label> 
+                    <label>First Name* <input type="text" name="first name" required></label>
+                    <label>Last Name*<input type="text" name="last name" required></label>
+                    <label>Title/Positionr*<input type="text" name="Dr/Prof./Mr/Mrs" required></label> 
                     <label>Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label> 
                     <label>Mobile Number*<input type="tel" name="mobile" placeholder="1234567890" required></label>
-                    <label>Business/Organisation Name*<input type="text" name="bname" required></label>
+                    <label>Business/Organisation Name*<input type="text" name="business name" required></label>
             </fieldset>
             <fieldset>
                 <legend>Membership</legend>
-                <label>Anticipated Joining Date<input type="date" name="completion date"></label>
+                <label>Anticipated Joining Date<input type="date" name="start date"></label>
                 <label>Membership Level</label>
                     <select name="level">
                         <option value="">Please Select &#9662;</option>
@@ -151,53 +197,9 @@
             </div>
             <input type="hidden" name="timeStamp" id="timeStamp">
         </form>
-
+        </Section>
     </main> 
-    
-    <footer>
-        <p>Contact Us: Phone:0123-456-7890</p>
-        <p>Email: info@edinburghchamberofcommerce.com</p>
-        
-        <nav class="footer-nav">
-            <ul><Li><a href="images/homew.png">Wireframe</a></Li></ul> 
-        </nav> 
-        <p>&copy; <span id="currentyear"></span> 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Chamber of Commerce 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Edinburgh,Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿</p>
-        <p id="lastModified"></p>
-    </footer>    
-</body>
-
-</html><input type="text" name="tname" required></label> 
-                    <label>Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label> 
-                    <label>Mobile Numberc<input type="tel" name="phone" placeholder="1234567890"></label>
-                    <label>Business/Organisation Name*<input type="text" name="bname" required></label>
-            </fieldset>
-            <fieldset>
-                <legend>Membership</legend>
-                <label>Anticipated Joining Date<input type="date" name="completion date"></label>
-                <label>Membership Level</label>
-                    <select name="level">
-                        <option value="">Please Select &#9662;</option>
-                        <option value="Membership">NP Membership is for non-profit organisations and there is no fee.</option>
-                        <option value="Membership">Bronze Membership</option>
-                        <option value="Membership">Silver Membership</option>
-                        <option value="Membership">Gold Membership</option>
-                    </select>  
-            </fieldset>
-            <fieldset>
-                <legend>Business Description</legend>
-                    <label>
-                        <textarea name="description" id="description" rows="5"></textarea>
-                    </label>
-            </fieldset>
-
-            <div>
-                <input type="submit" value="Membership Application">
-            </div>
-            <input type="hidden" name="timeStamp" id="timeStamp">
-        </form>
-
-    </main> 
-    
+       
     <footer>
         <p>Contact Us: Phone:0123-456-7890</p>
         <p>Email: info@edinburghchamberofcommerce.com</p>
