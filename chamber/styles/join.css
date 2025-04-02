@@ -280,7 +280,7 @@ table button:hover {
 /*----------- FORM --------------*/
 .eccf fieldset {
     margin: 2rem 0;
-    border: 1px solid #ddd;
+    border: 1px solid rgb(21, 168, 21);
     border-radius: 6px;
     padding: .5rem 2%;
     font-weight: bold;
@@ -331,7 +331,60 @@ table button:hover {
     height: 100px;
 }
 
+.eccf input:required {
+    border-bottom: solid 8px red;
+}
+
+.eccf input:required:valid {
+    border-bottom: solid 8px rgb(3, 13, 153);
+}
+
+.eccf {
+    animation: fadeInForm 1s ease-in-out;
+}
+
+#rating {
+    color: #9c2c13;
+    font-weight: bold;
+}
+
+.star-rating {
+    direction: rtl;
+    font-size: 2rem;
+    unicode-bidi: bidi-override;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    padding-top: 1rem;
+}
+
+.star-rating input {
+    display: none;
+}
+
+.star-rating label {
+    font-size: 3rem;
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.2s;
+    margin-bottom: 30px;
+}
+
+/* Change color on hover */
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+    color: gold;
+    transform: scale (1.2);
+}
+
+/* Change color when selected */
+.star-rating input:checked ~ label {
+    color: gold;
+}
+
 .eccf input[type="submit"] {
+    display: flex;
+    justify-self: center;
     border: none;
     background-image: linear-gradient(#132c9c, #130e6f);
     color: #fff;
@@ -339,17 +392,9 @@ table button:hover {
     border-radius: 6px;
     padding: .8rem;
     width:  96%;
-    max-width: 400px;
-    margin: -1rem 2% 2rem 2%;
+    max-width: 300px;
     box-shadow: 1px 1px 4px #999;
-}
-
-.eccf input:required {
-    border-bottom: solid 8px red;
-}
-
-.eccf input:required:valid {
-    border-bottom: solid 8px rgb(3, 13, 153);
+    cursor: pointer;
 }
 
 /*----------- fade for lazy loading --------------*/
