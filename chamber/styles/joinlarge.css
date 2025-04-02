@@ -38,9 +38,15 @@
 
 
 /*----------- Benefits Fees table --------------*/
-table {
+.table {
     grid-column: 3;
     grid-row: 1;
+}
+
+.table h2 {
+    grid-column: 3;
+    grid-row: auto;
+    text-align: center;
 }
 
 /*----------- benefits-gallery --------------*/

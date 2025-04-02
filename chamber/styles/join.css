@@ -190,9 +190,10 @@ main h3 {
 
 /*----------- Membership Fees table --------------*/
 
-table {
+.table {
 	width: 80%;
 	margin: 40px auto;
+    background-color: #cccccc78;
 	border: thin solid var(--border);
 	box-shadow: 0 0 10px var(--shadow);
 	border-collapse: collapse;
