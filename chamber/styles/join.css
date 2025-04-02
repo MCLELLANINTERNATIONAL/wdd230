@@ -343,7 +343,7 @@ table button:hover {
     animation: fadeInForm 1s ease-in-out;
 }
 
-#rating {
+.rating {
     color: #9c2c13;
     font-weight: bold;
 }
@@ -395,6 +395,7 @@ table button:hover {
     max-width: 300px;
     box-shadow: 1px 1px 4px #999;
     cursor: pointer;
+    margin-bottom: 10px;
 }
 
 /*----------- fade for lazy loading --------------*/
