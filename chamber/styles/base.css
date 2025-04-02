@@ -417,7 +417,7 @@ main img {
     border-radius: 15px 150px;
     border-left: 5px solid rgb(9, 228, 9);
     border-bottom: 10px solid rgb(9, 228, 9);
-    object-fit: cover;
+    border-radius: 15px 150px;
 }
 
 .gallery .label {

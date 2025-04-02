@@ -166,7 +166,7 @@ main h1 {
 }
 
 main h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #B36200;
     text-align: center;
     margin: 1rem;
@@ -188,14 +188,47 @@ main h3 {
 
 
 
+
+
+/*----------- Benefits-gallery --------------*/
+.benefits-gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+figure {
+    margin: 0;
+    padding: 0.5rem;
+    background: #fff;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px 150px;
+    object-fit: cover;
+}
+
+figcaption {
+    text-align: center;
+    padding: 0.5rem;
+}
+
+figcaption h3 {
+    color: rgb(54, 54, 211);
+    font-weight: bold;
+}
+figcaption p {
+    font-weight: normal;
+    margin-top: 6px;
+}
+
 /*----------- Membership Fees table --------------*/
 
 .table {
 	width: 80%;
 	margin: 40px auto;
-    background-color: #cccccc78;
-	border: thin solid var(--border);
-	box-shadow: 0 0 10px var(--shadow);
 	border-collapse: collapse;
 }
 
@@ -244,69 +277,79 @@ table button:hover {
     background-color: #003d33;
 }
 
-
-/*----------- Benefits-gallery --------------*/
-.benefits-gallery {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1rem;
-}
-
-figure {
-    margin: 0;
-    border: 1px solid #ddd;
-    padding: 0.5rem;
-    background: #fff;
-}
-
-figure img {
-    width: 100%;
-    height: auto;
-}
-
-figcaption {
-    text-align: center;
-    font-weight: bold;
-    padding: 0.5rem;
-}
-
-
-
-
-
-
-/*----------- Table --------------*/
-
-
-
-
-
- 
-
 /*----------- FORM --------------*/
-.wf1 fieldset {
+.eccf fieldset {
     margin: 2rem 0;
     border: 1px solid #ddd;
     border-radius: 6px;
     padding: .5rem 2%;
+    font-weight: bold;
 }
 
-.wf1 legend {
+.eccf legend {
     color: #445ba9;
     padding: 0 .5rem;
 }
 
-.wf1 label {
+.eccf label {
     display: block;
     padding-top: 1rem;
     color: #9c2c13;
     font-size: .9rem;
 }
 
-.wf1 div {
+.eccf div {
     padding-top: 1rem;
     color: #445ba9;
     font-size: .9rem;
+}
+
+.eccf input[type="text"],
+.eccf input[type="tel"],
+.eccf input[type="email"],
+.eccf input[type="url"],
+.eccf input[type="date"],
+.eccf select,
+.eccf input[type="number"],
+.eccf textarea
+{
+    background-color: #eee;
+    display: block;
+    border: solid 1px rgb(9, 9, 201);
+    border-radius: solid 8px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+    box-sizing: border-box;
+}
+
+.eccf #description textarea {
+    width: 100%;
+    max-width: 400px;
+    height: 100px;
+}
+
+.eccf input[type="submit"] {
+    border: none;
+    background-image: linear-gradient(#132c9c, #130e6f);
+    color: #fff;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: .8rem;
+    width:  96%;
+    max-width: 400px;
+    margin: -1rem 2% 2rem 2%;
+    box-shadow: 1px 1px 4px #999;
+}
+
+.eccf input:required {
+    border-bottom: solid 8px red;
+}
+
+.eccf input:required:valid {
+    border-bottom: solid 8px rgb(3, 13, 153);
 }
 
 /*----------- fade for lazy loading --------------*/
