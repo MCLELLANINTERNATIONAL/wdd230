@@ -148,15 +148,13 @@ header img {
 /*----------- Main --------------*/
 
 main {
-    width: 500px;
+    width: 450px;
     height: auto;
     max-width: 100%;
     margin: 5px 5px;
-    margin-top: 5px;
     padding: 3.5px;
     background-color: white;
     border-radius: 8px;
-    display: grid;
     gap: 5px;
 }
 
@@ -188,9 +186,9 @@ main h3 {
     justify-content: center;
     align-items: center;
     padding: 2px;
-    margin: 3%;
+    margin: 1%;
 	width: 470px;
-    max-width: 100%;
+    max-width: 97%;
 	height: auto;
     flex-direction: column;
 }
@@ -316,7 +314,7 @@ main h3 {
     font-weight: bold;
     margin-top: 2rem;
     margin-left: 2%;
-    margin-top: 10%;
+    margin-top: 0;
 }
 .eccf fieldset {
     width: 470px;

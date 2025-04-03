@@ -27,8 +27,10 @@
         display: grid;
         grid-template-columns: 1fr fr 1fr;
         grid-template-rows: 1fr auto auto auto;
-        margin-left: 20px;
         gap: 1rem;
+        margin-top: 0;
+        margin-left: 1%;
+        margin-right: 1%;
     } 
 
 /*----------- Overview/ Why join --------------*/
@@ -53,6 +55,17 @@
         height: auto;
     }
 
+    .gallery h2 {
+        grid-column: 1 / span 2;
+        justify-self: center;
+        text-align: center;
+        white-space: nowrap; /* prevent wrapping */
+        width: auto; /* allow it to size to content */
+        font-size: 2rem;
+        margin: 0;
+        font-weight: bold;
+    }
+
     .benefits-gallery figure {
         width: 400px;
         height: auto;
@@ -61,10 +74,6 @@
         background: #fff;
         border-radius: 8px;
         transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    }
-
-    .benefits-gallery h2 {
-        grid-column: 1/ span 2;
     }
 
     .benefits-gallery figure img {
