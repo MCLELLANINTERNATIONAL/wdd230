@@ -410,7 +410,7 @@ p + p {
 
 .star-rating label {
     font-size: 3rem;
-    color: #ccc;
+    color: #757575;
     cursor: pointer;
     transition: color 0.2s;
     margin-bottom: 30px;
@@ -508,13 +508,14 @@ tbody tr:nth-child(even) {
 }
 
 .fees button {
-    background-color: #099840;
+    background-color: #07903b;
     color: white;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
     width: 100%;
     font-size: 1em;
+    font-weight: bold;
 }
   
 .fees button:hover {
