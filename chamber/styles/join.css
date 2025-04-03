@@ -420,7 +420,7 @@ p + p {
 .star-rating label:hover,
 .star-rating label:hover ~ label {
     color: gold;
-    transform: scale (1.2);
+    transform: scale(1.2);
 }
 
 /* Change color when selected */
