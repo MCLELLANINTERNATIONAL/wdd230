@@ -361,7 +361,7 @@ p + p {
     background-color: #eee;
     display: block;
     border: solid 1px rgb(9, 9, 201);
-    border-radius: solid 8px;
+    border-radius: 8px;
     padding: .75rem;
     color: #555;
     width: 100%;
