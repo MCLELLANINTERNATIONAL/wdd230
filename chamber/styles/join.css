@@ -2,7 +2,7 @@
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 :root {
-	--back: blue; /* Header background black */
+	--back: rgba(0, 128, 0, 0.92); /* Header background black */
 	--forelight: #fff; /* Header text white */
 	--zebra: #c0f8c6;
 	--zebra2: #dcf3de;/* Light gray for alternating rows */
