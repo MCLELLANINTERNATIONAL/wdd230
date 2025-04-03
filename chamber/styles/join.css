@@ -276,72 +276,6 @@ main h3 {
     text-wrap: wrap;
 }
 
-/*----------- Membership Fees table --------------*/
-
-.fees {
-	width: 470px;
-    max-width: 100%;
-    height: auto;
-	margin: 2%;
-	border-collapse: collapse;
-    text-wrap: wrap;
-    align-self: center;
-}
-
-.fees h2 {
-    display: flex;
-    font-size: 2rem;
-    color: #B36200;
-    text-align: center;
-    margin: 1rem;
-    font-weight: bold;
-}
-
-/* Header styling */
-thead tr:first-child {
-	background-color: var(--back);
-	color: var(--forelight);
-	font-size: 2rem;
-	font-weight: 700;
-}
-  
-thead tr:nth-child(2) {
-	background-color: var(--zebra);
-	color: blue;
-	font-weight: 500;
-}
-
-th, td {
-    padding: 12px;
-	border: 1px solid var(--border);
-    text-align: center;
-	align-items: center;
-	font-weight: bold;
-}
-
-/* Zebra striping for table rows */
-tbody tr:nth-child(odd) {
-    background-color: var(--forelight);
-}
-
-tbody tr:nth-child(even) {
-    background-color: var(--zebra2);
-}
-
-.fees button {
-    background-color: #099840;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    font-size: 1em;
-}
-  
-.fees button:hover {
-    background-color: #003d33;
-}
-
 /*----------- Tier menu --------------*/
 .tier .benefits {
     width: 470px;
@@ -387,7 +321,7 @@ tbody tr:nth-child(even) {
 .eccf fieldset {
     width: 470px;
     height: auto;
-    margin: 2%;
+    margin: 1%;
     border: 1px solid rgb(21, 168, 21);
     border-radius: 6px;
     padding: .5rem 2%;
@@ -517,6 +451,72 @@ tbody tr:nth-child(even) {
     100% {
         opacity: 1;
     }
+}
+
+/*----------- Membership Fees table --------------*/
+
+.fees {
+	width: 470px;
+    max-width: 100%;
+    height: auto;
+	margin: 2%;
+	border-collapse: collapse;
+    text-wrap: wrap;
+    align-self: center;
+}
+
+.fees h2 {
+    display: flex;
+    font-size: 2rem;
+    color: #B36200;
+    text-align: center;
+    margin: 1rem;
+    font-weight: bold;
+}
+
+/* Header styling */
+thead tr:first-child {
+	background-color: var(--back);
+	color: var(--forelight);
+	font-size: 2rem;
+	font-weight: 700;
+}
+  
+thead tr:nth-child(2) {
+	background-color: var(--zebra);
+	color: blue;
+	font-weight: 500;
+}
+
+th, td {
+    padding: 12px;
+	border: 1px solid var(--border);
+    text-align: center;
+	align-items: center;
+	font-weight: bold;
+}
+
+/* Zebra striping for table rows */
+tbody tr:nth-child(odd) {
+    background-color: var(--forelight);
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--zebra2);
+}
+
+.fees button {
+    background-color: #099840;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1em;
+}
+  
+.fees button:hover {
+    background-color: #003d33;
 }
 
 /*----------- Footer --------------*/
