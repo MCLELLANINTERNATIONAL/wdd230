@@ -452,6 +452,7 @@ tbody tr:nth-child(even) {
 .rating {
     color: #9c2c13;
     font-weight: bold;
+    margin-left: 5%;
 }
 
 .star-rating {
