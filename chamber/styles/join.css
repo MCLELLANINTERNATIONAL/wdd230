@@ -354,7 +354,8 @@ tbody tr:nth-child(even) {
     font-size: 2rem;
     color: #B36200;
     text-align: center;
-    margin: 5%;
+    margin-left: 5%;
+    margin-top: 10%;
     font-weight: bold;
     text-wrap: wrap;
 }
@@ -377,7 +378,8 @@ tbody tr:nth-child(even) {
     text-align: center;
     font-weight: bold;
     margin-top: 3rem;
-    margin: 2.5%;
+    margin-left: 2%;
+    margin-top: 10%;
 }
 .eccf fieldset {
     width: 470px;
@@ -387,10 +389,6 @@ tbody tr:nth-child(even) {
     border-radius: 6px;
     padding: .5rem 2%;
     font-weight: bold;
-}
-
-.eccf h2 {
-   
 }
 
 .eccf legend {
