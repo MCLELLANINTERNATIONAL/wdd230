@@ -2,7 +2,7 @@
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 :root {
-	--back: #4CAF50; /* Header background black */
+	--back: blue; /* Header background black */
 	--forelight: #fff; /* Header text white */
 	--zebra: #c0f8c6;
 	--zebra2: #dcf3de;/* Light gray for alternating rows */
@@ -508,7 +508,7 @@ tbody tr:nth-child(even) {
 }
 
 .fees button {
-    background-color: #07903b;
+    background-color: blue;
     color: white;
     padding: 10px 20px;
     border: none;
