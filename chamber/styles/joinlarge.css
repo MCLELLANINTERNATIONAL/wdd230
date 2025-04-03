@@ -107,13 +107,22 @@
     }
 
     .tier h2 {
-        grid-column: span 3;
+        grid-column: 3;
     }
-
+    
 /*----------- Form --------------*/
     .eccf {
         grid-column: 3;  
         grid-row: 2;
+    }
+
+    .star-rating label {
+        grid-column: 3;
+    }
+  
+
+    .eccf input[type="submit"] {
+        grid-column: 3; 
     }
 
 /*----------- footer --------------*/
