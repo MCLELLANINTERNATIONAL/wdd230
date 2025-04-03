@@ -251,6 +251,7 @@ main h3 {
 
 .benefits-gallery figure img {
     width: 96%;
+    max-width: 470px;
     height: auto;
     border-radius: 15px 150px;
     object-fit: cover;
