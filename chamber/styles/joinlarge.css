@@ -33,19 +33,13 @@
 
 /*----------- Overview/ Why join --------------*/
     .overview {
-        gap: 1rem;
-        grid-column: 1 / span 3;
-        grid-row: 1;
+        width: 100%;
     }
 
-    /* Make .ov span all 3 columns */
-    .ov {
-        grid-column: 1 / span 3;
-    }
-
-    /* Optional: Make .wbjoin paragraph behave as individual grid items */
-    .wbjoin p {
-        grid-column: 1/ span 3;   
+    .oview,
+    .wbjoin {
+        grid-column: 1 / span 3; /* span all 3 columns */
+        display: block; /* ensure they stay block elements */
     }
 
 /*----------- benefits-gallery --------------*/
