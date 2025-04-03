@@ -346,14 +346,15 @@ tbody tr:nth-child(even) {
     padding: 1rem;
     border-radius: 8px;
     appearance: none;
+    margin: 2%;
 }
 
 .tier h2 {
     display: flex;
     font-size: 2rem;
     color: #B36200;
-    align-self: center;
-    margin: 1rem;
+    text-align: center;
+    margin: 5%;
     font-weight: bold;
     text-wrap: wrap;
 }
@@ -369,10 +370,19 @@ tbody tr:nth-child(even) {
 }
 
 /*----------- FORM --------------*/
+.application h2 {
+    width: 470px;
+    font-size: 2rem;
+    color: #B36200;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 3rem;
+    margin: 2.5%;
+}
 .eccf fieldset {
     width: 470px;
     height: auto;
-    margin: 2rem 0;
+    margin: 2%;
     border: 1px solid rgb(21, 168, 21);
     border-radius: 6px;
     padding: .5rem 2%;
@@ -380,11 +390,7 @@ tbody tr:nth-child(even) {
 }
 
 .eccf h2 {
-    width: 470px;
-    font-size: 2rem;
-    color: #B36200;
-    text-align: center;
-    font-weight: bold;
+   
 }
 
 .eccf legend {
