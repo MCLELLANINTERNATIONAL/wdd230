@@ -1,0 +1,36 @@
+{
+    "weeks": [
+        {
+            "week": "Week 1",
+            "links": [
+                {"url": "week01/holygrail.html", "title": "HG Layout"},
+                {"url": "week01/media-query.html", "title": "mQueries"}
+            ]
+        },
+        {
+            "week": "Week 2",
+            "links": [
+                {"url": "week02/flexbox.html", "title": "Flexbox Layout"},
+                {"url": "week02/responsive-images.html", "title": "Responsive Images"}
+            ]
+        },
+        {
+            "week": "Week 3",
+            "links": [
+                {"url": "week03/form.html", "title": "Form Example"}
+            ]
+        },
+        {
+            "week": "Week 4",
+            "links": [
+                {"url": "week04/table.html", "title": "Table Example"}
+            ]
+        },
+        {
+            "week": "Week 5",
+            "links": [
+                {"url": "week05/gallery.html", "title": "Gallery Example"}
+            ]
+        }
+    ]
+}
