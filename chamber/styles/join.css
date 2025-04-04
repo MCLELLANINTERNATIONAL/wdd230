@@ -202,7 +202,7 @@ main h3 {
     text-wrap: wrap;
 }
 
-p + p {
+.oview p + p {
     margin-top: 1rem;
 }
 
@@ -218,6 +218,10 @@ p + p {
     overflow-wrap: break-word;
 }
 
+.oview p::first-letter {
+    font-size: xx-large;
+}
+
 .wbjoin p {
     background-color: blue;
     color: white;
@@ -228,6 +232,10 @@ p + p {
     padding: 5%;
     line-height: 2rem;
     overflow-wrap: break-word;
+}
+
+.wbjoin p::first-letter {
+    font-size: xx-large;
 }
 
 /*----------- Benefits-gallery --------------*/
