@@ -231,6 +231,11 @@ main img {
     margin-bottom: 10px;
 }
 
+.festivals p::first-letter {
+    font-size: xx-large;
+    color: rgb(2, 2, 220);
+}
+
 .festivals-container {
     display: inline-block;
 }
