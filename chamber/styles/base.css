@@ -468,6 +468,10 @@ main img {
     margin: 3px;
 }
 
+.launchpad p::first-letter {
+    font-size: xx-large;
+}
+
 .carbon p {
     font-size: 1.1rem;
     color: #3D3D3D;
@@ -476,12 +480,20 @@ main img {
     margin: 3px;
 }
 
+.carbon p::first-letter {
+    font-size: xx-large;
+}
+
 .windpower p {
     font-size: 1.1rem;
     color: #3D3D3D;
     font-weight: bold;
     line-height: 1.6;
     margin: 3px;
+}
+
+.windpower p::first-letter {
+    font-size: xx-large;
 }
 
 .windpower {
