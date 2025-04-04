@@ -1,0 +1,32 @@
+{
+    "families": [
+      {
+        "familyName": "Anderson",
+        "moveInDate": "2025-03-15",
+        "numberOfPeople": 4,
+        "visitedByBishopric": true,
+        "members": [
+          {
+            "name": "John Anderson",
+            "gender": "Male",
+            "birthdate": "1980-06-21"
+          },
+          {
+            "name": "Lisa Anderson",
+            "gender": "Female",
+            "birthdate": "1982-09-12"
+          },
+          {
+            "name": "Mia Anderson",
+            "gender": "Female",
+            "birthdate": "2010-11-03"
+          },
+          {
+            "name": "Ethan Anderson",
+            "gender": "Male",
+            "birthdate": "2013-02-18"
+          }
+        ]
+      }
+    ]
+  }
