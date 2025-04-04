@@ -1,17 +1,19 @@
 const url = 'https://brotherblazzard.github.io/canvas-content/latter-day-prophets.json';
 const cards = document.querySelector('#cards');
 
-const getProphetData = async () => {
-  const response = await fetch(url);
-  const data = await response.json();
-  // console.table(data.prophets); // You can comment this out later
-  displayProphets(data.prophets);
-};
+    async function getProphetData(url) {
+    const response = await fetch(url);
+    const data = await response.json();
+    //console.table(data.prophets);
+    displayProphets(data.prophets); // note that we reference the prophets array of the JSON data object, not just the object
+  }
+  
+  getProphetData();
 
-getProphetData();
+
 
 const displayProphets = (prophets) => {
-  prophets.forEach((prophet) => {
+    prophets.forEach((prophet) => {
     let card = document.createElement('section');
     let fullName = document.createElement('h2');
     let portrait = document.createElement('img');
