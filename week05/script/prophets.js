@@ -1,5 +1,5 @@
 // Step 1: Declare the JSON URL
-const url = 'https://brotherblazzard.github.io/canvas-content/latter-day-prophets.json';
+const url = 'https://mclellaninternational.github.io/wdd230/week05/data/prophets.json';
 
 // Step 2: Select the #cards container
 const cards = document.querySelector('#cards');
