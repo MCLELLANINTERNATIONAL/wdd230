@@ -1,0 +1,19 @@
+@media (min-width: 38rem) {
+    #cards {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive columns */
+    }
+  
+    header, footer {
+      font-size: 1.2rem;
+      padding: 1.5rem;
+    }
+  
+    section {
+      padding: 1.5rem;
+    }
+  
+    section h2 {
+      font-size: 1.25rem;
+    }
+  }
+  
