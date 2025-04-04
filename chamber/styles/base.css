@@ -203,6 +203,11 @@ main {
     text-wrap: wrap;
 }
 
+#welcome h3::first-letter {
+    font-size: xx-large;
+    color: black;
+}
+
 .cta-button {
     display: inline-block;
     padding: 12px 24px;
@@ -281,7 +286,8 @@ main img {
 .video-player {
     position: relative;
     width: 100%;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    padding-bottom: 56.25%;
+    /* 16:9 aspect ratio */
     height: 0;
     overflow: hidden;
     border-radius: 8px;
@@ -383,7 +389,7 @@ main img {
     text-align: center;
     color: navy;
 }
-  
+
 .festivals p {
     font-size: 1rem;
     font-weight: bold;
@@ -590,6 +596,7 @@ main img {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
