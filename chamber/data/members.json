@@ -1,13 +1,11 @@
 [
   {
-    "name": "Royal Bank of Scotland",
     "address": "36 St Andrew Square, Edinburgh EH2 2YB, Scotland",
     "phone": "+44 345 724 2424",
     "website": "https://www.rbs.co.uk",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6nkjnhCYVE3nDpxvTWMv6zGMYWDzqAw0L6w&s"
   },
   {
-    "name": "Standard Life",
     "address": "Standard Life House, 30 Lothian Road, Edinburgh, EH1 2DH, Scotland",
     "phone": "+44 131 245 3531",
     "website": "https://www.standardlife.co.uk",
@@ -31,7 +29,6 @@
     "membership": "Gold"
   },
   {
-    "name": "Microsoft",
     "address": "Waverley Gate, 2-4 Waterloo Place, Edinburgh EH1 3EG, Scotland",
     "phone": "+44 344 800 2400",
     "website": "https://www.microsoft.com/en-gb/about/offices/edinburgh/",

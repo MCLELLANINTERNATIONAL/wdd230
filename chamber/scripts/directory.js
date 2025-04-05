@@ -41,7 +41,6 @@ function displayMembers(members) {
     card.appendChild(address);
     card.appendChild(phone);
     card.appendChild(website);
-
     display.appendChild(card);
   });
 }
