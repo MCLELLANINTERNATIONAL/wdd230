@@ -19,13 +19,7 @@
         display: none; /* hide hamburger button */
     }
 
-    main {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1.24fr;
-        grid-template-rows: auto auto auto auto;
-        gap: 5px;
-        margin-left: 2.5%;
-    }
+    
 
 
 

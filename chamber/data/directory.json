@@ -1,0 +1,74 @@
+[
+    {
+      "name": "NatWest Group",
+      "address": "Edinburgh, Scotland",
+      "phone": "N/A",
+      "website": "https://www.natwestgroup.com",
+      "image": "natwest-logo.png",
+      "membership": "Gold"
+    },
+    {
+      "name": "JPMorgan Chase",
+      "address": "Edinburgh, Scotland",
+      "phone": "N/A",
+      "website": "https://www.jpmorganchase.com",
+      "image": "jpmorgan-logo.png",
+      "membership": "Gold"
+    },
+    {
+      "name": "University of Edinburgh",
+      "address": "Old College, South Bridge, Edinburgh EH8 9YL, Scotland",
+      "phone": "+44 131 650 1000",
+      "website": "https://www.ed.ac.uk",
+      "image": "edinburgh-uni-logo.png",
+      "membership": "Platinum"
+    },
+    {
+      "name": "Apple",
+      "address": "Edinburgh, Scotland",
+      "phone": "N/A",
+      "website": "https://www.apple.com",
+      "image": "apple-logo.png",
+      "membership": "Gold"
+    },
+    {
+      "name": "Microsoft",
+      "address": "Edinburgh, Scotland",
+      "phone": "N/A",
+      "website": "https://www.microsoft.com",
+      "image": "microsoft-logo.png",
+      "membership": "Gold"
+    },
+    {
+      "name": "IBM",
+      "address": "Edinburgh, Scotland",
+      "phone": "N/A",
+      "website": "https://www.ibm.com",
+      "image": "ibm-logo.png",
+      "membership": "Silver"
+    },
+    {
+      "name": "Foundever",
+      "address": "Edinburgh, Scotland",
+      "phone": "N/A",
+      "website": "https://foundever.com",
+      "image": "foundever-logo.png",
+      "membership": "Silver"
+    },
+    {
+      "name": "Leonardo",
+      "address": "Crewe Toll, Edinburgh EH5 2XS, Scotland",
+      "phone": "+44 131 343 2000",
+      "website": "https://www.leonardo.com",
+      "image": "leonardo-logo.png",
+      "membership": "Logo"
+    },
+    {
+        "name": "Baillie Gifford",
+        "address": "Calton Square, 1 Greenside Row, Edinburgh EH1 3AN, Scotland",
+        "phone": "+44 131 275 2000",
+        "website": "https://www.bailliegifford.com",
+        "image": "baillie-gifford-logo.png",
+        "membership": "Platinum"
+    }
+  ]

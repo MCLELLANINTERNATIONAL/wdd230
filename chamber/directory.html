@@ -4,26 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="WDD 230 - Edinburgh Chamber of Commerce by Kim Brown, Web Development, JavaScript, CSS, HTML">
+        content="WDD 230 - Edinburgh Chamber of Commerce: Directory by Kim Brown, Web Development, JavaScript, CSS, HTML, JSON">
     <meta name="author" content="Kim Brown">
-    <title>Edinburgh Chamber of Commerce</title>
+    <title>Edinburgh Chamber of Commerce: Directory</title>
     <meta property="og:title" content="Chamber of Commerce">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://mclellaninternational.github.io/wdd230/chamber/images/edin.png">
-    <meta property="og:url" content="https://mclellaninternational.github.io/wdd230/chamber/index.html">
+    <meta property="og:url" content="https://mclellaninternational.github.io/wdd230/chamber/directory.html">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="icon" href="favicon.ico" type="image/x-icon">    
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/larger.css">
-    <script src="script/bookEvent.js" defer></script>
+    <link rel="stylesheet" href="styles/directory.css">
+    <link rel="stylesheet" href="styles/directoryl.css">
     <script src="scripts/getDates.js" defer></script>
     <script src="scripts/hamButton.js" defer></script>
     <script src="scripts/modeButton.js" defer></script>
-    <script src="scripts/weather.js" defer></script>
-    <script src="scripts/imageCarousel.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
 </head>
 
 <body>
@@ -47,47 +45,71 @@
     </div>
 
     <main>
-    
-        <h2>Home</h2>
-        <div class="temple-gallery">
-            <figure>
-                <img src="images/rome.webp" alt="Temple 1">
-                <figcaption>Rome Italy</figcaption>
-            </figure>
-            <figure>
-                <img src="images/washingtondc.webp" alt="Temple 2">
-                <figcaption>Wasington D.C.</figcaption>
-            </figure>
-            <figure>
-                <img src="images/kona.webp" alt="Temple 3">
-                <figcaption>Kona Hawaii</figcaption>
-            </figure>
-            <figure>
-                <img src="images/preston.webp" alt="Temple 4">
-                <figcaption>Preston</figcaption>
-            </figure>
-            <figure>
-                <img src="images/saltlake.webp" alt="Temple 5">
-                <figcaption>Salt Lake</figcaption>
-            </figure>
-            <figure>
-                <img src="images/palmyra.webp" alt="Temple 6">
-                <figcaption>Palmyra</figcaption>
-            </figure>
-            <figure>
-                <img src="images/london.webp" alt="Temple 7">
-                <figcaption>London</figcaption>
-            </figure>
-            <figure>
-                <img src="images/nauvoo.webp" alt="Temple 8">
-                <figcaption>Navuoo</figcaption>
-            </figure>
-            <figure>
-                <img src="images/paris.webp" alt="Temple 9">
-                <figcaption>Paris</figcaption>
-            </figure>
+        <div class="menu">
+            <button id="grid">⏹️Grid</button>
+            <button id="list">📄List</button>
         </div>
+        <hr>
+        <article class="grid">
+            <section>
+                <img src="https://assets.ldscdn.org/c8/b5/c8b5e860a7edbbef90734c83be366e8d359d2c0b/payson_utah_temple.jpg" alt="Payson Utah Temple" />
+                <h3>Payson Utah</h3>
+                <p>2015</p>
+                <a href="https://www.churchofjesuschrist.org/temples/details/payson-utah-temple?lang=eng" target="_blank">Details</a>
+            </section>
+    
+            <section>
+                <img src="https://assets.ldscdn.org/c6/07/c6077e1778bfdf5a91569ab3acf57e9c31a7175f/boise_idaho_temple_sunshine.jpeg" alt="Boise Idaho Temple" />
+                <h3>Boise Idaho</h3>
+                <p>1984</p>
+                <a href="https://www.churchofjesuschrist.org/temples/details/boise-idaho-temple?lang=eng" target="_blank">Details
+                </a>
+            </section>
+    
+            <section>
+                <img src="https://assets.ldscdn.org/83/16/831688ef82fcab202e941ed8fd5869b28f9b5db11086883/oakland_california_temple_exterior.jpeg" alt="Oakland California Temple" />
+                <h3>Oakland California</h3>
+                <p>1964</p>
+                <a href="https://www.churchofjesuschrist.org/temples/details/oakland-california-temple?lang=eng" target="_blank">Details </a>
+            </section>
+    
+            <section>
+                <img src="https://assets.ldscdn.org/72/14/7214efb047426ffe6b581906fa0092a624ebc637/seattle_washington_temple_exterior.jpg" alt="Seattle Washington Temple" />
+                <h3>Seattle Washington</h3>
+                <p>1980</p>
+                <a href="https://www.churchofjesuschrist.org/temples/details/seattle-washington-temple?lang=eng" target="_blank">Details</a>
+            </section>
+    
+            <section>
+                <img src="https://assets.ldscdn.org/2c/77/2c77d5fd39c0646e0122b1a1472f1d538aa3aa7e/portland_oregon_temple.jpeg" alt="Portland Oregon Temple" />
+                <h3>Portland Oregon</h3>
+                <p>1989</p>
+                <a href="https://www.churchofjesuschrist.org/temples/details/portland-oregon-temple?lang=eng" target="_blank">Details</a>
+            </section>
+    
+            <section>
+                <img src="https://assets.ldscdn.org/e5/54/e5546a3599c023ba83a4d751fb6fc196b5ab6ada/jordan_river_temple_exterior_images.jpeg" alt="Jordan River Utah" />
+                <h3>Jordan River Utah</h3>
+                <p>1981</p>
+                <a href="https://www.churchofjesuschrist.org/temples/details/jordan-river-utah-temple?lang=eng" target="_blank">Details</a>
+            </section>
+    
+            <section>
+                <img src="https://assets.ldscdn.org/77/eb/77eb82391ad1795a117b25ee3deaf2a4d229311a/provo_temple_lds.jpg" alt="Portland Oregon Temple" />
+                <h3>Provo Utah</h3>
+                <p>1972</p>
+                <a href="https://www.churchofjesuschrist.org/temples/details/provo-utah-temple?lang=eng" target="_blank">Details</a>
+            </section>
+    
+            <section>
+                <img src="https://assets.ldscdn.org/57/18/5718c8b9c5a103646c0bd22554cb268b88986f05/provo_city_center_temple_exterior.jpg" alt="Provo City Center Temple" />
+                <h3>Provo City Center</h3>
+                <p>2016</p>
+                <a href="https://www.churchofjesuschrist.org/temples/details/provo-city-center-temple?lang=eng" target="_blank">Details</a>
+            </section>
+        </article>   
     </main> 
+
     <footer>
         <p>Contact Us: Phone:0123-456-7890</p>
         <p>Email: info@edinburghchamberofcommerce.com</p>
