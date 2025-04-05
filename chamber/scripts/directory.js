@@ -32,7 +32,7 @@ function displayMembers(members) {
     website.textContent = member.website;
 
     const logo = document.createElement("img");
-    logo.setAttribute("src", `images/${member.image}`);
+    logo.setAttribute("src", member.image); // No "images/" prefix
     logo.setAttribute("alt", `${member.name} logo`);
     logo.setAttribute("loading", "lazy");
 
