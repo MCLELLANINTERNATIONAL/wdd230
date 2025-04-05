@@ -198,6 +198,7 @@ section {
 
 .list section > * {
 	margin: 0 1rem;
+    text-wrap: wrap;
 }
 
 .list section img {
@@ -205,7 +206,9 @@ section {
 }
 
 .list section h3 {
-	font-size: 1rem;
+	font-size: 1.2rem;
+    color: rgb(6, 6, 225);
+    font-weight: bold;
 	font-family: Roboto, Helvetica, sans-serif;
 }
 
