@@ -24,16 +24,16 @@
       "membership": "Gold"
     },
     {
-      "name": "University of Edinburgh",
-      "address": "Old College, South Bridge, Edinburgh EH8 9YL, Scotland",
-      "phone": "+44 131 650 1000",
-      "email": "info@ed.ac.uk",
-      "hours": "Mon–Fri: 9am–5pm",
-      "industry": "Education",
-      "description": "A world-leading research university in the heart of Edinburgh.",
-      "website": "https://www.ed.ac.uk",
-      "image": "https://download.logo.wine/logo/University_of_Edinburgh/University_of_Edinburgh-Logo.wine.png",
-      "membership": "Gold"
+        "name": "University of Edinburgh",
+        "address": "Old College, South Bridge, Edinburgh EH8 9YL, Scotland",
+        "phone": "+44 131 650 1000",
+        "email": "communications.office@ed.ac.uk",
+        "hours": "Mon–Fri: 9am–5pm",
+        "industry": "Education",
+        "description": "A leading international university, consistently ranked among the top institutions globally.",
+        "website": "https://www.ed.ac.uk",
+        "image": "https://www.logo.wine/a/logo/University_of_Edinburgh/University_of_Edinburgh-Logo.wine.svg",
+        "membership": "Gold"
     },
     {
       "name": "Apple",
@@ -68,7 +68,7 @@
       "industry": "Technology & Consulting",
       "description": "Delivering enterprise solutions and digital transformation services.",
       "website": "https://www.ibm.com/contact/uk/en/",
-      "image": "https://images.app.goo.gl/RgH4gqgX9DWbbqdi6",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg",
       "membership": "Silver"
     },
     {

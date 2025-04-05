@@ -22,6 +22,46 @@ function displayMembers(members) {
     logo.setAttribute("alt", `${member.name} logo`);
     logo.setAttribute("loading", "lazy");
 
+        if (member.name === "RBS") {
+            logo.style.width = "250px";
+            logo.style.height = "70px";
+        }
+
+        if (member.name === "Standard Life") {
+            logo.style.width = "150px";
+            logo.style.height = "100px";
+        }
+        
+        if (member.name === "University of Edinburgh") {
+            logo.style.width = "350px";
+            logo.style.height = "100px";
+        }
+
+        if (member.name === "Apple") {
+            logo.style.width = "200px";
+            logo.style.height = "100px";
+        }
+
+        if (member.name === "Microsoft") {
+            logo.style.width = "220px";
+            logo.style.height = "80px";
+        }
+      
+        if (member.name === "IBM") {
+            logo.style.width = "110px";
+            logo.style.height = "40px";
+        }
+
+        if (member.name === "Foundever") {
+            logo.style.width = "250px";
+            logo.style.height = "44px";
+        }
+
+        if (member.name === "Leonardo") {
+            logo.style.width = "250px";
+            logo.style.height = "80px";
+        }
+
     const name = document.createElement("h3");
     name.textContent = member.name;
 
