@@ -48,23 +48,23 @@ function displayMembers(members) {
         }
       
         if (member.name === "IBM") {
-            logo.style.width = "110px";
-            logo.style.height = "40px";
+            logo.style.width = "210px";
+            logo.style.height = "70px";
         }
 
         if (member.name === "Foundever") {
-            logo.style.width = "250px";
-            logo.style.height = "44px";
+            logo.style.width = "280px";
+            logo.style.height = "80px";
         }
 
         if (member.name === "Leonardo") {
             logo.style.width = "250px";
-            logo.style.height = "80px";
+            logo.style.height = "95px";
         }
 
         if (member.name === "Baillie Gifford") {
-            logo.style.width = "250px";
-            logo.style.height = "100px";
+            logo.style.width = "200px";
+            logo.style.height = "80px";
         }
 
     const name = document.createElement("h3");

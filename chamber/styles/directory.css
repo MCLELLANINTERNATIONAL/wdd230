@@ -182,7 +182,14 @@ section {
 
 .grid h3 {
 	font-family: "Caveat", cursive;
+    color: rgb(10, 64, 228);
+    font-weight: bold;
+    line-height: 3rem;
 }
+
+.grid p (
+    line-height: 2.5rem;
+)
 
 .list {
 	display: flex;

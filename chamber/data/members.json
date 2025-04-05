@@ -1,17 +1,5 @@
 [
     {
-      "name": "RBS",
-      "address": "36 St Andrew Square, Edinburgh EH2 2YB, Scotland",
-      "phone": "+44 345 724 2424",
-      "email": "contact@rbs.co.uk",
-      "hours": "Mon–Fri: 9am–5pm",
-      "industry": "Finance",
-      "description": "Providing banking and financial services across the UK.",
-      "website": "https://www.rbs.co.uk",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6nkjnhCYVE3nDpxvTWMv6zGMYWDzqAw0L6w&s",
-      "membership": "Gold"
-    },
-    {
       "name": "Standard Life",
       "address": "Standard Life House, 30 Lothian Road, Edinburgh, EH1 2DH, Scotland",
       "phone": "+44 131 245 3531",
@@ -59,6 +47,18 @@
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTndwc7x1N3PyJIQosyxIssvu5yLKlCerv4hQ&s",
       "membership": "Gold"
     },
+    {
+        "name": "RBS",
+        "address": "36 St Andrew Square, Edinburgh EH2 2YB, Scotland",
+        "phone": "+44 345 724 2424",
+        "email": "contact@rbs.co.uk",
+        "hours": "Mon–Fri: 9am–5pm",
+        "industry": "Finance",
+        "description": "Providing banking and financial services across the UK.",
+        "website": "https://www.rbs.co.uk",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6nkjnhCYVE3nDpxvTWMv6zGMYWDzqAw0L6w&s",
+        "membership": "Gold"
+      },
     {
       "name": "IBM",
       "address": "144 Morrison Street, Edinburgh EH3 8BR, Scotland",
