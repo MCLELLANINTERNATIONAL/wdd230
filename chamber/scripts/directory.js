@@ -21,10 +21,10 @@ function displayMembers(members) {
     name.textContent = member.name;
 
     const address = document.createElement("p");
-    address.textContent = member.address;
+    address.textContent = `Address: ${member.address}`;
 
     const phone = document.createElement("p");
-    phone.textContent = member.phone;
+    phone.textContent = `Phone: ${member.phone}`;  
 
     const website = document.createElement("a");
     website.setAttribute("href", member.website);
@@ -36,10 +36,15 @@ function displayMembers(members) {
     logo.setAttribute("alt", `${member.name} logo`);
     logo.setAttribute("loading", "lazy");
 
+    const membership = document.createElement("p");
+    membership.textContent = `Membership: ${member.membership}`;
+
+
     card.appendChild(logo);
     card.appendChild(name);
     card.appendChild(address);
     card.appendChild(phone);
+    card.appendChild(membership);
     card.appendChild(website);
     display.appendChild(card);
   });
