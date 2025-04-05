@@ -62,6 +62,11 @@ function displayMembers(members) {
             logo.style.height = "80px";
         }
 
+        if (member.name === "Baillie Gifford") {
+            logo.style.width = "250px";
+            logo.style.height = "100px";
+        }
+
     const name = document.createElement("h3");
     name.textContent = member.name;
 
