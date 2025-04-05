@@ -19,6 +19,38 @@
         display: none; /* hide hamburger button */
     }
 
+    main {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+      }
+    
+    .grid section {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border-radius: 12px;
+    }
+    
+    .grid section:hover {
+        transform: scale(1.03);
+        box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .menu button {
+        font-size: 1rem;
+        padding: 1rem 2rem;
+        transition: background-color 0.3s, transform 0.3s;
+    }
+    
+    .menu button:hover {
+        background-color: rgb(40, 179, 60);
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+
     
 
 

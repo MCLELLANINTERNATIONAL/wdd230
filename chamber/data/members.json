@@ -1,74 +1,74 @@
 [
-    {
-      "name": "NatWest Group",
-      "address": "Edinburgh, Scotland",
-      "phone": "N/A",
-      "website": "https://www.natwestgroup.com",
-      "image": "natwest-logo.png",
-      "membership": "Gold"
-    },
-    {
-      "name": "JPMorgan Chase",
-      "address": "Edinburgh, Scotland",
-      "phone": "N/A",
-      "website": "https://www.jpmorganchase.com",
-      "image": "jpmorgan-logo.png",
-      "membership": "Gold"
-    },
-    {
-      "name": "University of Edinburgh",
-      "address": "Old College, South Bridge, Edinburgh EH8 9YL, Scotland",
-      "phone": "+44 131 650 1000",
-      "website": "https://www.ed.ac.uk",
-      "image": "edinburgh-uni-logo.png",
-      "membership": "Platinum"
-    },
-    {
-      "name": "Apple",
-      "address": "Edinburgh, Scotland",
-      "phone": "N/A",
-      "website": "https://www.apple.com",
-      "image": "apple-logo.png",
-      "membership": "Gold"
-    },
-    {
-      "name": "Microsoft",
-      "address": "Edinburgh, Scotland",
-      "phone": "N/A",
-      "website": "https://www.microsoft.com",
-      "image": "microsoft-logo.png",
-      "membership": "Gold"
-    },
-    {
-      "name": "IBM",
-      "address": "Edinburgh, Scotland",
-      "phone": "N/A",
-      "website": "https://www.ibm.com",
-      "image": "ibm-logo.png",
-      "membership": "Silver"
-    },
-    {
-      "name": "Foundever",
-      "address": "Edinburgh, Scotland",
-      "phone": "N/A",
-      "website": "https://foundever.com",
-      "image": "foundever-logo.png",
-      "membership": "Silver"
-    },
-    {
-      "name": "Leonardo",
-      "address": "Crewe Toll, Edinburgh EH5 2XS, Scotland",
-      "phone": "+44 131 343 2000",
-      "website": "https://www.leonardo.com",
-      "image": "leonardo-logo.png",
-      "membership": "Logo"
-    },
-    {
-        "name": "Baillie Gifford",
-        "address": "Calton Square, 1 Greenside Row, Edinburgh EH1 3AN, Scotland",
-        "phone": "+44 131 275 2000",
-        "website": "https://www.bailliegifford.com",
-        "image": "baillie-gifford-logo.png",
-        "membership": "Platinum"
-    }
-  ]
+  {
+    "name": "NatWest Group",
+    "address": "175 Glasgow Road, Edinburgh, Scotland, EH12 1HQ",
+    "phone": "+44 131 556 8555",
+    "website": "https://www.natwestgroup.com",
+    "image": "https://via.placeholder.com/150x75.png?text=NatWest",
+    "membership": "Gold"
+  },
+  {
+    "name": "JPMorgan Chase",
+    "address": "Edinburgh, Scotland",
+    "phone": "+44 131 270 4461",
+    "website": "https://www.jpmorganchase.com",
+    "image": "https://via.placeholder.com/150x75.png?text=JPMorgan",
+    "membership": "Gold"
+  },
+  {
+    "name": "University of Edinburgh",
+    "address": "Old College, South Bridge, Edinburgh EH8 9YL, Scotland",
+    "phone": "+44 131 650 1000",
+    "website": "https://www.ed.ac.uk",
+    "image": "https://via.placeholder.com/150x75.png?text=UoE",
+    "membership": "Platinum"
+  },
+  {
+    "name": "Apple",
+    "address": "10 Princes Street, Edinburgh EH2 2AN, Scotland",
+    "phone": "+44 131 242 8200",
+    "website": "https://www.apple.com/uk/retail/princesstreet/",
+    "image": "https://via.placeholder.com/150x75.png?text=Apple",
+    "membership": "Gold"
+  },
+  {
+    "name": "Microsoft",
+    "address": "Waverley Gate, 2-4 Waterloo Place, Edinburgh EH1 3EG, Scotland",
+    "phone": "+44 344 800 2400",
+    "website": "https://www.microsoft.com/en-gb/about/offices/edinburgh/",
+    "image": "https://via.placeholder.com/150x75.png?text=Microsoft",
+    "membership": "Gold"
+  },
+  {
+    "name": "IBM",
+    "address": "144 Morrison Street, Edinburgh EH3 8BR, Scotland",
+    "phone": "+44 131 300 3000",
+    "website": "https://www.ibm.com/contact/uk/en/",
+    "image": "https://via.placeholder.com/150x75.png?text=IBM",
+    "membership": "Silver"
+  },
+  {
+    "name": "Foundever",
+    "address": "Edinburgh, Scotland",
+    "phone": "+44 131 247 7700",
+    "website": "https://foundever.com/locations/united-kingdom/",
+    "image": "https://via.placeholder.com/150x75.png?text=Foundever",
+    "membership": "Silver"
+  },
+  {
+    "name": "Leonardo",
+    "address": "Crewe Toll, Edinburgh EH5 2XS, Scotland",
+    "phone": "+44 131 343 2000",
+    "website": "https://www.leonardo.com",
+    "image": "https://via.placeholder.com/150x75.png?text=Leonardo",
+    "membership": "Gold"
+  },
+  {
+    "name": "Baillie Gifford",
+    "address": "Calton Square, 1 Greenside Row, Edinburgh EH1 3AN, Scotland",
+    "phone": "+44 131 275 2000",
+    "website": "https://www.bailliegifford.com",
+    "image": "https://via.placeholder.com/150x75.png?text=Baillie+Gifford",
+    "membership": "Gold"
+  }
+]

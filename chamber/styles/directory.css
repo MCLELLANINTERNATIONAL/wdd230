@@ -37,7 +37,6 @@ header img {
     font-size: 0.75rem;
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
-    object-fit: cover;
 }
 
 .top-header,
@@ -139,48 +138,31 @@ main {
 
 .menu {
 	margin: 1rem auto;
-	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0.5rem;
-	background-color: #bed;
+	background-color: darkorange;
 	text-align: center;
+    border-radius: 10px 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.788);
 }
 
 .menu button {
 	padding: 1rem;
-	font-weight: 700;
-}
-
-main {
-	margin: 0 auto;
-	padding: 0.5rem;
-	max-width: 700px;
-	background-color: #fff;
-	font-family: Roboto, Helvetica, sans-serif;
-}
-
-.menu {
-	margin: 1rem auto;
-	border: 1px solid rgba(0, 0, 0, 0.1);
-	padding: 0.5rem;
-	background-color: #bed;
-	text-align: center;
-}
-
-.menu button {
-	padding: 1rem;
-	font-weight: 700;
+	font-weight: bold;
+    background-color: rgb(14, 14, 180);
+    color: #fff;
+    border-radius: 10px 15px;
 }
 
 section {
-	border: 1px solid rgba(0, 0, 0, 0.1);
+	border: 3px solid rgba(0, 0, 0, 0.1);
 	padding: 0.5rem;
-	background-color: #eee;
+	background-color: white;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.314);
 }
 
 .grid {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-	grid-gap: 5px;
+	grid-gap: 10px;
 	align-items: center;
 }
 
@@ -191,6 +173,7 @@ section {
 .grid img {
 	border: 1px solid #fff;
 	box-shadow: 0 0 10px #333;
+    object-fit: cover;
 }
 
 .grid section > * {
@@ -227,7 +210,7 @@ section {
 }
 
 .list section:nth-child(even) {
-	background-color: #bed;
+	background-color: rgb(105, 234, 113);
 }
 
 section h3 {
@@ -249,6 +232,7 @@ section a {
 img {
 	height: 75px;
 	max-width: 100%; /* Images are jerks - Seattle*/
+    object-fit: cover;
 }
 
 
