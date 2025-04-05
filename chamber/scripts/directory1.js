@@ -17,11 +17,6 @@ function displayMembers(members) {
   members.forEach((member) => {
     const card = document.createElement("section");
 
-    const logo = document.createElement("img");
-    logo.setAttribute("src", member.image);
-    logo.setAttribute("alt", `${member.name} logo`);
-    logo.setAttribute("loading", "lazy");
-
     const name = document.createElement("h3");
     name.textContent = member.name;
 
@@ -29,45 +24,32 @@ function displayMembers(members) {
     address.textContent = `Address: ${member.address}`;
 
     const phone = document.createElement("p");
-    phone.textContent = `Phone: ${member.phone}`;
-
-    const email = document.createElement("p");
-    email.textContent = `Email: ${member.email}`;
-
-    const hours = document.createElement("p");
-    hours.textContent = `Business Hours: ${member.hours}`;
-
-    const industry = document.createElement("p");
-    industry.textContent = `Industry: ${member.industry}`;
-
-    const description = document.createElement("p");
-    description.textContent = member.description;
-
-    const membership = document.createElement("p");
-    membership.textContent = `Membership: ${member.membership}`;
+    phone.textContent = `Phone: ${member.phone}`;  
 
     const website = document.createElement("a");
     website.setAttribute("href", member.website);
     website.setAttribute("target", "_blank");
-    website.textContent = "Visit Website";
+    website.textContent = member.website;
 
-    // Append elements to card
+    const logo = document.createElement("img");
+    logo.setAttribute("src", member.image); // No "images/" prefix
+    logo.setAttribute("alt", `${member.name} logo`);
+    logo.setAttribute("loading", "lazy");
+
+    const membership = document.createElement("p");
+    membership.textContent = `Membership: ${member.membership}`;
+
+
     card.appendChild(logo);
     card.appendChild(name);
-    card.appendChild(description);
-    card.appendChild(industry);
     card.appendChild(address);
     card.appendChild(phone);
-    card.appendChild(email);
-    card.appendChild(hours);
     card.appendChild(membership);
     card.appendChild(website);
-
     display.appendChild(card);
   });
 }
 
-// Toggle view buttons
 gridbutton.addEventListener("click", () => {
   display.classList.add("grid");
   display.classList.remove("list");
@@ -78,5 +60,4 @@ listbutton.addEventListener("click", () => {
   display.classList.remove("grid");
 });
 
-// Start loading data
 getMembers();

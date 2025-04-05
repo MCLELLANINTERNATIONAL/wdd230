@@ -1,0 +1,74 @@
+[
+  {
+    "address": "36 St Andrew Square, Edinburgh EH2 2YB, Scotland",
+    "phone": "+44 345 724 2424",
+    "website": "https://www.rbs.co.uk",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6nkjnhCYVE3nDpxvTWMv6zGMYWDzqAw0L6w&s"
+  },
+  {
+    "address": "Standard Life House, 30 Lothian Road, Edinburgh, EH1 2DH, Scotland",
+    "phone": "+44 131 245 3531",
+    "website": "https://www.standardlife.co.uk",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQGaAYY72sgjYXWTcLBh_FE0lQ7F2bWiNyhw&s",
+    "membership": "Gold"
+  },
+  {
+    "name": "University of Edinburgh",
+    "address": "Old College, South Bridge, Edinburgh EH8 9YL, Scotland",
+    "phone": "+44 131 650 1000",
+    "website": "https://www.ed.ac.uk",
+    "image": "https://www.google.com/imgres?q=university%20of%20edinburgh%20logo&imgurl=https%3A%2F%2Fdownload.logo.wine%2Flogo%2FUniversity_of_Edinburgh%2FUniversity_of_Edinburgh-Logo.wine.png&imgrefurl=https%3A%2F%2Fwww.logo.wine%2Flogo%2FUniversity_of_Edinburgh&docid=sz_fmf7wrto9jM&tbnid=k1x4oXHsvG0nfM&vet=12ahUKEwiOvLGPzcGMAxUXQUEAHf1RIPwQM3oECGcQAA..i&w=3000&h=2000&hcb=2&ved=2ahUKEwiOvLGPzcGMAxUXQUEAHf1RIPwQM3oECGcQAA",
+    "membership": "Gold"
+  },
+  {
+    "name": "Apple",
+    "address": "10 Princes Street, Edinburgh EH2 2AN, Scotland",
+    "phone": "+44 131 242 8200",
+    "website": "https://www.apple.com/uk/retail/princesstreet/",
+    "image": "https://www.google.com/imgres?q=apple%20logo&imgurl=https%3A%2F%2Fwww.pixartprinting.it%2Fblog%2Fwp-content%2Fuploads%2F2024%2F02%2F2_Logo-apple-arcobaleno-1977.jpg&imgrefurl=https%3A%2F%2Fwww.pixartprinting.co.uk%2Fblog%2Fapple-logo-evolution%2F&docid=Q3mDMGUe1XNxJM&tbnid=WkT0ZJeAHPskWM&vet=12ahUKEwierJrgzMGMAxUHTUEAHcTLIbIQM3oECG0QAA..i&w=800&h=560&hcb=2&ved=2ahUKEwierJrgzMGMAxUHTUEAHcTLIbIQM3oECG0QAA",
+    "membership": "Gold"
+  },
+  {
+    "address": "Waverley Gate, 2-4 Waterloo Place, Edinburgh EH1 3EG, Scotland",
+    "phone": "+44 344 800 2400",
+    "website": "https://www.microsoft.com/en-gb/about/offices/edinburgh/",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTndwc7x1N3PyJIQosyxIssvu5yLKlCerv4hQ&s",
+    "membership": "Gold"
+  },
+  {
+    "name": "IBM",
+    "address": "144 Morrison Street, Edinburgh EH3 8BR, Scotland",
+    "phone": "+44 131 300 3000",
+    "email": "scotland.office@ibm.com",
+    "hours": "Mon–Fri: 9am–6pm",
+    "industry": "Technology & Consulting",
+    "description": "Delivering enterprise solutions and digital transformation services.",
+    "website": "https://www.ibm.com/contact/uk/en/",
+    "image": "https://images.app.goo.gl/81dhearGta615ycj9",
+    "membership": "Silver" 
+  },
+  {
+    "name": "Foundever",
+    "address": "Foundever's Edinburgh office is located at Calder House Pentland Gait, 599 Calder Road, Edinburgh, Scotland",
+    "phone": "+44 131 247 7700",
+    "website": "https://foundever.com/locations/united-kingdom/",
+    "image": "https://www.google.com/imgres?q=foundever%20logo&imgurl=https%3A%2F%2Fwww.intelligentsourcing.net%2Fwp-content%2Fuploads%2F2023%2F05%2Ffoundeverhpp.png&imgrefurl=https%3A%2F%2Fwww.intelligentsourcing.net%2Ffoundever-wins-global-impact-sourcing-award-given-by-iaop%2F&docid=1BDSrM95S4GDRM&tbnid=Ys66ewAeWd-AdM&vet=12ahUKEwi-neGpxMGMAxV0SkEAHW6jCO8QM3oECHoQAA..i&w=1000&h=498&hcb=2&ved=2ahUKEwi-neGpxMGMAxV0SkEAHW6jCO8QM3oECHoQAA",
+    "membership": "Silver"
+  },
+  {
+    "name": "Leonardo",
+    "address": "Crewe Toll, Edinburgh EH5 2XS, Scotland",
+    "phone": "+44 131 343 2000",
+    "website": "https://www.leonardo.com",
+    "image": "https://www.google.com/imgres?q=leonardo%20logo&imgurl=https%3A%2F%2Flogos-world.net%2Fwp-content%2Fuploads%2F2023%2F05%2FLeonardo-Logo.png&imgrefurl=https%3A%2F%2Flogos-world.net%2Fleonardo-logo%2F&docid=8SDnhORPumtJgM&tbnid=j5P_2hzF4yeOqM&vet=12ahUKEwiu9dL0w8GMAxVtVUEAHUsCI7YQM3oECHgQAA..i&w=3840&h=2160&hcb=2&ved=2ahUKEwiu9dL0w8GMAxVtVUEAHUsCI7YQM3oECHgQAA",
+    "membership": "Gold"
+  },
+  {
+    "name": "Baillie Gifford",
+    "address": "Calton Square, 1 Greenside Row, Edinburgh EH1 3AN, Scotland",
+    "phone": "+44 131 275 2000",
+    "website": "https://www.bailliegifford.com",
+    "image": "https://www.google.com/imgres?q=baillie%20gifford%20logo&imgurl=https%3A%2F%2Fwww.icgn.org%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fopen_graph_image%2Fpublic%2F2021-11%2FBaillie%2520Gifford.jpg%3Fh%3D866bc933%26itok%3DKLKutLXO&imgrefurl=https%3A%2F%2Fwww.icgn.org%2Fbaillie-gifford&docid=mVRVkDH-z2wzVM&tbnid=IInskpcC8O2q9M&vet=12ahUKEwidlYCXvsGMAxVdTkEAHcPCJRQQM3oECBsQAA..i&w=1200&h=630&hcb=2&ved=2ahUKEwidlYCXvsGMAxVdTkEAHcPCJRQQM3oECBsQAA",
+    "membership": "Gold"
+  }
+]
