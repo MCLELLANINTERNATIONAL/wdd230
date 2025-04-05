@@ -154,10 +154,10 @@ main {
 }
 
 section {
-	border: 3px solid rgba(250, 169, 6, 0.939);
+	border: 3px solid #fa8806ef;
 	padding: 0.5rem;
 	background-color: white;
-    box-shadow: 0 6px 10px rgba(15, 237, 19, 0.958);
+    box-shadow: 0 5px 8px rgba(15, 237, 19, 0.958);
     line-height: 1.5em;
 }
 
@@ -172,8 +172,6 @@ section {
 }
 
 .grid img {
-	border: 1px solid #eee;
-	box-shadow: 0 0 10px #333;
     object-fit: cover;
 }
 
@@ -187,10 +185,6 @@ section {
     font-weight: bold;
     line-height: 3rem;
 }
-
-.grid p (
-    line-height: 45rem;
-)
 
 .list {
 	display: flex;
