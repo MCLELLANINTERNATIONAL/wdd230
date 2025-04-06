@@ -1,15 +1,11 @@
-/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
-/*----------- apply a natural box layout model to all elements --------------*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
-/*----------- BODY --------------*/
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
@@ -19,7 +15,6 @@ body {
     min-height: 100vh;
 }
 
-/*----------- HEADER --------------*/
 header {
     position: relative;
     display: flex;
@@ -60,11 +55,8 @@ header img {
     padding: 0;
 }
 
-/*----------- Navigation --------------*/
-
 .nav-section {
     background-color: navy;
-    /* Adjust color to match */
 }
 
 #menu {
@@ -131,9 +123,7 @@ header img {
 
 .navigation.show {
     display: flex;
-    /* Ensure it shows as a flexbox */
     flex-direction: column;
-    /* Keep stacked layout */
     align-items: center;
 }
 
@@ -145,8 +135,6 @@ header img {
     content: "❎ ";
 }
 
-
-/*----------- NAVIGATION --------------*/
 .top-header,
 .nav-section {
     margin: 0;
@@ -155,7 +143,6 @@ header img {
 
 .nav-section {
     background-color: navy;
-    /* Adjust color to match */
 }
 
 #menu {
@@ -222,9 +209,7 @@ header img {
 
 .navigation.show {
     display: flex;
-    /* Ensure it shows as a flexbox */
     flex-direction: column;
-    /* Keep stacked layout */
     align-items: center;
 }
 
@@ -236,7 +221,6 @@ header img {
     content: "❎ ";
 }
 
-/*----------- MAIN --------------*/
 main {
     padding: 0 2%;
     min-height: 20rem;
@@ -251,7 +235,6 @@ h2 {
     font-weight: normal;
 }
 
-/*----------- FOOTER --------------*/
 footer {
     text-align: center;
     font-size: 0.9rem;

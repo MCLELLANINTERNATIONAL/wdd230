@@ -4,7 +4,7 @@
     }
 
     .navigation li {
-		display: block; /* change state in small view */
+		display: block;
 		flex: 1 1 100%;
 	}
 	.navigation a {
@@ -12,11 +12,11 @@
 	}
 
     .navigation.show {
-        flex-direction: row; /* Keep stacked layout */
+        flex-direction: row;
     }
 
     #menu {
-        display: none; /* hide hamburger button */
+        display: none;
     }
 
     main {
@@ -72,7 +72,7 @@
     
     .podcast-player iframe {
             width: 700px;
-            height: 400px; /* Increase height for large screens */
+            height: 400px;
             grid-column: 1 / span 2;
             grid-row: 2;
         }

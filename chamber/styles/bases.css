@@ -48,7 +48,6 @@ header img {
 
 .nav-section {
     background-color: navy;
-    /* Adjust color to match */
 }
 
 #menu {
@@ -115,9 +114,7 @@ header img {
 
 .navigation.show {
     display: flex;
-    /* Ensure it shows as a flexbox */
     flex-direction: column;
-    /* Keep stacked layout */
     align-items: center;
 }
 
@@ -155,7 +152,6 @@ main {
     position: relative;
     width: 100%;
     max-width: 1000px;
-    /* Adjust size if needed */
     height: auto;
     overflow: hidden;
     display: flex;
@@ -287,7 +283,6 @@ main img {
     position: relative;
     width: 100%;
     padding-bottom: 56.25%;
-    /* 16:9 aspect ratio */
     height: 0;
     overflow: hidden;
     border-radius: 8px;
