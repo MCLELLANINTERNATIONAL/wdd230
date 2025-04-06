@@ -32,12 +32,17 @@ header img {
 
 #mode {
     position: absolute;
-    top: 4rem;
-    right: 0.75rem;
-    font-size: 0.75rem;
+    bottom: 0.5rem;
+    right: 0.5rem;
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
+}
+
+#mode img {
+    width: 44px;
+    height: 44px;
     object-fit: cover;
+    border-radius: 50%;
 }
 
 .top-header,
