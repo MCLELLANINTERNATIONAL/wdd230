@@ -9,8 +9,8 @@ async function getLinks() {
 
 function displayLinks(weeks) {
     const linksSection = document.querySelector('.learning-activities');
-    linksSection.innerHTML = ""; // Clear any static content
-
+    linksSection.innerHTML = "";
+    
     weeks.forEach(week => {
         const weekHeading = document.createElement('h4');
         weekHeading.textContent = week.week;

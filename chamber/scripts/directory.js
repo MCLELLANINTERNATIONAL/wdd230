@@ -2,7 +2,6 @@ const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
 const display = document.createElement("article");
 
-// Auto-detect screen size and apply default view (grid for wide, list for mobile)
 const savedView = localStorage.getItem("view");
 if (savedView) {
   display.classList.add(savedView);
@@ -22,7 +21,7 @@ async function getMembers() {
 }
 
 function displayMembers(members) {
-  display.innerHTML = ""; // Clear existing content
+  display.innerHTML = "";
 
   members.forEach((member) => {
     const card = document.createElement("section");
@@ -32,7 +31,6 @@ function displayMembers(members) {
     logo.setAttribute("alt", `${member.name} logo`);
     logo.setAttribute("loading", "lazy");
 
-    // Custom sizing per member name
     switch (member.name) {
       case "RBS":
         logo.style.width = "250px";
@@ -105,7 +103,6 @@ function displayMembers(members) {
     website.setAttribute("target", "_blank");
     website.textContent = "Visit Website";
 
-    // Append elements to card
     card.appendChild(logo);
     card.appendChild(name);
     card.appendChild(description);
@@ -121,7 +118,6 @@ function displayMembers(members) {
   });
 }
 
-// Toggle view buttons
 gridbutton.addEventListener("click", () => {
   display.classList.add("grid");
   display.classList.remove("list");
@@ -134,5 +130,4 @@ listbutton.addEventListener("click", () => {
   localStorage.setItem("view", "list");
 });
 
-// Start loading data
 getMembers();

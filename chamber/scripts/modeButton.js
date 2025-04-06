@@ -6,13 +6,11 @@ modeButton.addEventListener("click", () => {
 	main.classList.toggle("dark");
 
 	if (main.classList.contains("dark")) {
-		// Dark Mode
 		main.style.background = "#4169E1";
 		h1.style.color = "#FFFFFF";
 		modeButton.innerHTML = "🔆";
 	}
 	else {
-		// Light Mode
 		main.style.background = "#FFFFFF";
 		h1.style.color = "#222222"; // 
 		modeButton.innerHTML = "◐";
