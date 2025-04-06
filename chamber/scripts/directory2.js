@@ -1,16 +1,6 @@
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
 const display = document.createElement("article");
-
-// Auto-detect screen size and apply default view (grid for wide, list for mobile)
-const savedView = localStorage.getItem("view");
-if (savedView) {
-  display.classList.add(savedView);
-} else {
-  const isWideScreen = window.innerWidth >= 760;
-  display.classList.add(isWideScreen ? "grid" : "list");
-}
-
 document.querySelector("main").appendChild(display);
 
 const requestURL = "data/members.json";
@@ -32,49 +22,50 @@ function displayMembers(members) {
     logo.setAttribute("alt", `${member.name} logo`);
     logo.setAttribute("loading", "lazy");
 
-    // Custom sizing per member name
-    switch (member.name) {
-      case "RBS":
-        logo.style.width = "250px";
-        logo.style.height = "70px";
-        break;
-      case "Standard Life":
-        logo.style.width = "150px";
-        logo.style.height = "100px";
-        break;
-      case "University of Edinburgh":
-        logo.style.width = "350px";
-        logo.style.height = "100px";
-        break;
-      case "Apple":
-        logo.style.width = "200px";
-        logo.style.height = "100px";
-        break;
-      case "Microsoft":
-        logo.style.width = "220px";
-        logo.style.height = "80px";
-        break;
-      case "IBM":
-        logo.style.width = "210px";
-        logo.style.height = "70px";
-        break;
-      case "Foundever":
-        logo.style.width = "280px";
-        logo.style.height = "80px";
-        break;
-      case "Leonardo":
-        logo.style.width = "250px";
-        logo.style.height = "95px";
-        break;
-      case "Baillie Gifford":
-        logo.style.width = "200px";
-        logo.style.height = "80px";
-        break;
-      default:
-        logo.style.width = "100%";
-        logo.style.height = "auto";
-        break;
-    }
+        if (member.name === "RBS") {
+            logo.style.width = "250px";
+            logo.style.height = "70px";
+        }
+
+        if (member.name === "Standard Life") {
+            logo.style.width = "150px";
+            logo.style.height = "100px";
+        }
+        
+        if (member.name === "University of Edinburgh") {
+            logo.style.width = "350px";
+            logo.style.height = "100px";
+        }
+
+        if (member.name === "Apple") {
+            logo.style.width = "200px";
+            logo.style.height = "100px";
+        }
+
+        if (member.name === "Microsoft") {
+            logo.style.width = "220px";
+            logo.style.height = "80px";
+        }
+      
+        if (member.name === "IBM") {
+            logo.style.width = "210px";
+            logo.style.height = "70px";
+        }
+
+        if (member.name === "Foundever") {
+            logo.style.width = "280px";
+            logo.style.height = "80px";
+        }
+
+        if (member.name === "Leonardo") {
+            logo.style.width = "250px";
+            logo.style.height = "95px";
+        }
+
+        if (member.name === "Baillie Gifford") {
+            logo.style.width = "200px";
+            logo.style.height = "80px";
+        }
 
     const name = document.createElement("h3");
     name.textContent = member.name;
@@ -125,13 +116,11 @@ function displayMembers(members) {
 gridbutton.addEventListener("click", () => {
   display.classList.add("grid");
   display.classList.remove("list");
-  localStorage.setItem("view", "grid");
 });
 
 listbutton.addEventListener("click", () => {
   display.classList.add("list");
   display.classList.remove("grid");
-  localStorage.setItem("view", "list");
 });
 
 // Start loading data

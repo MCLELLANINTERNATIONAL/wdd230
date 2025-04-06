@@ -54,6 +54,12 @@ header img {
     object-fit: cover;
 }
 
+#mode img {
+    width: 44px;
+    height: 44px;
+    object-fit: cover;
+    border-radius: 50%;
+}
 /*----------- Header Nav Menu --------------*/
 
 .top-header,
