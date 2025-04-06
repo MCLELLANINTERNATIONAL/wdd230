@@ -543,7 +543,7 @@ main img {
 
 .weather-container img {
     height: auto;
-    border-radius: 90%;
+    border-radius: 60%;
     margin-bottom: 10px;
     max-width: 100%;
     display: block;
@@ -556,24 +556,15 @@ main img {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(0, 166, 255, 0.219);
-    /* Semi-transparent black */
-    padding: 15px 25px;
-    border-radius: 10px;
+    padding: 15px 20px;
+    border-radius: 30%;
     text-align: center;
     flex-direction: row;
     text-wrap: wrap;
     white-space: nowrap;
-    width: 80%;
+    overflow: hidden;
+    width: 60%;
     max-width: 400px;
-}
-
-.weather-container img {
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    max-width: 100%;
-    display: block;
-    object-fit: cover;
 }
 
 .weather-label h3 {
