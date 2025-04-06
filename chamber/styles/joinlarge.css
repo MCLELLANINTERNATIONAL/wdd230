@@ -1,6 +1,5 @@
 @media screen and (min-width: 38rem) {
-    
-/*----------- header nav --------------*/   
+      
     .navigation {
         display: flex;
     }
@@ -14,14 +13,12 @@
 	}
 
     .navigation.show {
-        flex-direction: row; /* Keep stacked layout */
+        flex-direction: row;
     }
 
     #menu {
-        display: none; /* hide hamburger button */
+        display: none;
     }
-
-/*----------- main --------------*/
 
     main {
         display: grid;
@@ -33,18 +30,16 @@
         margin-right: 1%;
     } 
 
-/*----------- Overview/ Why join --------------*/
     .overview {
         width: 100%;
     }
 
     .oview,
     .wbjoin {
-        grid-column: 1 / span 3; /* span all 3 columns */
-        display: block; /* ensure they stay block elements */
+        grid-column: 1 / span 3;
+        display: block;
     }
 
-/*----------- benefits-gallery --------------*/
     .benefits-gallery {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -59,8 +54,8 @@
         grid-column: 1 / span 2;
         justify-self: center;
         text-align: center;
-        white-space: nowrap; /* prevent wrapping */
-        width: auto; /* allow it to size to content */
+        white-space: nowrap;
+        width: auto;
         font-size: 2rem;
         margin: 0;
         font-weight: bold;
@@ -97,33 +92,30 @@
         box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
     }
 
-/*----------- Membership tier Benefits --------------*/
+    .tier {
+        grid-column: 1 / span 2;
+        grid-row: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-.tier {
-    grid-column: 1 / span 2;
-    grid-row: 2;
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* centers contents */
-}
+    .tier h2 {
+        margin-top: 13.8%;
+        grid-column: 1 / span 2;
+        text-align: center;
+        justify-self: center;
+    }
 
-.tier h2 {
-    margin-top: 13.8%;
-    grid-column: 1 / span 2;
-    text-align: center;
-    justify-self: center; /* if needed */
-}
-
-.tier .benefits {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    grid-column: 1 / span 2;
-    grid-row: 2;
-    margin: 0 auto;
-}
+    .tier .benefits {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-column: 1 / span 2;
+        grid-row: 2;
+        margin: 0 auto;
+    }
     
-/*----------- Form --------------*/
     .eccf {
         grid-column: 3;  
         grid-row: 2/ span 3;
@@ -132,30 +124,27 @@
     .star-rating label {
         grid-column: 3;
     }
-  
 
     .eccf input[type="submit"] {
         grid-column: 3; 
     }
 
-/*----------- Benefits Fees table --------------*/
-.fees {
-    grid-column: 1 / span 3;   
-    grid-row: 3;
-    justify-self: center;      /* Center horizontally in the grid area */
-    width: 80%;                /* Adjust to your desired width */
-    max-width: 900px;        
-}
+    .fees {
+        grid-column: 1 / span 3;   
+        grid-row: 3;
+        justify-self: center;
+        width: 80%;
+        max-width: 900px;        
+    }
 
-.fees h2 {
-    display: flex;
-    justify-content: center;
-    font-size: 2rem;
-    color: #B36200;
-    text-align: center;
-    font-weight: bold;
-}
-/*----------- footer --------------*/
+    .fees h2 {
+        display: flex;
+        justify-content: center;
+        font-size: 2rem;
+        color: #B36200;
+        text-align: center;
+        font-weight: bold;
+    }                           
         
 }
 
