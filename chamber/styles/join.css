@@ -22,8 +22,6 @@ body {
     min-height: 100vh;
 }
 
-
-
 header {
     position: relative;
     width: 100%;
@@ -69,7 +67,6 @@ header img {
 
 .nav-section {
     background-color: navy;
-    /* Adjust color to match */
 }
 
 #menu {
@@ -136,9 +133,7 @@ header img {
 
 .navigation.show {
     display: flex;
-    /* Ensure it shows as a flexbox */
     flex-direction: column;
-    /* Keep stacked layout */
     align-items: center;
 }
 
@@ -149,8 +144,6 @@ header img {
 #menu.show::before {
     content: "❎ ";
 }
-
-/*----------- Main --------------*/
 
 main {
     width: 450px;
@@ -319,7 +312,6 @@ main h3 {
     appearance: none;
 }
 
-/*----------- FORM --------------*/
 .application h2 {
     width: 470px;
     font-size: 2rem;
@@ -524,7 +516,6 @@ tbody tr:nth-child(even) {
     background-color: #003d33;
 }
 
-/*----------- Footer --------------*/
 footer {
     text-align: center;
     font-size: 0.9rem;
