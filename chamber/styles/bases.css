@@ -345,6 +345,7 @@ main img {
 
 .event-box h3 {
     font-size: 20px;
+    text-align: center;
     margin: 10px 0;
     text-wrap: wrap;
 }
@@ -368,47 +369,6 @@ main img {
 
 .book-now:hover {
     background-color: #0056b3;
-}
-
-.festivals {
-    background-color: lightskyblue;
-    padding: 33px;
-    margin: 1px;
-    margin-top: 10px;
-    border-radius: 50%;
-    max-width: 760px;
-    text-align: left;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.festivals h2 {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    text-align: center;
-    color: navy;
-}
-
-.festivals p {
-    font-size: 1rem;
-    font-weight: bold;
-    line-height: 1.6rem;
-    margin-bottom: 10px;
-    text-wrap: wrap;
-    object-fit: contain;
-}
-
-.festivals-container {
-    display: inline-block;
-}
-
-.festivals-container img {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    display: block;
-    object-fit: cover;
 }
 
 #spotlights {
