@@ -107,6 +107,7 @@
     .launchpad, .carbon, .windpower {
         padding: 10px;
         text-wrap: wrap;
+        margin-bottom: 50px;
     }
 
     .launchpad h3, .carbon h3, .windpower h3 {
@@ -178,7 +179,6 @@
         grid-column: 3;
         grid-row: 4;
         max-width: 100%;
-        margin-top: 30px;
     }
 
     #weather img {

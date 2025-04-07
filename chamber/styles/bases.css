@@ -149,7 +149,7 @@ main {
     text-align: center;
     text-wrap: wrap;
     background-color: darkorange;
-    border-radius: 50%;
+    border-radius: 70%;
     padding: 50px 20px;
 }
 
@@ -410,7 +410,6 @@ main img {
     display: block;
     object-fit: cover;
 }
-
 
 #spotlights {
     background-color: #fff;
