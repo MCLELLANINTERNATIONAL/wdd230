@@ -132,49 +132,6 @@
         text-align: center;
     }
 
-    .gallery {
-        display: grid;
-        grid-column: 2/ span 3;
-        grid-row: 1/ span 4;
-    }
-
-    .gallery figure {
-        width: 700px;
-        height: auto;
-        margin: 0;
-        border: 1px solid #ccc;
-        padding: 2rem;
-        background: #fff;
-        border-radius: 8px;
-        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-        grid-column: 2/ span 3;
-        grid-row: 1/ span 4;
-    }
-
-    .gallery figure img {
-        width: 100%;
-        height: auto;
-        max-width: 1500;
-        border-bottom: 2px solid #ddd;
-        margin-bottom: 0.5rem;
-        gap: 1rem;
-        grid-column: 2/ span 3;
-        grid-row: 1/ span 4;
-    }
-
-    .gallery figcaption {
-        text-align: center;
-        font-weight: bold;
-        font-size: 1.1rem;
-        grid-column: 2/ span 3;
-        grid-row: 1/ span 4;
-    }
-
-    figure:hover {
-        transform: scale(1.05);
-        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
-    }
-
     #weather {
         grid-column: 3;
         grid-row: 4;
