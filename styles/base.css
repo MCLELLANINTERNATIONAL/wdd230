@@ -190,29 +190,36 @@ main {
 .card ul {
     list-style-type: none;
     margin-left: 20px;
-    font-size: 1rem; /* Adjusted font size */
+    font-size: 1rem;
     font-weight: bold;
-    line-height: 3rem; /* Adds spacing between rows */
+    line-height: 3rem;
 }
 
 .card ul li {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px; /* Adds spacing between elements */
+    gap: 8px; 
     align-items: center;
 }
+
+.week-block {
+    margin-top: 2.5rem;
+    margin-bottom: 3rem;
+    margin-left: 30px;
+}
+
 
 .week-label {
     line-height: 2rem;
     font-weight: bold;
-    text-decoration: none; /* Ensures weeks are not underlined */
-    margin-right: 5px; /* Adds spacing between label and links */
-    color: black; /* Ensures consistency in styling */
+    text-decoration: none;
+    margin-right: 20px; 
+    color: black;
 }
 
 .card ul li a {
-    text-decoration: underline; /* Keeps links underlined */
-    font-weight: normal; /* Prevents links from being bold */
+    text-decoration: underline;
+    font-weight: normal; 
 }
 
 .card h2 {
