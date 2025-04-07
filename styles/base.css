@@ -261,7 +261,7 @@ main {
 }
 
 .weather-label h3, .visit p {
-    margin-top: 0;
+    margin-top: 5%;
     margin-bottom: 0;
     text-align: center;
     color: darkorchid;
@@ -270,8 +270,7 @@ main {
 
 .weather-info p {
     margin: 0; 
-    align-items: center;
-    margin-bottom: 20px;      
+    align-items: center;     
 }
 
 #visits {
