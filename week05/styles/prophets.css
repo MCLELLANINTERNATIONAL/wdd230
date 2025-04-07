@@ -12,15 +12,14 @@ body {
   color: #333;
 }
 
-header,
-footer {
+header, footer {
   background-color: #003366;
   color: white;
   text-align: center;
   padding: 1rem;
 }
 
-header h1 {
+h1 {
   margin: 0;
   font-size: 1.8rem;
 }
@@ -33,37 +32,37 @@ main {
   padding: 1rem;
 }
 
-.grid {
+#cards {
   display: grid;
-  grid-template-columns: 1fr; /* Default mobile view: one column */
+  grid-template-columns: 1fr;
   gap: 1.5rem;
 }
 
-section {
+#cards section {
   background-color: white;
-  border-radius: 8px;
+  border-radius: 10px;
   padding: 1rem;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   text-align: center;
-  transition: transform 0.2s ease;
+  transition: transform 0.2s ease-in-out;
 }
 
-section:hover {
+#cards section:hover {
   transform: scale(1.02);
 }
 
-h2 {
+#cards h2 {
   margin-top: 0;
   color: #003366;
-  font-size: 1.2rem;
+  font-size: 1.25rem;
 }
 
-p {
+#cards p {
   font-size: 0.95rem;
   margin: 0.4rem 0;
 }
 
-img {
+#cards img {
   margin-top: 1rem;
   width: 100%;
   max-width: 300px;
