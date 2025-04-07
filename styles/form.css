@@ -38,12 +38,17 @@ header img {
 
 #mode {
     position: absolute;
-    top: 1.5rem;
-    right: 1rem;
-    font-size: 24px;
+    bottom: 0.1rem;
+    right: 0.3rem;
     cursor: pointer;
-    font-size: 2rem;
     transition: transform 0.3s ease-in-out;
+}
+
+#mode img {
+    width: 44px;
+    height: 44px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 #menu {
