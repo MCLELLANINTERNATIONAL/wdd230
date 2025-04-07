@@ -10,11 +10,12 @@ figure {
     justify-content: center;
 }
 
-#weather icon img {
+#weather-icon {
     width: 100px;
-    height: 100px;
-    margin-top: 0;
-}
+    height: auto;
+    image-rendering: crisp-edges;
+    filter: drop-shadow(0 0 5px rgba(0,0,0,0.3));
+  }
 
 figcaption {
     text-align: center;
