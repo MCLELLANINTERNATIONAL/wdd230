@@ -37,7 +37,7 @@ main {
 }
 
 #cards section {
-  background-color: white;
+  background-color: rgb(156, 170, 213);
   border-radius: 10px;
   padding: 1rem;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
@@ -48,12 +48,15 @@ main {
 
 #cards h2 {
   margin-bottom: 0.5rem;
-  color: #003366;
-  font-size: 1.2rem;
+  color: #0519ca;
+  font-size: 1.8rem;
+  font-weight: bold;
 }
 
 #cards p {
   font-size: 0.95rem;
+  font-weight: bold;
+  line-height: 1.3rem;
   margin: 0.25rem 0;
 }
 
@@ -63,5 +66,6 @@ main {
   max-width: 300px;
   height: auto;
   border-radius: 8px;
+  box-shadow: 0 6px 10px rgba(22, 12, 225, 0.868);
   object-fit: cover;
 }
