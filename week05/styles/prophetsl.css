@@ -6,10 +6,18 @@
   }
 
   #cards section {
-    text-align: left;
+    text-align: center;
   }
+
+  #cards h2,
+  #cards p {
+    text-align: center;
+  }
+
+
 
   #cards img {
     margin-top: 0.5rem;
+    text-align: center;
   }
 }
