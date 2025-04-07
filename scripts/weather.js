@@ -90,7 +90,8 @@ async function getWeather() {
     <div class="weather-display">
       <img src="${iconURL}" alt="${condition}" />
       <div class="weather-details">
-        <p><strong>Edinburgh, Scotland</strong> (as of ${updateTime})</p>
+        <p><strong>Edinburgh, Scotland</strong>
+        <p> Todays Time: ${updateTime}</p>
         <p>${temp}°C - ${condition}</p>
         <p>Humidity: ${humidity}%</p>
         <p>Wind: ${windSpeed} km/h</p>
