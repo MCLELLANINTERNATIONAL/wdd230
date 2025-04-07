@@ -1,4 +1,4 @@
-const url = 'https://mclellaninternational.github.io/wdd230/week05/data/prophets.json';
+const url = 'data/prophets.json';
 const cards = document.querySelector('#cards');
 
 async function getProphetData() {
