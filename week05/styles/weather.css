@@ -14,7 +14,7 @@ figure {
     width: 100px;
     height: auto;
     image-rendering: crisp-edges;
-    filter: brightness(1.3) contrast(1.2) drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
+    filter: brightness(1.3) contrast(1.2) drop-shadow(0 0 3px rgba(0, 0, 0, 0.641));
 }
 
 figcaption {
