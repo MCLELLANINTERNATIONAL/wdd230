@@ -1,36 +1,46 @@
 {
     "weeks": [
-        {
-            "week": "Week 1",
-            "links": [
-                {"url": "week01/holygrail.html", "title": "HG Layout"},
-                {"url": "week01/media-query.html", "title": "mQueries"}
-            ]
-        },
-        {
-            "week": "Week 2",
-            "links": [
-                {"url": "week02/flexbox.html", "title": "Flexbox Layout"},
-                {"url": "week02/responsive-images.html", "title": "Responsive Images"}
-            ]
-        },
-        {
-            "week": "Week 3",
-            "links": [
-                {"url": "week03/form.html", "title": "Form Example"}
-            ]
-        },
-        {
-            "week": "Week 4",
-            "links": [
-                {"url": "week04/table.html", "title": "Table Example"}
-            ]
-        },
-        {
-            "week": "Week 5",
-            "links": [
-                {"url": "week05/gallery.html", "title": "Gallery Example"}
-            ]
-        }
+      {
+        "week": "Week 01",
+        "links": [
+          { "url": "week01/holygrail.html", "title": "Grail" },
+          { "url": "week01/media-query.html", "title": "Media Query" },
+          { "url": "week01/home.html", "title": "Menu" }
+        ]
+      },
+      {
+        "week": "Week 02",
+        "links": [
+          { "url": "week02/design.html", "title": "Design" },
+          { "url": "week02/bom.html", "title": "BOM" }
+        ]
+      },
+      {
+        "week": "Week 03",
+        "links": [
+          { "url": "week03/images/landscape.webp", "title": "WebP" },
+          { "url": "week03/lazyload.html", "title": "Lazy" },
+          { "url": "week03/responsive-images.html", "title": "Scrset" },
+          { "url": "week03/bom.html", "title": "localStorage" }
+        ]
+      },
+      {
+        "week": "Week 04",
+        "links": [
+          { "url": "https://codepen.io/kimkbrown/pen/OPJwzee", "title": "CSS Pseudo Classes" },
+          { "url": "week04/images/Combintors.webp", "title": "CSS Combinators" },
+          { "url": "week04/tablebuild.html", "title": "HTML Tables" },
+          { "url": "week04/wf1.html", "title": "HTML Forms" }
+        ]
+      },
+      {
+        "week": "Week 05",
+        "links": [
+          { "url": "week05/pelements.html", "title": "CSS Pseudo Elements" },
+          { "url": "week05/new-ward-members.json", "title": "JSON data" },
+          { "url": "week05/prophets.html", "title": "Fetch API" },
+          { "url": "week05/weather.html", "title": "Third Party Weather API" }
+        ]
+      }
     ]
-}
+  }
