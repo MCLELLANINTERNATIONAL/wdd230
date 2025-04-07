@@ -269,6 +269,7 @@ main {
 	color: navy;
 	font-weight: bolder;
 	font-size: larger;
+    margin-top: 15px;
 }
 
 .map {
