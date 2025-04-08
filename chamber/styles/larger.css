@@ -46,7 +46,7 @@
     }
     
     .menu button:hover {
-        background-color: rgb(40, 179, 60);
+        background-color: rgb(29, 172, 50);
         transform: scale(1.05);
         cursor: pointer;
     }
