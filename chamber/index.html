@@ -18,15 +18,20 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
-    <script src="script/bookEvent.js" defer></script>
+    <script src="scripts/bookEvent.js" defer></script>
     <script src="scripts/getDates.js" defer></script>
     <script src="scripts/hamButton.js" defer></script>
     <script src="scripts/modeButton.js" defer></script>
     <script src="scripts/weather.js" defer></script>
     <script src="scripts/imageCarousel.js" defer></script>
+    <script src="scripts/banner.js" defer></script>
 </head>
 
 <body>
+    <div id="meetGreetBanner" class="banner hidden">
+        <span id="bannerMessage"></span>
+        <button class="close-btn" onclick="closeBanner()">❌</button>
+    </div>
     <header>
         <img src="images/edlogo.webp" alt="Kim" width="80" height="80">
         <h1>Edinburgh Chamber of Commerce</h1>
@@ -54,7 +59,6 @@
                 <img src="images/edin2.webp" alt=" Edinburgh - alternate">
                 <img src="images/edin3.webp" alt=" Edinburgh - alternate">
                 <img src="images/edin4.webp" alt=" Edinburgh - alternate">
-                <!-- Add more images as needed for your carousel -->
             </div>
 
             <h2>Welcome to our Chamber</h2>
