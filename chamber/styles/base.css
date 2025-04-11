@@ -145,7 +145,7 @@ main {
 .banner {
     display: flex;
     align-items: center;
-    background-color: darkorange;
+    background-color: grey;
     color: white;
     padding: 1rem;
     font-size: 1.4rem;
