@@ -145,7 +145,7 @@ main {
 .banner {
     display: flex;
     align-items: center;
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.816);
     color: white;
     padding: 1rem;
     font-size: 1.4rem;
@@ -166,10 +166,9 @@ main {
 .close-btn {
     background: transparent;
     border: none;
-    color: white;
-    font-size: 1.4rem;
+    font-size: 2rem;
     cursor: pointer;
-    line-height: 1.6rem;
+    line-height: 2rem;
 }
   
 .hidden {
