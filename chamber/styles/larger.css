@@ -56,7 +56,7 @@
     #podcast {
         grid-column: 1 / span 2;
         grid-row: 2;
-        margin-top: 30px;
+        margin-top: 70px;
         margin-bottom: 10px;
     }
 
@@ -78,7 +78,7 @@
         grid-column: 1 / span 2;
         grid-row: 3/ span 4;
         max-width: 100%;
-        margin-top: 30px;
+        margin-top: 50px;
     }
 
     #events h3 {
@@ -135,9 +135,13 @@
     }
 
     #weather img,
-    .weathger-container img {
+    .weather-container img {
         grid-column: 1/  span 2;
         grid-row: 5;
+    }
+
+    .weather-container img {
+        margin-top: 65px;
     }
 
     .weather-container {
@@ -155,11 +159,12 @@
     #dynamic-spotlights {
         flex-direction: column;
         align-items: center;
-      }
+    }
     
-      .spotlight-card {
+    .spotlight-card {
         width: 90%;
-      }
+    }
+
 }
 
 
