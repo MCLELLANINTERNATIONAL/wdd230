@@ -180,7 +180,8 @@ main {
     text-align: center;
     text-wrap: wrap;
     background-color: darkorange;
-    border-radius: 70%;
+    box-shadow: 0 5px 8px rgba(15, 237, 19, 0.958);
+    border-radius: 50%;
     padding: 50px 20px;
 }
 
@@ -402,117 +403,6 @@ main img {
     background-color: #0056b3;
 }
 
-#spotlights {
-    background-color: #fff;
-    color: #3BFF38;
-    margin: 3px;
-    border-radius: 1px;
-    text-align: center;
-    max-width: 100%;
-}
-
-#spotlights h2 {
-    font-size: 2rem;
-    font-weight: bold;
-    color: royalblue;
-    margin-bottom: 30px;
-}
-
-.launchpad {
-    background-color: rgb(12, 225, 12);
-    padding: 30px;
-    border-radius: 10px;
-    max-width: 900px;
-    margin: 10px auto;
-    text-align: left;
-    gap: 10px;
-    margin-bottom: 20px;
-}
-
-.launchpad h3,
-.carbon h3,
-.windpower h3 {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: navy;
-    margin-bottom: 10px;
-    gap: 10px;
-}
-
-.launchpad h4,
-.carbon h4 {
-    font-size: 1.3rem;
-    font-weight: bold;
-    color: #423D3D;
-    font-weight: bold;
-    margin-bottom: 15px;
-}
-
-.windpower h4 {
-    font-size: 1.3rem;
-    font-weight: bold;
-    color: navy;
-    font-weight: bold;
-    margin-bottom: 15px;
-}
-
-.launchpad p {
-    font-size: 1.1rem;
-    color: #4F4F4F;
-    font-weight: bold;
-    line-height: 1.6;
-    margin: 3px;
-}
-
-.launchpad p::first-letter {
-    font-size: xx-large;
-}
-
-.carbon p {
-    font-size: 1.1rem;
-    color: #3D3D3D;
-    font-weight: bold;
-    line-height: 1.6;
-    margin: 3px;
-}
-
-.carbon p::first-letter {
-    font-size: xx-large;
-}
-
-.windpower p {
-    font-size: 1.1rem;
-    color: #3D3D3D;
-    font-weight: bold;
-    line-height: 1.6;
-    margin: 3px;
-}
-
-.windpower p::first-letter {
-    font-size: xx-large;
-}
-
-.windpower {
-    background-color: rgba(0, 166, 255, 0.688);
-    padding: 30px;
-    border-radius: 10px;
-    max-width: 900px;
-    margin: 0 auto;
-    text-align: left;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-}
-
-.carbon {
-    background-color: darkorange;
-    padding: 30px;
-    border-radius: 10px;
-    max-width: 900px;
-    margin: 0 auto;
-    text-align: left;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 30px;
-}
 
 #weather {
     background-color: #fff;
@@ -618,6 +508,7 @@ main img {
 .forecast-date {
     margin-bottom: 0.5rem;
 }
+
 .forecast-day {
     text-align: left;
     flex-direction: column;
@@ -663,6 +554,186 @@ main img {
     max-width: 95%;
     margin: 10px; 
 }
+
+#company-spotlights {
+    background-color: #fff;
+    color: #3BFF38;
+    margin: 3px;
+    border-radius: 1px;
+    text-align: center;
+    max-width: 100%;
+}
+
+#company-spotlights h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: royalblue;
+    margin-bottom: 30px;
+}
+
+.launchpad {
+    background-color: rgb(12, 225, 12);
+    box-shadow: 0px 4px 10px rgba(236, 91, 7, 0.942); 
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: 10px auto;
+    text-align: left;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.launchpad h3,
+.carbon h3,
+.windpower h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: navy;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.launchpad h4,
+.carbon h4 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #423D3D;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.windpower h4 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: navy;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.launchpad p {
+    font-size: 1.1rem;
+    color: #4F4F4F;
+    font-weight: bold;
+    line-height: 1.6;
+    margin: 3px;
+}
+
+.launchpad p::first-letter {
+    font-size: xx-large;
+}
+
+.carbon p {
+    font-size: 1.1rem;
+    color: #3D3D3D;
+    font-weight: bold;
+    line-height: 1.6;
+    margin: 3px;
+}
+
+.carbon p::first-letter {
+    font-size: xx-large;
+}
+
+.windpower p {
+    font-size: 1.1rem;
+    color: #3D3D3D;
+    font-weight: bold;
+    line-height: 1.6;
+    margin: 3px;
+}
+
+.windpower p::first-letter {
+    font-size: xx-large;
+}
+
+.windpower {
+    background-color: rgba(0, 166, 255, 0.688);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: left;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.246);
+    margin-bottom: 20px;
+}
+
+.carbon {
+    background-color: darkorange;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: left;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.246);
+    margin-bottom: 30px;
+}
+
+#dynamic-spotlights {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+  }
+  
+  /* 🧾 Individual Spotlight Card */
+  .spotlight-card {
+    border: 3px solid #fa8806ef;
+    box-shadow: 0 5px 8px rgba(15, 237, 19, 0.958);
+    padding: 1rem;
+    background-color: white;
+    line-height: 1.5em;
+    width: 300px;
+    height: auto;
+    text-align: left;
+    border-radius: 6px;
+    transition: transform 0.3s ease;
+  }
+  
+  .spotlight-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .spotlight-card img.spotlight-logo {
+    display: block;
+    max-height: 100px;
+    width: auto;
+    background: none;
+    padding: 0;
+    border: none;
+    object-fit: cover;
+  }
+  
+  /* 🏷️ Company Name */
+  .spotlight-card h4 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* 📄 Card Text Info */
+  .spotlight-card p {
+    font-size: 0.95rem;
+    color: #444;
+    margin: 0.25rem 0;
+  }
+  
+  /* 🌐 Website Link */
+  .spotlight-card a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: royalblue;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .spotlight-card a:hover {
+    text-decoration: underline;
+  }
+
 @keyframes bounce {
     0%   { transform: translateY(0); }
     50%  { transform: translateY(-8px); }
