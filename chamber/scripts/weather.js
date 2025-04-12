@@ -41,10 +41,9 @@ async function getWeather() {
     daily.forEach(day => {
       const date = new Date(day.dt_txt);
       const options = { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' };
-      const formattedDate = date.toLocaleDateString('en-US', options);
+      const FormattedDate = date.toLocaleDateString('en-US', options);
       const iconUrl = `https://openweathermap.org/img/wn/${day.weather[0].icon}@2x.png`;
     
-      // Capitalize each word in the description
       const forecastDescription = day.weather[0].description
         .split(' ')
         .map(word => word.charAt(0).toUpperCase() + word.slice(1))
@@ -52,7 +51,7 @@ async function getWeather() {
     
       forecastDiv.innerHTML += `
         <div class="forecast-day">
-          <p class="forecast-date"><strong>${date.toDateString()}</strong></p>
+          <p class="forecast-date"><strong>${FormattedDate}</strong></p>
           <img src="${iconUrl}" alt="${forecastDescription}">
           <h4>${forecastDescription}</h4>
           <h4>${day.main.temp}°C</h4>
