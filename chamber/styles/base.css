@@ -291,22 +291,6 @@ main img {
     align-items: center;
 }
 
-.video {
-    background-color: #ffffff;
-    padding: 10px 10px;
-    max-width: 600px;
-    margin: 10px auto;
-    text-align: center;
-    border-radius: 12px;
-}
-
-.video h2 {
-    font-size: 2rem;
-    margin-bottom: 50px;
-    margin-top: 10px;
-    color: navy;
-}
-
 .podcast-player {
     min-height: auto;
     max-width: 100%;
@@ -314,25 +298,6 @@ main img {
     text-align: center;
     justify-content: center;
     display: flex;
-}
-
-.video-player {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-    border-radius: 8px;
-}
-
-.video-player iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
-    object-fit: cover;
 }
 
 .events-banner {
@@ -706,7 +671,6 @@ main img {
     object-fit: cover;
   }
   
-  /* 🏷️ Company Name */
   .spotlight-card h4 {
     font-size: 1.3rem;
     font-weight: bold;
@@ -714,14 +678,12 @@ main img {
     margin-bottom: 0.5rem;
   }
   
-  /* 📄 Card Text Info */
   .spotlight-card p {
     font-size: 0.95rem;
     color: #444;
     margin: 0.25rem 0;
   }
   
-  /* 🌐 Website Link */
   .spotlight-card a {
     display: inline-block;
     margin-top: 0.5rem;
@@ -732,6 +694,7 @@ main img {
   
   .spotlight-card a:hover {
     text-decoration: underline;
+    cursor: pointer;
   }
 
 @keyframes bounce {
