@@ -22,7 +22,7 @@
     main {
         display: grid;
         grid-template-columns: 1fr 1fr 1.24fr;
-        grid-template-rows: auto auto auto auto;
+        grid-template-rows: auto auto auto auto auto;
         gap: 5px;
         margin-left: 2.5%;
     }
@@ -133,9 +133,48 @@
     }
 
     #weather {
-        grid-column: 3;
-        grid-row: 4;
+        grid-column: 1 / span 2;
+        grid-row: 5;
         max-width: 100%;
+        margin-top: 30px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #weather img,
+    .weathger-container img {
+        grid-column: 1/  span 2;
+        grid-row: 5;
+        width: 95%;
+        height: auto;
+    }
+
+    .weather-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .weather-label {
+        width: 100%;
+        max-width: 600px;
+        padding: 2rem;
+        background-color: rgba(0, 166, 255, 0.15);
+        border-radius: 30%;
+        text-align: center;
+    }
+
+    #forecast {
+        display: flex;
+        justify-content: space-around;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .forecast-day {
+        max-width: 180px;
+        flex: 1;
     }
 
     #weather img {
