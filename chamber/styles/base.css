@@ -281,7 +281,7 @@ main h3 {
 main img {
     float: right;
     max-width: 65%;
-    margin: 0 0 1rem 1rem;
+    margin: 0 0 0.2rem 0.2rem;
     border: 1px solid #77777773;
     box-shadow: 0 0 15px rgba(128, 128, 128, 0.69);
 }
@@ -608,7 +608,7 @@ main img {
 }
 
 .forecast-day {
-    text-align: center;
+    text-align: left;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -629,6 +629,7 @@ main img {
     transition: transform 0.3s ease-in-out;
     object-fit: cover;
 }
+
 
 .forecast-day img:hover {
     transform: scale(1.1);
