@@ -563,6 +563,7 @@ main img {
     align-items: center;
     white-space: normal;
     overflow: visible;
+    object-fit: cover;
 }
 
 .weather-label h3 {
@@ -601,12 +602,24 @@ main img {
     transform: scale(1.1);
 }
 
+.fc h2 {
+    margin-top: 20px;
+    margin-bottom: 6px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: blue;
+    word-wrap: break-word; 
+}
+
 #forecast {
     margin-top: 1rem;
     display: grid;
     gap: 1rem;
 }
 
+.forecast-date {
+    margin-bottom: 0.5rem;
+}
 .forecast-day {
     text-align: left;
     flex-direction: column;
