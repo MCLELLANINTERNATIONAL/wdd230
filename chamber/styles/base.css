@@ -1,6 +1,4 @@
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
@@ -631,7 +629,7 @@ main img {
 }
 
 .forecast-day img {
-    max-width: 80px;
+    max-width: 70px;
     margin: 0.2rem auto;
     display: block;
     padding: 0;
@@ -653,6 +651,7 @@ main img {
     justify-content: space-around;
     gap: 1rem;
     flex-wrap: wrap;
+    text-wrap: wrap;
 }
 
 .forecast-day {
