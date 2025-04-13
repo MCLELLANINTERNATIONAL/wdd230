@@ -55,7 +55,7 @@ async function getWeather() {
         <div class="forecast-day">
           <p class="forecast-date"><strong>${FormattedDate}</strong></p>
           <img src="${iconUrl}" alt="${forecastDescription}">
-          <h4>${day.main.temp}°C : ${forecastDescription}</h4>
+          <p>${day.main.temp}°C : ${forecastDescription}</p>
         </div>
       `;
     });

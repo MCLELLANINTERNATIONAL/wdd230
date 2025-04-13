@@ -75,15 +75,16 @@
     }
 
     #welcome h3 {
-        width: 450px;
         font-size: 1.2rem;
         line-height: 1.8rem;
         margin-bottom: 20px;
-        overflow-wrap: break-word;
+        text-wrap: wrap;
+        object-fit: contain;
+
     }
 
     .cta-button {
-        padding: 24px 12px;
+        padding: 15px 20px;
         margin-bottom: 30px;
         font-size: 18px;
         border-radius: 15px;
@@ -140,6 +141,7 @@
     .weather-container img {
         grid-column: 1 / span 2;
         grid-row: 5;
+        object-fit: cover;
     }
 
     .weather-container {
@@ -151,6 +153,7 @@
 
     .weather-container img {
         margin-top: 70px;
+        object-fit: cover;
     }
 
     .weather-label {
