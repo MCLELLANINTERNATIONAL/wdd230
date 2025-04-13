@@ -138,14 +138,15 @@
         width: 100%;   
     }
 
-    .weather-label h3 {
-        font-size: 2rem;
-        margin-top: 30px;
-        margin-bottom: 10px;
+    .weather-label h2 {
+        font-size: 2.2rem;
+        margin-top: 40px;
+        margin-bottom: 15px;
     }
 
     .weather-label p {
         font-size: 1.4rem;
+        line-height: 2rem;
     }
 
     .forecast-day img {
