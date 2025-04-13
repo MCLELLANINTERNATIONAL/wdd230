@@ -133,6 +133,19 @@
     .weather-label {
         grid-column: 1 / span 2;
         grid-row: 5;
+        top: 55%;
+        left: 50%;
+        width: 100%;   
+    }
+
+    .weather-label h3 {
+        font-size: 2rem;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    .weather-label p {
+        font-size: 1.4rem;
     }
 
     .forecast-day img {
