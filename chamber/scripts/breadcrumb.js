@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Build breadcrumb: Home > Page
   breadcrumbContainer.innerHTML = `
-    <a href="/wdd230/chamber/index.html">Home</a> &gt;
+    <a href="/wdd230/chamber/index.html">Home</a>;
     <span>${pageTitle}</span>
   `;
 });
