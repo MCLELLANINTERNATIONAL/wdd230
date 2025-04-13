@@ -78,7 +78,7 @@ function displaySpotlights(members, container) {
         break;
     }
 
-    const name = document.createElement("h4");
+    const name = document.createElement("h3");
     name.textContent = member.name;
 
     const description = document.createElement("p");
