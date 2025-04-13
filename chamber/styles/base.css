@@ -657,12 +657,12 @@ main h3 {
 
   .spotlight-img {
     display: block;
+    margin: 0 auto 0.25rem auto;
     max-height: 100px;
-    width: auto;
     background: none;
     padding: 0;
     border: none;
-    border-radius: none;
+    border-radius: 0;
     object-fit: cover;
   }
   
