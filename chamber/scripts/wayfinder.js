@@ -1,24 +1,28 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const breadcrumbContainer = document.getElementById('breadcrumb');
+  const breadcrumbContainer = document.getElementById("breadcrumb");
   if (!breadcrumbContainer) return;
 
-  const path = window.location.pathname.replace("/wdd230/chamber/", "");
-  const page = path === "" || path === "index.html" ? "" : path;
+  // Get just the filename from the path
+  const fullPath = window.location.pathname;
+  const filename = fullPath.substring(fullPath.lastIndexOf("/") + 1);
 
-  let breadcrumbHTML = `<a href="/wdd230/chamber/index.html">Home</a>`;
-
-  if (page) {
-    const formatted = page
-      .replace(/\.html$/, "")            
-      .replace(/[-_]/g, " ")             
-      .replace(/\b\w/g, l => l.toUpperCase()); 
-
-    breadcrumbHTML += ` &gt; <a href="/wdd230/chamber/${page}">${formatted}</a>`;
-  }
-
-  if (!page) {
+  // Hide breadcrumb on home page
+  if (filename === "" || filename === "index.html") {
     breadcrumbContainer.style.display = "none";
-  } else {
-    breadcrumbContainer.innerHTML = breadcrumbHTML;
+    return;
   }
+
+  // Format filename to a page title (e.g., discover.html → Discover)
+  const pageTitle = filename
+    .replace(".html", "")
+    .replace(/[-_]/g, " ")
+    .replace(/\b\w/g, (char) => char.toUpperCase());
+
+  // Build breadcrumb: Home > Page
+  breadcrumbContainer.innerHTML = `
+    <a href="/wdd230/chamber/index.html">Home</a> &gt;
+    <span>${pageTitle}</span>
+  `;
 });
+
+
