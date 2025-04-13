@@ -394,12 +394,12 @@ main h3 {
 .weather-label {
     position: absolute;
     top: 49%;
-    left: 52%;
+    left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(0, 166, 255, 0.437);
     padding: 15px 20px;
     border-radius: 50%;
-    width: 70%;
+    width: 90%;
     max-width: 400px;
     text-align: center;
     display: flex;
@@ -410,10 +410,10 @@ main h3 {
     object-fit: cover;
 }
 
-.weather-label h3 {
-    margin-top: 20px;
-    margin-bottom: 6px;
-    font-size: 1.8rem;
+.weather-label h2 {
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 1.7rem;
     font-weight: bold;
     color: blue;
     word-wrap: break-word;
@@ -421,7 +421,7 @@ main h3 {
 
 .weather-label p {
     margin: 0.2rem 0;
-    font-size: 1rem;
+    font-size: 0.90rem;
     font-weight: bold;
     color: blue;
     text-align: center;
@@ -431,7 +431,7 @@ main h3 {
 #weather-icon {
     display: block;
     margin: 0;
-    max-width: 180px;
+    max-width: 90px;
     height: auto;
     padding: 0;
     border: none;
