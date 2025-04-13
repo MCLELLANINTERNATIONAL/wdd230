@@ -10,14 +10,13 @@ document.addEventListener("DOMContentLoaded", () => {
     return;
   }
 
-  
   const pageTitle = filename
     .replace(".html", "")
     .replace(/[-_]/g, " ")
     .replace(/\b\w/g, (char) => char.toUpperCase());
 
   breadcrumbContainer.innerHTML = `
-    <a href="/wdd230/chamber">Home</a> &gt;
+    <a href="/wdd230/chamber/">Home</a> &gt;
     <span>${pageTitle}</span>
   `;
 });
