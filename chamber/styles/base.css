@@ -642,11 +642,11 @@ main h3 {
     box-shadow: 0 5px 8px rgba(6, 238, 6, 0.958);
     padding: 1rem;
     background-color: white;
-    line-height: 1.5em;
+    line-height: 1.8em;
     width: 350px;
     height: auto;
     min-height: 400px;
-    text-align: left;
+    text-align: center;
     border-radius: 8px;
     transition: transform 0.3s ease;
   }
@@ -674,9 +674,10 @@ main h3 {
   }
   
   .spotlight-card p {
-    font-size: 0.95rem;
+    font-size: 1rem;
     color: #444;
     margin: 0.25rem 0;
+    font-weight: normal;
   }
   
   .spotlight-card a {
