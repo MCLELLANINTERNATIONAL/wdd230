@@ -200,11 +200,10 @@ main {
     position: absolute;
     max-width: 100%;
     text-align: center;
-    width: 400px;
-    height: 400px;
+    width: 600px;
     height: auto;
     opacity: 1;
-    margin-bottom: 20px;
+    margin-bottom: 8px;
     transition: transform 0.3s ease-in-out;
     object-fit: cover;
 }
@@ -219,20 +218,20 @@ main {
 }
 
 #welcome h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     color: #173592;
-    margin-bottom: 1rem;
+    margin-bottom: 0.3rem;
 }
 
 #welcome h3 {
-    width: 350px;
-    font-size: 1.2rem;
+    width: 400px;
+    font-size: 0.9rem;
     font-weight: bold;
     color: #3D3D3D;
     max-width: 700px;
-    line-height: 1.5rem;
-    margin-bottom: 20px;
+    line-height: 1.2rem;
+    margin-bottom: 2px;
     text-wrap: wrap;
 }
 
