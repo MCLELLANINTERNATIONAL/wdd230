@@ -129,6 +129,21 @@ header img {
     content: "❎ ";
 }
 
+.breadcrumb {
+    font-size: 0.9rem;
+    margin: 1em 0;
+}
+
+.breadcrumb a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 5px;
+}
+  
+.breadcrumb span {
+    font-weight: bold;
+}
+
 main {
     max-width: 95%;
     margin: 5px 5px;
