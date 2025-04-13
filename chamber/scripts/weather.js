@@ -34,10 +34,12 @@ async function getWeather() {
 
     const forecastRes = await fetch(forecastURL);
     const forecastData = await forecastRes.json();
+
+    
     const daily = forecastData.list.filter(item => item.dt_txt.includes('12:00:00')).slice(0, 3);
     const forecastDiv = document.getElementById('forecast');
 
-    forecastDiv.innerHTML = ''; // clear previous forecast
+    forecastDiv.innerHTML = '';
     daily.forEach(day => {
       const date = new Date(day.dt_txt);
       const options = { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' };
