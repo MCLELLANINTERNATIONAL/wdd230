@@ -143,8 +143,8 @@ header img {
     content: "❎ ";
 }
 
-breadcrumb {
-    font-size: 1.1rem;
+.breadcrumb {
+    font-size: 1.2rem;
     font-weight: bold;
     margin: 20px
 }
@@ -157,7 +157,7 @@ breadcrumb {
   
 .breadcrumb span {
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin-left: 10px;
 }
 
