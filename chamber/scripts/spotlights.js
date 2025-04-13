@@ -1,6 +1,5 @@
 const requestURL = "data/members.json";
 
-// Load and display 3 random spotlight members
 async function loadSpotlights() {
   try {
     const response = await fetch(requestURL);
@@ -34,6 +33,7 @@ function displaySpotlights(members, container) {
     logo.setAttribute("src", member.image);
     logo.setAttribute("alt", `${member.name} logo`);
     logo.setAttribute("loading", "lazy");
+    logo.classList.add("spotlight-img");
    
     switch (member.name) {
       case "RBS":

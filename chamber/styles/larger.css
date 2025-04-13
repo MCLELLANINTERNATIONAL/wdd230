@@ -26,11 +26,25 @@
         gap: 5px;
         margin-left: 2.5%;
     }
+
+    header h1 {
+        grid-column: 2 / 3;
+        text-align: center;
+        font-size: 2.5rem;
+        margin-left: 0;
+    }
+
+    h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
     #welcome {
         font-size: 1.5rem;
         grid-column: 1 / span 2;
         grid-row: 1;
         max-width: 100%;
+        margin-top: 30px;
     }
 
     .profile-carousel {
@@ -56,7 +70,7 @@
     #podcast {
         grid-column: 1 / span 2;
         grid-row: 2;
-        margin-top: 70px;
+        margin-top: 60px;
         margin-bottom: 10px;
     }
 
@@ -78,7 +92,7 @@
         grid-column: 1 / span 2;
         grid-row: 3/ span 4;
         max-width: 100%;
-        margin-top: 50px;
+        margin-top: 45px;
     }
 
     #events h3 {
@@ -93,6 +107,34 @@
     .event-box {
         width: 45%;
     }
+
+    #weather {
+        grid-column: 1 / span 2;
+        grid-row: 5;
+    }
+
+    #weather img,
+    .weather-container img {
+        grid-column: 1 / span 2;
+        grid-row: 5;
+    }
+
+    .weather-container img {
+        margin-top: 60px;
+    }
+
+    .weather-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .weather-label {
+        grid-column: 1 / span 2;
+        grid-row: 5;
+    }
+
     
     #company-spotlights {
         grid-column: 3;
@@ -117,52 +159,13 @@
         text-align: center;
     }
 
-    header h1 {
-        grid-column: 2 / 3;
-        text-align: center;
-        font-size: 2.5rem;
-        margin-left: 0;
-    }
-
-    h2 {
-        font-size: 2rem;
-        text-align: center;
-    }
-
-    #weather {
-        grid-column: 1 / span 2;
-        grid-row: 5;
-    }
-
-    #weather img,
-    .weather-container img {
-        grid-column: 1/  span 2;
-        grid-row: 5;
-    }
-
-    .weather-container img {
-        margin-top: 65px;
-    }
-
-    .weather-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 1rem;
-    }
-
-    .weather-label {
-        grid-column: 1/  span 2;
-        grid-row: 5;
-    }
-
     #dynamic-spotlights {
         flex-direction: column;
         align-items: center;
     }
     
     .spotlight-card {
-        width: 90%;
+        width: 95%;
     }
 
 }
