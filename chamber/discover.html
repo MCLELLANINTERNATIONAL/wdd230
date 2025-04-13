@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="icon" href="favicon.ico" type="image/x-icon"> 
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/discoverbase.css">
     <link rel="stylesheet" href="styles/discoverlarger.css">
@@ -22,8 +23,10 @@
     <script src="scripts/getDates.js" defer></script>
     <script src="scripts/hamButton.js" defer></script>
     <script src="scripts/modeButton.js" defer></script>
+    <script src="scripts/breadcrumb.js"></script>
     <script src="scripts/localStorage.js" defer></script>
     <script src="scripts/calendar.js" defer></script>
+    <script src="scripts/breadcrumb.js" defer></script>
 </head>
 
 <body>
@@ -34,9 +37,9 @@
             <img src="images/dark.webp" alt="dark mode" id="darkBtn" loading="lazy" width="44" height="44">
         </div>
     </header>
-    <div class="nav-section">     
+    <div class="nav-section">
         <button type="button" id="menu"></button>
-            <nav class="header-nav">
+        <nav class="header-nav">
             <ul class="navigation">
                 <li><a href="index.html" title="index" class="active">Home</a></li>
                 <li><a href="discover.html" title="discover">Discover</a></li>
@@ -48,81 +51,103 @@
     <nav id="breadcrumb" class="breadcrumb"></nav>
 
     <main>
-    <section class="video">
-        <h2>Facts About Edinburgh</h2>
-        <div class="video-player">
-            <iframe src="https://www.youtube.com/embed/zZ0udJEwbHs" title="How Big Is Edinburgh? - United Kingdom Explorers" loading="lazy" width="460" height="215" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>   
-        </div>
-        <div>
-            <iframe src="https://www.youtube.com/embed/GDIgSuDOfks" title="Kim McAllister - Why is Scotland the best place to start a business?" loading="lazy" width="460" height="215" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <iframe src="https://www.youtube.com/embed/VK6tzlvr8bo" title="Graduate Stories | Setting up a business in Scotland after University" loading="lazy" width="460" height="215" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-    </section>
-    <section class="festivals">
-        <h2>Festivals - Edinburgh's Cultural Pulse</h2>
-        <div>
-            <img src="images/festival.webp" alt="Fringe Festival" loading="lazy">
-        </div>
-        <div>
-            <p>Edinburgh is globally celebrated as the Festival City, home to some of the world’s most iconic cultural events. At the heart of this vibrant scene is the Edinburgh Festival Fringe, the largest arts festival on the planet, which transforms the city every August into a stage for thousands of performers across theatre, comedy, dance, music and more.</p>
-            <p>Alongside it, the Edinburgh International Festival showcases world-class performances in classical music, opera, and theatre, attracting artists and audiences from across the globe. The Edinburgh International Book Festival welcomes renowned authors and thinkers, while the Royal Edinburgh Military Tattoo, set against the dramatic backdrop of Edinburgh Castle, is a spectacular display of military precision, music and tradition.</p>
-            <p>These festivals enrich the city’s cultural life, driving tourism, fuelling the local economy. Position Edinburgh as a global hub of creativity and innovation.</p>
-        </div>
-    </section>
+        <section class="video">
+            <h2>Facts About Edinburgh</h2>
+            <div class="video-player">
+                <iframe src="https://www.youtube.com/embed/zZ0udJEwbHs"
+                    title="How Big Is Edinburgh? - United Kingdom Explorers" loading="lazy" width="460" height="215"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div>
+                <iframe src="https://www.youtube.com/embed/GDIgSuDOfks"
+                    title="Kim McAllister - Why is Scotland the best place to start a business?" loading="lazy"
+                    width="460" height="215"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/VK6tzlvr8bo"
+                    title="Graduate Stories | Setting up a business in Scotland after University" loading="lazy"
+                    width="460" height="215"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section class="festivals">
+            <h2>Festivals - Edinburgh's Cultural Pulse</h2>
+            <div>
+                <img src="images/festival.webp" alt="Fringe Festival" loading="lazy">
+            </div>
+            <div>
+                <p>Edinburgh is globally celebrated as the Festival City, home to some of the world’s most iconic
+                    cultural events. At the heart of this vibrant scene is the Edinburgh Festival Fringe, the largest
+                    arts festival on the planet, which transforms the city every August into a stage for thousands of
+                    performers across theatre, comedy, dance, music and more.</p>
+                <p>Alongside it, the Edinburgh International Festival showcases world-class performances in classical
+                    music, opera, and theatre, attracting artists and audiences from across the globe. The Edinburgh
+                    International Book Festival welcomes renowned authors and thinkers, while the Royal Edinburgh
+                    Military Tattoo, set against the dramatic backdrop of Edinburgh Castle, is a spectacular display of
+                    military precision, music and tradition.</p>
+                <p>These festivals enrich the city’s cultural life, driving tourism, fuelling the local economy.
+                    Position Edinburgh as a global hub of creativity and innovation.</p>
+            </div>
+        </section>
 
-    <div class="calendar-container">
-         <div id="calendar"></div>
-    </div>        
-    
-    <div class="visits-container">
-        <div class="sidebar-message">
-            <p>
-                <span class="visits-label">Number of Page Visits: </span>
-                <span class="visits"></span>
-            </p>
-            <p class="last-visit-message"></p>
+        <div class="calendar-container">
+            <div id="calendar"></div>
         </div>
-    </div>
 
-    <div class="gallery">
-        <figure>
-            <img src="images/awards.webp" alt="Business Awards" loading="lazy" width="600" height="351">
-            <div class="label">Business Awards</div>
-        </figure>
-        <figure>
-            <img src="images/yorchestra.webp" alt="Orchestra" loading="lazy" width="600" height="351">
-            <div class="label">Youth Orchestra</div>
-        </figure>
-        <figure>
-            <img src="images/theatre.webp" alt="Festival Theatre" loading="lazy" width="600" height="351">
-            <div class="label">Festival Theatre</div>
-        </figure>
-        <figure>
-            <img src="images/artmuseum.webp" alt="Art Museum" loading="lazy" width="600" height="351">
-            <div class="label">Art Museum</div>
-        </figure>
-        <figure>
-            <img src="images/museum.webp" alt="Museum" loading="lazy" width="600" height="351"> 
-            <div class="label">Natural History Museum</div>
-        </figure>
-        <figure>
-            <img src="images/dance.webp" alt="Dance" loading="lazy" width="600" height="351">
-            <div class="label">Scottish Dancing</div>
-        </figure>
-    </div>
-    
+        <div class="visits-container">
+            <div class="sidebar-message">
+                <p>
+                    <span class="visits-label">Number of Page Visits: </span>
+                    <span class="visits"></span>
+                </p>
+                <p class="last-visit-message"></p>
+            </div>
+        </div>
+
+        <div class="gallery">
+            <figure>
+                <img src="images/awards.webp" alt="Business Awards" loading="lazy" width="600" height="351">
+                <div class="label">Business Awards</div>
+            </figure>
+            <figure>
+                <img src="images/yorchestra.webp" alt="Orchestra" loading="lazy" width="600" height="351">
+                <div class="label">Youth Orchestra</div>
+            </figure>
+            <figure>
+                <img src="images/theatre.webp" alt="Festival Theatre" loading="lazy" width="600" height="351">
+                <div class="label">Festival Theatre</div>
+            </figure>
+            <figure>
+                <img src="images/artmuseum.webp" alt="Art Museum" loading="lazy" width="600" height="351">
+                <div class="label">Art Museum</div>
+            </figure>
+            <figure>
+                <img src="images/museum.webp" alt="Museum" loading="lazy" width="600" height="351">
+                <div class="label">Natural History Museum</div>
+            </figure>
+            <figure>
+                <img src="images/dance.webp" alt="Dance" loading="lazy" width="600" height="351">
+                <div class="label">Scottish Dancing</div>
+            </figure>
+        </div>
+
     </main>
 
     <footer>
         <p>Contact Us: Phone:0123-456-7890</p>
         <p>Email: info@edinburghchamberofcommerce.com</p>
-        
+
         <nav class="footer-nav">
-            <ul><Li><a href="images/homew.webp">Wireframe</a></Li></ul> 
-        </nav> 
-        <p>&copy; <span id="currentyear"></span> 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Chamber of Commerce 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Edinburgh,Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿</p>
+            <ul>
+                <Li><a href="images/homew.webp">Wireframe</a></Li>
+            </ul>
+        </nav>
+        <p>&copy; <span id="currentyear"></span> 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Chamber of Commerce 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Edinburgh,Scotland
+            🏴󠁧󠁢󠁳󠁣󠁴󠁿</p>
         <p id="lastModified"></p>
-    </footer>    
+    </footer>
 </body>
 
 </html>
