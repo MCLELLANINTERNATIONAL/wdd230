@@ -133,12 +133,13 @@ header img {
 }
 
 .breadcrumb {
-    font-size: 0.9rem;
+    font-size: 1rem;
+    font-weight: 500;
     margin: 1em 0;
 }
 
 .breadcrumb a {
-    color: #007bff;
+    color: blue;
     text-decoration: none;
     margin-right: 5px;
 }
