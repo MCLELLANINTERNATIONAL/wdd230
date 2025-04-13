@@ -133,19 +133,21 @@ header img {
 }
 
 .breadcrumb {
-    font-size: 1rem;
-    font-weight: 500;
-    margin: 1em 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 20px
 }
 
 .breadcrumb a {
     color: blue;
-    text-decoration: none;
-    margin-right: 5px;
+    text-decoration: none; 
+    margin-right: 10px;
 }
   
 .breadcrumb span {
     font-weight: bold;
+    font-size: 1.1rem;
+    margin-left: 10px;
 }
 
 main {

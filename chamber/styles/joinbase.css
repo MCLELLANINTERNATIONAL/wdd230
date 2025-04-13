@@ -143,20 +143,24 @@ header img {
     content: "❎ ";
 }
 
-.breadcrumb {
-    font-size: 0.9rem;
-    margin: 1em 0;
+breadcrumb {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 20px
 }
 
 .breadcrumb a {
-    color: #007bff;
-    text-decoration: none;
-    margin-right: 5px;
+    color: blue;
+    text-decoration: none; 
+    margin-right: 10px;
 }
   
 .breadcrumb span {
     font-weight: bold;
+    font-size: 1.1rem;
+    margin-left: 10px;
 }
+
 
 main {
     width: 450px;
