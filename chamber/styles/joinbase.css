@@ -57,7 +57,6 @@ header img {
     border-radius: 50%;
 }
 
-
 .top-header,
 .nav-section {
     margin: 0;
@@ -142,6 +141,21 @@ header img {
 
 #menu.show::before {
     content: "❎ ";
+}
+
+.breadcrumb {
+    font-size: 0.9rem;
+    margin: 1em 0;
+}
+
+.breadcrumb a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 5px;
+}
+  
+.breadcrumb span {
+    font-weight: bold;
 }
 
 main {
