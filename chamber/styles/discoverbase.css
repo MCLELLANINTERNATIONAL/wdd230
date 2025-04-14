@@ -31,7 +31,6 @@ header img {
 }
 
 #mode {
-    all: unset;
     background: none;
     border: none;
     cursor: pointer;
