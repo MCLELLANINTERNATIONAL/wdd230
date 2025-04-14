@@ -162,30 +162,10 @@ main {
     gap: 5px;
 }
 
-main h1 {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;
-    color: #525252;
-}
-
-main h2 {
-    font-size: 2.5rem;
-    color: #B36200;
-    text-align: center;
-    margin: 1rem;
-}
-
-main h3 {
-    color: #525252;
-}
-
 main img {
     float: right;
-    max-width: 65%;
+    max-width: 75%;
     margin: 0 0 1rem 1rem;
-    border: 1px solid #77777773;
-    box-shadow: 0 0 15px rgba(128, 128, 128, 0.69);
     object-fit: cover;
 }
 
@@ -199,9 +179,8 @@ main img {
 }
 
 .video h2 {
-    font-size: 2rem;
-    margin-bottom: 50px;
-    margin-top: 10px;
+    font-size: 1.6rem;
+    margin-bottom:40px;
     color: navy;
 }
 
@@ -227,22 +206,22 @@ main img {
 .festivals {
     background-color: rgba(135, 206, 250, 0.518); 
     text-wrap: wrap;
-    padding: 33px;
     margin: 1px;
-    margin-top: 10px;
+    margin-top: 50px;
     border-radius: 50%;
     max-width: 760px;
     text-align: left;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 
 .festivals h2 {
     font-size: 2rem;
     font-weight: bold;
-    margin-top: 80px;
+    margin-top: 30px;
     margin-bottom: 60px;
     text-align: center;
     color: navy;
+    line-height: 2.5rem;
 }
   
 .festivals p {
@@ -263,8 +242,8 @@ main img {
 }
 
 .festivals-container img {
-    width: 100px;
-    height: 50px;
+    width: 70px;
+    height: 20px;
     max-width: 100%;
     display: block;
     object-fit: cover;

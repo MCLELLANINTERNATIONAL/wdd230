@@ -52,12 +52,12 @@
         padding: 15px;
         grid-column: 1;
         grid-row:2;
-      }
+    }
     
-    .festivals h1 {
+    .festivals h2 {
         font-size: 1.5em;
         grid-column: 1;
-        grid-row:2;
+        grid-row: 2;
     }
     
     .festivals p {
@@ -71,8 +71,7 @@
         margin-top: 160px;
         margin-bottom: 0.5%;
     }
-
-  
+ 
     .visits-container {
         margin-top: 100px;
         width: 100%;
