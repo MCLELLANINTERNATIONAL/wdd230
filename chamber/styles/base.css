@@ -49,6 +49,12 @@ header img {
     color: #fff;         
     transform: rotate(180deg);
 }
+
+main.dark #podcast h2,
+main.dark #events h2,
+main.dark #events h3 {
+    color: white !important;
+}
   
 #mode:hover #modeIcon {
     transform: scale(1.1);
