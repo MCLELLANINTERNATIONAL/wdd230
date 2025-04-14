@@ -263,8 +263,8 @@ main img {
 }
 
 .festivals-container img {
-    width: 100%;
-    height: auto;
+    width: 100px;
+    height: 50px;
     max-width: 100%;
     display: block;
     object-fit: cover;
