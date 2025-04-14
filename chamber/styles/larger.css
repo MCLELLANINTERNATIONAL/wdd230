@@ -55,6 +55,7 @@
 
     .profile-carousel img {
         min-width: 800px;
+        height: 450px;
     }
 
     .profile-carousel img:hover {
