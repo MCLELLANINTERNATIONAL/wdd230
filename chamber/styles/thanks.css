@@ -38,6 +38,11 @@ header img {
     cursor: pointer;
     padding: 0.5rem;
 }
+
+main.dark h1,
+main.dark h2 {
+    color: white !important;
+}
   
 #modeIcon {
     position: absolute;
