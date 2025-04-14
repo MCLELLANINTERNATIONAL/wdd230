@@ -212,7 +212,7 @@ main {
     max-width: 100%;
     text-align: center;
     width: 600px;
-    height: auto;
+    height: 400px;
     opacity: 1;
     margin-bottom: 8px;
     transition: transform 0.3s ease-in-out;
