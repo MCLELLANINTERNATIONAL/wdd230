@@ -178,10 +178,7 @@ main.dark .benefits-gallery h2,
 main.dark .overview h2,
 main.dark .tier h2,
 main.dark .fees h2,
-main.dark .application h2 {
-    color: #000 !important;
-}
-
+main.dark .application h2,
 main.dark .application legend,
 main.dark .application label {
     color: white !important;
