@@ -182,6 +182,11 @@ main.dark .application h2 {
     color: #000 !important;
 }
 
+main.dark .application legend,
+main.dark .application label {
+    color: white !important;
+}
+
 main h1 {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
