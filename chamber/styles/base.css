@@ -324,11 +324,9 @@ main h3 {
 }
 
 .event-box img {
-    height: auto;
-    width: auto;
-    width: 48%;
-    height: auto;
-    display: block;
+    margin-left: 25%;
+    width: 150px;
+    height: 100px;
     object-fit: cover;
 }
 
@@ -348,11 +346,13 @@ main h3 {
 .book-now {
     background-color: #0071EB;
     color: white;
+    font-weight: bold;
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;
+    margin-left: 30%;
     font-size: 16px;
 }
 
@@ -636,9 +636,9 @@ main h3 {
     padding: 1rem;
     margin: 2rem auto;
     max-width: 1200px;
-  }
+}
   
-  .spotlight-card {
+.spotlight-card {
     border: 3px solid #fa8806ef;
     box-shadow: 0 5px 8px rgba(6, 238, 6, 0.958);
     padding: 1rem;
@@ -650,13 +650,13 @@ main h3 {
     text-align: center;
     border-radius: 8px;
     transition: transform 0.3s ease;
-  }
-  
-  .spotlight-card:hover {
-    transform: translateY(-5px);
-  }
+}
 
-  .spotlight-img {
+.spotlight-card:hover {
+    transform: translateY(-5px);
+}
+
+.spotlight-img {
     display: block;
     margin: 0 auto 0.25rem auto;
     max-height: 100px;
@@ -665,34 +665,34 @@ main h3 {
     border: none;
     border-radius: 0;
     object-fit: cover;
-  }
-  
-  .spotlight-card h3 {
+}
+
+.spotlight-card h3 {
     font-size: 1.3rem;
     font-weight: bold;
     color: #333;
     margin-bottom: 0.5rem;
-  }
-  
-  .spotlight-card p {
+}
+
+.spotlight-card p {
     font-size: 1rem;
     color: #444;
     margin: 0.25rem 0;
     font-weight: normal;
-  }
-  
-  .spotlight-card a {
+}
+
+.spotlight-card a {
     display: inline-block;
     margin-top: 0.5rem;
     color: royalblue;
     font-weight: bold;
     text-decoration: none;
-  }
-  
-  .spotlight-card a:hover {
+}
+
+.spotlight-card a:hover {
     text-decoration: underline;
     cursor: pointer;
-  }
+}
 
 @keyframes bounce {
     0%   { transform: translateY(0); }
