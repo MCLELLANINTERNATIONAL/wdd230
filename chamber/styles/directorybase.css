@@ -31,18 +31,21 @@ header img {
 }
 
 #mode {
+    all: unset;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+  
+#modeIcon {
     position: absolute;
     bottom: 0.1rem;
     right: 0.3rem;
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out;
-}
-
-#mode img {
-    width: 44px;
-    height: 44px;
-    object-fit: cover;
-    border-radius: 50%;
+    font-weight: bold;
+    font-size: 2.4rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+    color: #000; 
 }
 
 .top-header,
