@@ -173,6 +173,15 @@ main {
     gap: 5px;
 }
 
+main.dark .gallery h2,
+main.dark .benefits-gallery h2,
+main.dark .overview h2,
+main.dark .tier h2,
+main.dark .fees h2,
+main.dark .application h2 {
+    color: #000 !important;
+}
+
 main h1 {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
