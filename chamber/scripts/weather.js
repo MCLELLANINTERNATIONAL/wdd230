@@ -36,7 +36,7 @@ async function getWeather() {
     const forecastData = await forecastRes.json();
 
     
-    const daily = forecastData.list.filter(item => item.dt_txt.includes('12:00:00')).slice(0, 3);
+    const daily = forecastData.list.filter(item => item.dt_txt.includes('00:00:00')).slice(0, 3);
     const forecastDiv = document.getElementById('forecast');
 
     forecastDiv.innerHTML = '';
