@@ -53,27 +53,28 @@
     </nav>
     
     <main>
-      <h2>Book an Event</h2>
+        <h2>Book an Event</h2>
+        <section
+            <form id="bookingForm">
+                <label for="name">Full Name: <span class="required">* </span></label>
+                <input type="text" id="name" required>
 
-      <form id="bookingForm">
-        <label for="name">Full Name:</label>
-        <input type="text" id="name" required>
+                <label for="contact">Contact Number: <span class="required">* </span></label>
+                <input type="tel" id="contact" required>
 
-        <label for="contact">Contact Number:</label>
-        <input type="tel" id="contact" required>
+                <label for="event">Select Event: <span class="required">*</span></label>
+                <select id="event" required>
+                <option value="">--Choose an Event--</option>
+                <option value="Business Networking">Business Networking</option>
+                <option value="Training: Exporting">Practical Guide to Exporting</option>
+                <option value="Digital Marketing">Effective Digital Marketing Strategies in 2025</option>
+                <option value=">CEO Briefing">Partner & Corporate Roundtable:CEO Briefing</option>
+                <option value=">Lunch & Learn">>Lunch & Learn: Boosting Workplace Performance</option>
+                </select>
 
-        <label for="event">Select Event:</label>
-        <select id="event" required>
-          <option value="">--Choose an Event--</option>
-          <option value="Business Networking">Business Networking</option>
-          <option value="Training: Exporting">Practical Guide to Exporting</option>
-          <option value="Digital Marketing">Effective Digital Marketing Strategies in 2025</option>
-          <option value=">CEO Briefing">Partner & Corporate Roundtable:CEO Briefing</option>
-          <option value=">Lunch & Learn">>Lunch & Learn: Boosting Workplace Performance</option>
-        </select>
-
-        <a href="eventConfirm.html" button class="book-now">Submit</a>
-      </form>
+                <a href="eventConfirm.html" button class="book-now">Submit</a>
+            </form>
+        </section>
     </main>
     
     <footer>
