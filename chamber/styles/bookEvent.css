@@ -186,6 +186,14 @@ form {
   font-size: 1em;
 }
 
+input:required {
+  border-bottom: solid 8px red;
+}
+
+input:required:valid {
+  border-bottom: solid 8px rgb(3, 153, 3);
+}
+
 form.booking-block {
   display: block;
   background-color: #ffffff;
