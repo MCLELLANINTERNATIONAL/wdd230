@@ -16,20 +16,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="icon" href="favicon.ico" type="image/x-icon">    
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/bookEvent.css">
-    <link rel="stylesheet" href="styles/bookEventLarge.css"> 
+    <link rel="stylesheet" href="styles/thanks.css">
+    <link rel="stylesheet" href="styles/thankslarge.css"> 
     <script src="scripts/getDates.js" defer></script>
     <script src="scripts/hamButton.js" defer></script>
     <script src="scripts/modeButton.js" defer></script>
-    <script src="scripts/timeStamp.js" defer></script>
-    <script src="scripts/bookEvent.js" defer></script>
     <script src="scripts/wayfinder.js" defer></script>
+    <script src="scripts/timeStamp.js" defer></script>
 </head>
 
 <body>
     <header>
         <img src="images/edlogo.webp" alt="Kim" loading="lazy" width="80" height="80">
-        <h1>Edinburgh Chamber of Commerce</h1>
+        <h1>Edinburgh Chamber of Commerce: Event Confirmation</h1>
         <div>
             <button id="mode" aria-label="Toggle Dark Mode">
                 <span id="modeIcon">◐</span>
@@ -47,42 +46,28 @@
             </ul>
         </nav>
     </div>
+    
+    <nav id="breadcrumb" class="breadcrumb">
+        <a href="/wdd230/chamber/">Home</a>
+    </nav>
 
     <main>
-      <h2>Book an Event</h2>
-
-      <form id="bookingForm">
-        <label for="name">Full Name:</label>
-        <input type="text" id="name" required>
-
-        <label for="contact">Contact Number:</label>
-        <input type="tel" id="contact" required>
-
-        <label for="event">Select Event:</label>
-        <select id="event" required>
-          <option value="">--Choose an Event--</option>
-          <option value="Business Networking">Business Networking</option>
-          <option value="Training: Exporting">Practical Guide to Exporting</option>
-          <option value="Digital Marketing">Effective Digital Marketing Strategies in 2025</option>
-          <option value=">CEO Briefing">Partner & Corporate Roundtable:CEO Briefing</option>
-          <option value=">Lunch & Learn">>Lunch & Learn: Boosting Workplace Performance</option>
-        </select>
-
-        <a href="eventConfirm.html" button class="book-now">Submit</a>
-      </form>
-    </main>
+        <h1>Your Booking is Confirmed!</h1>
+        <h2>We look forward to meeting you at the event!</h2>
     
-    <footer>
-      <p>Contact Us: Phone:0123-456-7890</p>
-      <p>Email: info@edinburghchamberofcommerce.com</p>
-      
-      <nav class="footer-nav">
-          <ul><Li><a href="images/homew.webp">Wireframe</a></Li></ul> 
-      </nav> 
-      <p>&copy; <span id="currentyear"></span> 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Chamber of Commerce 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Edinburgh,Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿</p>
-      <p id="lastModified"></p>
-  </footer>
+        <input type="hidden" name="timeStamp" id="timeStamp">
 
+    </main> 
+    <footer>
+        <p>Contact Us: Phone:0123-456-7890</p>
+        <p>Email: info@edinburghchamberofcommerce.com</p>
+        
+        <nav class="footer-nav">
+            <ul><Li><a href="images/homew.webp">Wireframe</a></Li></ul> 
+        </nav> 
+        <p>&copy; <span id="currentyear"></span> 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Chamber of Commerce 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Edinburgh,Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿</p>
+        <p id="lastModified"></p>
+    </footer>    
 </body>
 
 </html>
