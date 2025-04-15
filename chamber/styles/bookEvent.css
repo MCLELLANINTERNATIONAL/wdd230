@@ -169,6 +169,12 @@ form {
   margin-right: 2%;
 }
 
+.required {
+  color: red;
+  font-weight: bold;
+  font-size: 1em;
+}
+
 form.booking-block {
   display: block;
   background-color: #ffffff;
