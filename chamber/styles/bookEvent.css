@@ -1,17 +1,241 @@
 * {
   box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f4f4f4;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #63EE63E5;
+  color: #525252;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 15px 20px;
+}
+
+header img {
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+#mode {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+main.dark h1,
+main.dark h2 {
+  color: white !important;
+}
+
+#modeIcon {
+  position: absolute;
+  bottom: 0.1rem;
+  right: 0.3rem;
+  font-weight: bold;
+  font-size: 2.4rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+  color: #000; 
+}
+
+.top-header,
+.nav-section {
   margin: 0;
   padding: 0;
 }
 
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  min-height: 100vh;
+.nav-section {
+  background-color: navy;
+}
+
+#menu {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  text-decoration: none;
+  border: 0;
+  background: none;
+  color: white;
+  position: absolute;
+  cursor: pointer;
+}
+
+#menu::before {
+  content: "☰";
+}
+
+.header-nav {
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: navy;
+  padding: 10px 0;
+}
+
+.navigation {
+  list-style: none;
   display: flex;
+  padding: 15px 20px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.navigation li {
+  display: none;
+}
+
+.navigation a {
+  display: block;
+  padding: 0.75rem;
+  text-align: left;
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  transition: color 0.5s ease-in-out;
+  font-size: clamp(1.2rem, 2vmin, 1.2rem);
+  margin-left: 4rem;
+}
+
+.navigation a.active {
+  color: white;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navigation a:hover {
+  cursor: pointer;
+  color: #3BFF38;
+  background-color: gray;
+}
+
+.navigation.show {
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding: 20px;
+}
+
+.navigation.show li {
+  display: block;
+}
+
+#menu.show::before {
+  content: "❎ ";
+}
+
+.top-header,
+.nav-section {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-section {
+  background-color: navy;
+}
+
+#menu {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  text-decoration: none;
+  border: 0;
+  background: none;
+  color: white;
+  position: absolute;
+  cursor: pointer;
+}
+
+#menu::before {
+  content: "☰";
+}
+
+.header-nav {
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: navy;
+  padding: 10px 0;
+}
+
+.navigation {
+  list-style: none;
+  display: flex;
+  padding: 15px 20px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.navigation li {
+  display: none;
+}
+
+.navigation a {
+  display: block;
+  padding: 0.75rem;
+  text-align: left;
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  transition: color 0.5s ease-in-out;
+  font-size: clamp(1.2rem, 2vmin, 1.2rem);
+  margin-left: 4rem;
+}
+
+.navigation a.active {
+  color: white;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navigation a:hover {
+  cursor: pointer;
+  color: #3BFF38;
+  background-color: gray;
+}
+
+.navigation.show {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navigation.show li {
+  display: block;
+}
+
+#menu.show::before {
+  content: "❎ ";
+}
+
+main h2 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+main label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+form {
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 form.booking-block {
@@ -24,20 +248,8 @@ form.booking-block {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-label {
-  display: block;
-  font-weight: bold;
-  margin-top: 10px;
-}
-
 input,
-select,
-button {
+select {
   width: 100%;
   padding: 10px;
   margin-top: 5px;
@@ -45,16 +257,83 @@ button {
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 1rem;
+  font-weight: bold;
 }
 
-/* Submit button style */
-button {
+form button {
+  display: box;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px 15px;
+  margin: 55px auto 55px auto;
+  margin-left: 35%;
   background-color: #007bff;
   color: white;
   border: none;
   cursor: pointer;
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
 button:hover {
   background-color: #0056b3;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 700;
+  background-color: #63EE63E5;
+  color: #525252;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 15px;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+.footer-nav {
+  background-color: transparent;
+}
+
+.footer-nav a {
+  display: block;
+  text-align: center;
+  padding: 0;
+  color: rgb(10, 64, 228);
+  text-decoration: none;
+  font-weight: 700;
+  transition: color 0.5s ease-in-out;
+  font-size: clamp(0.75rem, 2vmin, 1rem);
+  margin-left: 2rem;
+}
+
+.footer-nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-nav a.active {
+  color: transparent;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.footer-nav a:hover {
+  color: white;
+  background-color: darkorange;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.footer-nav img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+  object-fit: cover;
 }
