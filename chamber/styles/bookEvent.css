@@ -165,9 +165,14 @@ main label {
 }
 
 fieldset {
-  margin-bottom: 40px;
-  border-radius: 10px 12px;
+  margin: 0 auto 40px auto;
+  padding: 20px;
+  border-radius: 12px;
   box-shadow: 0 0 15px rgba(49, 87, 224, 0.876);
+  background-color: #fff;
+  width: 100%;
+  max-width: 600px;
+  box-sizing: border-box;
 }
 
 form {
@@ -186,7 +191,7 @@ form.booking-block {
   background-color: #ffffff;
   padding: 30px 20px;
   width: 100%;
-  max-width: 400px;
+  max-width: 600px;
   border-radius: 8px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
@@ -213,10 +218,9 @@ select {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  margin-left: 40%;
+  margin: 40px;
   font-size: 20px;
+  width: 60%;
   text-decoration: none;
 }
 
