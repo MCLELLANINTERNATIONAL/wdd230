@@ -181,13 +181,13 @@ form {
 }
 
 .required {
-  color: red;
+  color: #E60000;
   font-weight: bold;
   font-size: 1em;
 }
 
 input:required {
-  border-bottom: solid 8px red;
+  border-bottom: solid 8px #E60000;
 }
 
 input:required:valid {
