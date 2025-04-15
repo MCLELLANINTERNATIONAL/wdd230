@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', function () {
-  const form = document.getElementById('bookingForm');
+  const form = document.getElementById('bookEvent');
 
   if (form) {
     form.addEventListener('submit', function(e) {
-      e.preventDefault(); // Prevent form from submitting normally
+      e.preventDefault(); 
 
       const name = document.getElementById('name').value.trim();
       const contact = document.getElementById('contact').value.trim();
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
   } else {
-    console.error("Form with ID 'bookingForm' not found.");
+    console.error("Form with ID 'bookEvent' not found.");
   }
 
   function bookEvent(eventName, personName, contactNumber) {

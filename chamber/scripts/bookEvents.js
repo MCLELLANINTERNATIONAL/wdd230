@@ -1,4 +1,4 @@
-const form = document.getElementById('bookingForm');
+const form = document.getElementById('bookEvent');
 
   form.addEventListener('submit', function (e) {
     e.preventDefault();
