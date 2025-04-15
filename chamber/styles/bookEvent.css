@@ -164,6 +164,12 @@ main label {
   margin-left: 10px;
 }
 
+fieldset {
+  margin-bottom: 40px;
+  border-radius: 10px 12px;
+  box-shadow: 0 0 15px rgba(49, 87, 224, 0.876);
+}
+
 form {
   margin-left: 2%;
   margin-right: 2%;
