@@ -208,8 +208,13 @@ select {
   font-weight: bold;
 }
 
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
 .book-now {
-  display: inline-block;
   text-align: center;
   background-color: #0071EB;
   color: white;
@@ -221,6 +226,7 @@ select {
   margin: 40px;
   font-size: 20px;
   width: 60%;
+  max-width: 200px;
   text-decoration: none;
 }
 
