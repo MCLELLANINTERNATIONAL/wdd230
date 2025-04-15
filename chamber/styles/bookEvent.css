@@ -1,16 +1,19 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: #f4f4f4;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  min-height: 100vh;
 }
 
 header {
   position: relative;
+  width: 100%;
   display: flex;
   align-items: center;
   background-color: #63EE63E5;
@@ -19,6 +22,7 @@ header {
   font-size: 1rem;
   padding: 15px 20px;
 }
+
 
 header img {
   border-radius: 50%;
@@ -31,11 +35,6 @@ header img {
   border: none;
   cursor: pointer;
   padding: 0.5rem;
-}
-
-main.dark h1,
-main.dark h2 {
-  color: white !important;
 }
 
 #modeIcon {
@@ -132,6 +131,110 @@ main.dark h2 {
 
 #menu.show::before {
   content: "❎ ";
+}
+
+.breadcrumb {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 20px
+}
+
+.breadcrumb a {
+  color: blue;
+  text-decoration: none; 
+  margin-right: 10px;
+}
+
+.breadcrumb span {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-left: 10px;
+}
+
+.top-header,
+.nav-section {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-section {
+    background-color: navy;
+}
+
+#menu {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    border: 0;
+    background: none;
+    color: white;
+    position: absolute;
+    cursor: pointer;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+.header-nav {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: navy;
+    padding: 10px 0;
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+    padding: 15px 20px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.5s ease-in-out;
+    font-size: clamp(1.2rem, 2vmin, 1.2rem);
+    margin-left: 4rem;
+}
+
+.navigation a.active {
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navigation a:hover {
+    cursor: pointer;
+    color: #3BFF38;
+    background-color: gray;
+}
+
+.navigation.show {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navigation.show li {
+    display: block;
+}
+
+#menu.show::before {
+    content: "❎ ";
 }
 
 .top-header,
