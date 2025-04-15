@@ -360,6 +360,8 @@ main h3 {
 }
 
 .book-now {
+    display: inline-block;
+    text-align: center;
     background-color: #0071EB;
     color: white;
     font-weight: bold;
@@ -370,10 +372,12 @@ main h3 {
     margin-top: 10px;
     margin-left: 30%;
     font-size: 16px;
+    text-decoration: none;
 }
 
 .book-now:hover {
     background-color: #0056b3;
+    text-decoration: none;
 }
 
 #weather {
