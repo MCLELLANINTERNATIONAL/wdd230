@@ -226,6 +226,24 @@ main.dark h2 {
     content: "❎ ";
 }
 
+.breadcrumb {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 20px
+  }
+  
+  .breadcrumb a {
+    color: blue;
+    text-decoration: none; 
+    margin-right: 10px;
+  }
+  
+  .breadcrumb span {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-left: 10px;
+  }
+
 main {
     padding: 0 2%;
     min-height: 20rem;
