@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="WDD 230 - Edinburgh Chamber of Commerce by Kim Brown, Web Development, JavaScript, CSS, HTML">
+        content="WDD 230 - Edinburgh Chamber of Commerce Booking Confirmation by Kim Brown, Web Development, JavaScript, CSS, HTML">
     <meta name="author" content="Kim Brown">
-    <title>Edinburgh Chamber of Commerce</title>
+    <title>Edinburgh Chamber of Commerce: Booking Event Form</title>
     <meta property="og:title" content="Chamber of Commerce">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://mclellaninternational.github.io/wdd230/chamber/images/edin.png">
@@ -16,21 +16,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="icon" href="favicon.ico" type="image/x-icon">    
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/bookEvent.css">
-    <link rel="stylesheet" href="styles/bookEventLarger.css"> 
+    <link rel="stylesheet" href="styles/bookeventbase.css">
+    <link rel="stylesheet" href="styles/bookeventlarger.css"> 
     <script src="scripts/getDates.js" defer></script>
     <script src="scripts/hamButton.js" defer></script>
     <script src="scripts/modeButton.js" defer></script>
     <script src="scripts/timeStamp.js" defer></script>
     <script src="scripts/bookEvent.js" defer></script>
-    <script src="scripts/bookEvents.js" defer></script>
     <script src="scripts/wayfinder.js" defer></script>
 </head>
 
 <body>
     <header>
         <img src="images/edlogo.webp" alt="Kim" loading="lazy" width="80" height="80">
-        <h1>Edinburgh Chamber of Commerce: Book An Event</h1>
+        <h1>Edinburgh Chamber of Commerce: Book Event Form</h1>
         <div>
             <button id="mode" aria-label="Toggle Dark Mode">
                 <span id="modeIcon">◐</span>
@@ -55,12 +54,12 @@
     
     <main>
         <h2>Book an Event</h2>
-        <form id="bookEvent" method="get" action="eventConfrim.html">
+        <form id="bookEvent" method="get" action="bookeventconfirm.html">
             <fieldset>
                 <label for="name">Full Name: <span class="required">* </span></label>
                 <input type="text" id="name" placeholder="e.g., Jane Doe" required>
 
-                <label for="contact">Contact Number: <span class="required">* </span></label>
+                <label for="phone">Contact Number: <span class="required">* </span></label>
                 <input type="tel" id="phone" placeholder="e.g., 0123-456-7890" required>
 
                 <label for="event">Select Event: <span class="required">*</span></label>

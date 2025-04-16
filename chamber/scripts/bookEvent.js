@@ -1,27 +1,25 @@
-document.addEventListener('DOMContentLoaded', function () {
-  const form = document.getElementById('bookEvent');
+document.addEventListener('DOMContentLoaded', () => {
+  const form = document.getElementById('bookevent');
 
   if (form) {
-    form.addEventListener('submit', function(e) {
-      e.preventDefault(); 
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
 
       const name = document.getElementById('name').value.trim();
-      const contact = document.getElementById('contact').value.trim();
+      const contact = document.getElementById('phone').value.trim();
       const eventName = document.getElementById('event').value.trim();
 
       if (name && contact && eventName) {
-        bookEvent(eventName, name, contact);
-        this.reset();
+        localStorage.setItem('bookingName', name);
+        localStorage.setItem('bookingContact', contact);
+        localStorage.setItem('bookingEvent', eventName);
+
+        window.location.href = 'bookeventconfirm.html';
       } else {
         alert("Please fill out all fields.");
       }
     });
   } else {
     console.error("Form with ID 'bookEvent' not found.");
-  }
-
-  function bookEvent(eventName, personName, contactNumber) {
-    alert(`Booking Confirmation:\n\nEvent: ${eventName}\nName: ${personName}\nContact: ${contactNumber}`);
-    console.log(`Booking event: ${eventName}, Name: ${personName}, Contact: ${contactNumber}`);
   }
 });
