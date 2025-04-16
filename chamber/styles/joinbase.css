@@ -283,7 +283,7 @@ main h3 {
 
 .benefits-gallery figure {
     max-width: 100%;
-    margin: 0;
+    margin: 1%;
     padding: 0.5rem;
     background: #fff;
 }
@@ -304,13 +304,12 @@ main h3 {
 .benefits-gallery figcaption h3 {
     color: rgb(54, 54, 211);
     font-weight: bold;
-    text-wrap: wrap;
 }
 
 .benefits-gallery figcaption p {
     font-weight: normal;
     max-width: 96%;
-    margin-top: 6px;
+    margin-top: 3%;
     text-wrap: wrap;
 }
 
