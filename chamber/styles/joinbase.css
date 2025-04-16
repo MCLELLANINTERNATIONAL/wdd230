@@ -210,9 +210,9 @@ main h3 {
     justify-content: center;
     align-items: center;
     padding: 2px;
-    margin: 1%;
+    margin: 0.25%;
 	width: 100%;
-    max-width: 1500px;
+    max-width: 100%;
 	height: auto;
     flex-direction: column;
 }
@@ -224,6 +224,7 @@ main h3 {
     margin: 1rem;
     font-weight: bold;
     text-wrap: wrap;
+    margin-bottom: 2%;
 }
 
 .oview p + p {
@@ -313,29 +314,29 @@ main h3 {
 
 .tier .benefits {
     width: 100%;
-    max-width: 96%;
+    max-width: 93%;
     background: #f5f5f5;
     padding: 1rem;
     border-radius: 8px;
     appearance: none;
-    margin: 2%;
+    margin-top: 2%;
+    margin-left: 4%;
 }
 
 .tier h2 {
-    display: flex;
     font-size: 2rem;
     color: #B36200;
     text-align: center;
-    margin-left: 5%;
-    margin-top: 5%;
     font-weight: bold;
     text-wrap: wrap;
+    margin-top: 5%;
 }
 
 .application {
     width: 100%;
     max-width: 88%;
-    margin: 2%;
+    margin-top: 2%;
+    margin-left: 4%;
 }
 
 .application h2 {
@@ -345,9 +346,8 @@ main h3 {
     color: #B36200;
     text-align: center;
     font-weight: bold;
-    margin-top: 2rem;
-    margin-left: 2%;
-    margin-top: 0;
+    margin-left: 3%;
+    margin-top: 5%;
 }
 
 .eccf fieldset {
@@ -493,8 +493,8 @@ main h3 {
     font-size: 2rem;
     color: #B36200;
     text-align: center;
-    margin-bottom: 30px;
     font-weight: bold;
+    margin-bottom: 2%;
 }
 
 thead tr:first-child {
