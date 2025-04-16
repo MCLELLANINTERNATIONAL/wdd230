@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-  const form = document.getElementById('eventConfirm');
+  const form = document.getElementById('bookEvent');
 
   if (form) {
     form.addEventListener('submit', function(e) {
