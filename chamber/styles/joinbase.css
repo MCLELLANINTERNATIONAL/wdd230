@@ -323,13 +323,14 @@ main h3 {
     margin-left: 4%;
 }
 
-.tier h2 {
+.application .tier h2 {
     font-size: 2rem;
     color: #B36200;
     text-align: center;
     font-weight: bold;
     text-wrap: wrap;
     margin-bottom: 2%;
+    margin-top: 2%;
 }
 
 .application {
@@ -496,6 +497,7 @@ main h3 {
     text-align: center;
     font-weight: bold;
     margin-bottom: 2%;
+    margin-top: 2%;
 }
 
 thead tr:first-child {

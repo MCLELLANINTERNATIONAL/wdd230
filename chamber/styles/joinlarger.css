@@ -104,12 +104,12 @@
     }
 
     .application h2 {
-        margin-top: 9.5%;
+        margin-top: 22.5%;
     }
     
     .eccf {
         grid-column: 2;  
-        width: 100%
+        width: 100%;
     }
 
     .star-rating label {
