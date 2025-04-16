@@ -366,6 +366,7 @@ main h3 {
 }
 
 .eccf label {
+    width: 100%;
     display: block;
     padding-top: 1rem;
     color: #9c2c13;
@@ -395,14 +396,14 @@ main h3 {
     padding: .75rem;
     color: #555;
     width: 100%;
-    max-width: 500px;
+    max-width: 100%;
     appearance: none;
     box-sizing: border-box;
 }
 
 .eccf textarea#description {
     width: 100%;
-    max-width: 460px;
+    max-width: 100%;
     height: 100px;
 }
 
