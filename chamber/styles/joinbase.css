@@ -331,23 +331,13 @@ main h3 {
     text-wrap: wrap;
 }
 
-.benefits select {
-    padding: 0.5rem;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    width: 100%;
-    max-width: 400px;
-    background: #fff;
-    appearance: none;
-}
-
 .application {
     width: 100%;
-    max-width: 460px;
+    max-width: 400px;
 }
 
 .application h2 {
-    width: 470px;
+    width: 100%;
     font-size: 2rem;
     color: #B36200;
     text-align: center;
@@ -358,7 +348,7 @@ main h3 {
 }
 
 .eccf fieldset {
-    width: 470px;
+    width: 100%;
     height: auto;
     margin: 1%;
     border: 1px solid rgb(21, 168, 21);
@@ -489,10 +479,8 @@ main h3 {
 }
 
 .fees {
-	width: 470px;
-    max-width: 100%;
+	width: 100%;
     height: auto;
-	margin: 2%;
 	border-collapse: collapse;
     text-wrap: wrap;
     align-self: center;
@@ -504,6 +492,7 @@ main h3 {
     color: #B36200;
     text-align: center;
     margin: 1rem;
+    margin-top: 30px;
     font-weight: bold;
 }
 
@@ -534,21 +523,6 @@ tbody tr:nth-child(odd) {
 
 tbody tr:nth-child(even) {
     background-color: var(--zebra2);
-}
-
-.fees button {
-    background-color: blue;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    font-size: 1em;
-    font-weight: bold;
-}
-  
-.fees button:hover {
-    background-color: #003d33;
 }
 
 footer {
