@@ -246,11 +246,12 @@ main.dark h2 {
 
 main {
     padding: 0 2%;
-    min-height: 20rem;
+    min-height: 16rem;
 }
 
 h1 {
     text-align: center;
+    margin: 40px;
 }
 
 h2 {

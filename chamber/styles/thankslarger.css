@@ -18,5 +18,9 @@
     #menu {
         display: none;
     }
+
+    h1 {
+        margin: 60px;
+    }
         
 }
