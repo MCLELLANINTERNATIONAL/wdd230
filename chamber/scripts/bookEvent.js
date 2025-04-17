@@ -1,25 +1,23 @@
 document.addEventListener('DOMContentLoaded', () => {
   const form = document.getElementById('bookevent');
 
-  if (form) {
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
+  if (form) return;
 
-      const name = document.getElementById('name').value.trim();
-      const contact = document.getElementById('phone').value.trim();
-      const eventName = document.getElementById('event').value.trim();
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
 
-      if (name && contact && eventName) {
-        localStorage.setItem('bookingName', name);
-        localStorage.setItem('bookingContact', contact);
-        localStorage.setItem('bookingEvent', eventName);
+    const name = document.getElementById('name').value.trim();
+    const contact = document.getElementById('phone').value.trim();
+    const eventName = document.getElementById('event').value.trim();
 
-        window.location.href = 'bookeventconfirm.html';
-      } else {
-        alert("Please fill out all fields.");
-      }
-    });
-  } else {
-    console.error("Form with ID 'bookevent.html' not found.");
-  }
+    if (name && contact && eventName) {
+      localStorage.setItem('bookingName', name);
+      localStorage.setItem('bookingContact', contact);
+      localStorage.setItem('bookingEvent', eventName);
+
+      window.location.href = 'bookeventconfirm.html';
+    } else {
+      alert("Please fill out all fields.");
+    }
+  });
 });
