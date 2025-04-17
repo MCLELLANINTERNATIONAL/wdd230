@@ -18,7 +18,7 @@ header {
   align-items: center;
   background-color: #63EE63E5;
   color: #525252;
-  font-weight: 700;
+  font-weight: bolder;
   font-size: 1rem;
   padding: 15px 20px;
 }
@@ -41,7 +41,7 @@ header img {
   position: absolute;
   bottom: 0.1rem;
   right: 0.3rem;
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 2.4rem;
   transition: transform 0.3s ease, color 0.3s ease;
   color: #000; 
@@ -136,7 +136,7 @@ header img {
 
 .breadcrumb {
   font-size: 1.2rem;
-  font-weight: bold;
+  font-weight: bolder;
   margin: 20px
 }
 
@@ -147,7 +147,7 @@ header img {
 }
 
 .breadcrumb span {
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 1.2rem;
   margin-left: 10px;
 }
