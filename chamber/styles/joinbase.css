@@ -29,7 +29,7 @@ header {
     align-items: center;
     background-color: #63EE63E5;
     color: #525252;
-    font-weight: 700;
+    font-weight: bolder;
     font-size: 1rem;
     padding: 15px 20px;
 }
@@ -52,7 +52,7 @@ header img {
     position: absolute;
     bottom: 0.1rem;
     right: 0.3rem;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 2.4rem;
     transition: transform 0.3s ease, color 0.3s ease;
     color: #000; 
@@ -71,7 +71,7 @@ header img {
 #menu {
     display: block;
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: bolder;
     text-decoration: none;
     border: 0;
     background: none;
@@ -110,7 +110,7 @@ header img {
     background-color: transparent;
     color: white;
     text-decoration: none;
-    font-weight: 700;
+    font-weight: bolder;
     transition: color 0.5s ease-in-out;
     font-size: clamp(1.2rem, 2vmin, 1.2rem);
     margin-left: 4rem;
@@ -118,7 +118,7 @@ header img {
 
 .navigation a.active {
     color: white;
-    font-weight: 700;
+    font-weight: bolder;
     font-size: 1.2rem;
     text-decoration: none;
     transition: color 0.3s;
@@ -146,7 +146,7 @@ header img {
 
 .breadcrumb {
     font-size: 1.2rem;
-    font-weight: bold;
+    font-weight: bolder;
     margin: 20px;
 }
 
@@ -157,7 +157,7 @@ header img {
 }
   
 .breadcrumb span {
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 1.2rem;
     margin-left: 10px;
 }
