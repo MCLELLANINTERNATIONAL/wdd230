@@ -189,6 +189,7 @@ main img {
     padding-bottom: 56.25%;
     overflow: hidden;
     border-radius: 8px;
+    object-fit: cover;
 }
 
 .video-player iframe {
