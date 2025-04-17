@@ -48,20 +48,17 @@
     }
     
     .festivals {
-        padding: 15px;
         grid-column: 1;
         grid-row:2;
         margin-top: 40px;
     }
     
     .festivals h2 {
-        font-size: 1.5em;
         grid-column: 1;
         grid-row: 2;
     }
     
     .festivals p {
-        font-size: 0.95rem;
         grid-column: 1;
         grid-row: 2;
     }
@@ -78,7 +75,7 @@
         top: auto;
         grid-column: 1/ span 2;
         grid-row: 4; 
-        margin-left: 1%;
+        margin-left: 0.5%;
     }
 
     header h1 {
