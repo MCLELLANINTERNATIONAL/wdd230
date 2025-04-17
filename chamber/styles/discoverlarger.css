@@ -61,15 +61,14 @@
     }
     
     .festivals p {
-        margin-top: 20px;
         font-size: 0.95rem;
         grid-column: 1;
         grid-row: 2;
     }
 
     .calendar-container {
-        margin-top: 140px;
-        margin-bottom: 0.5%;
+        margin-top: 160px;
+        margin-bottom: 50px;
     }
  
     .visits-container {
