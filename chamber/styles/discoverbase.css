@@ -186,9 +186,7 @@ main img {
 
 .video-player {
     position: relative;
-    width: 460px;
     padding-bottom: 56.25%;
-    height: 200px;
     overflow: hidden;
     border-radius: 8px;
 }
