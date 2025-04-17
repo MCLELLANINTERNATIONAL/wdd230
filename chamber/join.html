@@ -155,6 +155,7 @@
         <section class="application">
             <section class="tier">
                 <h2>Membership Tier Benefits</h2>
+                <label for="membershipTier">Re-View:</label>
                 <select class="benefits">
                     <option value="">Please Select &#9662;</option>
                     <option value="NP"> NP: Free access to networking events.</option>
@@ -189,7 +190,8 @@
                 </fieldset>
                 <fieldset>
                     <legend>Business Description</legend>
-                        <label><textarea name="description" id="description" rows="40"></textarea></label>
+                    <label for="description">Brief description of your business:</label>
+                    <textarea name="description" id="description" rows="10" cols="50"></textarea>
                 </fieldset>
                     <label class="rating">Rate our Page:</label>
                     <div class="star-rating">
@@ -202,7 +204,7 @@
                 <div>
                     <input type="submit" value="Submit Application">
                 </div>
-                <input type="hidden" name="timestamp" id="timestamp">
+                <input type="hidden" name="timeStamp" id="timeStamp">
             </form>        
         </section>
 
