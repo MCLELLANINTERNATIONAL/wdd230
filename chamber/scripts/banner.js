@@ -1,6 +1,5 @@
 function closeBanner() {
     document.getElementById('meetGreetBanner').classList.add('hidden');
-    // Removed localStorage so it won't remember the banner being closed
 }
 
 window.addEventListener('DOMContentLoaded', () => {
