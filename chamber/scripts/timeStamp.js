@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const timestampField = document.getElementById("timestamp");
+    const timestampField = document.getElementById("timeStamp");
     if (timestampField) {
       timestampField.value = new Date().toISOString();
     }

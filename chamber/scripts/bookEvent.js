@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const form = document.getElementById('bookevent');
+  const form = document.getElementById('bookEvent');
 
   if (!form) return;
 
