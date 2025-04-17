@@ -313,6 +313,14 @@ main h3 {
     text-wrap: wrap;
 }
 
+.tier label {
+    width: 100%;
+    max-width: 93%;
+    color: navy;
+    margin-left: 4%;
+    font-weight: bolder;
+} 
+
 .tier .benefits {
     width: 100%;
     max-width: 93%;
