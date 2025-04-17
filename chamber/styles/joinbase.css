@@ -1,7 +1,7 @@
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 :root {
-	--back: rgba(0, 128, 0, 0.92);
+	--back: rgba(0, 128, 0, 0.938);
 	--forelight: #fff;
 	--zebra: #c0f8c6;
 	--zebra2: #dcf3de;
@@ -509,7 +509,7 @@ thead tr:first-child {
   
 thead tr:nth-child(2) {
 	background-color: var(--zebra);
-	color: blue;
+	color: rgb(2, 2, 223);
     font-size: 1.4rem;
 	font-weight: 500;
 }
