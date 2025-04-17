@@ -20,6 +20,6 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   } else {
-    console.error("Form with ID 'bookevent' not found.");
+    console.error("Form with ID 'bookevent.html' not found.");
   }
 });
