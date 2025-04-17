@@ -69,6 +69,10 @@ header img {
   cursor: pointer;
 }
 
+#menu::before {
+  content: "☰";
+}
+
 .header-nav {
   max-width: 100%;
   margin: 0 auto;

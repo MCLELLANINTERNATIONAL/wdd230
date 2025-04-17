@@ -162,6 +162,10 @@ main.dark h2 {
     cursor: pointer;
 }
 
+#menu::before {
+    content: "☰";
+}
+
 .header-nav {
     max-width: 100%;
     margin: 0 auto;
