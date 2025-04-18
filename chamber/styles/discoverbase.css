@@ -173,7 +173,8 @@ main img {
     background-color: #ffffff;
     padding: 1rem;
     max-width: 95%;
-    margin-left: 1rem auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
     text-align: center;
     border-radius: 12px;
 }
