@@ -190,7 +190,7 @@ video-wrapper {
     position: relative;
     width: 100%;
     padding-bottom: 1%;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
     border-radius: 8px;
     overflow: hidden;
 }
@@ -208,10 +208,10 @@ video-wrapper {
 .festivals {
     background-color: rgba(135, 206, 250, 0.518); 
     text-wrap: wrap;
-    margin: 1px;
+    margin: 0.5%;
     margin-top: 50px;
     border-radius: 50%;
-    max-width: 760px;
+    max-width: 90%;
     text-align: left;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
@@ -220,7 +220,7 @@ video-wrapper {
     font-size: 2.1rem;
     font-weight: bold;
     margin-top: 30px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     text-align: center;
     color: navy;
     line-height: 2.5rem;
@@ -229,6 +229,7 @@ video-wrapper {
 .festivals p {
     font-size: 1rem;
     justify-content: space-evenly;
+    max-width: 100%;
     font-weight: bold;
     line-height: 1.6rem;
     margin-bottom: 10px;
