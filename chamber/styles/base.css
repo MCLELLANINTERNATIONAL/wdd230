@@ -423,6 +423,7 @@ main h3 {
     padding: 15px 20px;
     border-radius: 50%;
     width: 70%;
+    height: 90%;
     max-width: 400px;
     text-align: center;
     display: flex;
@@ -436,7 +437,7 @@ main h3 {
 .weather-label h2 {
     margin-top: 20px;
     margin-bottom: 5px;
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     font-weight: bold;
     color: blue;
     word-wrap: break-word;
@@ -444,7 +445,7 @@ main h3 {
 
 .weather-label p {
     margin: 0.2rem 0;
-    font-size: 1rem;
+    font-size: 0.95rem;
     font-weight: bold;
     color: blue;
     text-align: center;
