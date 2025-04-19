@@ -320,7 +320,6 @@ main h3 {
 }
 
 #events h3 {
-    display: column;
     text-align: center;
     text-wrap: wrap;
 }
