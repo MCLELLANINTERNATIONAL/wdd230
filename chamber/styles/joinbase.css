@@ -467,6 +467,9 @@ main h3 {
     width: 90%;
     display: flex;
     justify-self: center; 
+    text-align: center;
+    white-space: normal;
+    text-wrap: wrap;
     border: none;
     background-image: linear-gradient(#132c9c, #130e6f);
     color: #fff;
@@ -478,8 +481,6 @@ main h3 {
     box-shadow: 1px 1px 4px #999;
     cursor: pointer;
     margin: 0 auto 10px auto;
-    text-align: center;
-    text-wrap: wrap;
 }
 
 .eccf input[type="submit"]:hover {
