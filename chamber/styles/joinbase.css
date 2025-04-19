@@ -1,12 +1,15 @@
-html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
 
 :root {
-	--back: rgba(0, 128, 0, 0.938);
-	--forelight: #fff;
-	--zebra: #c0f8c6;
-	--zebra2: #dcf3de;
-	--border: #827f7f;
-	--shadow: rgba(0, 0, 0, 0.2);
+    --back: rgba(0, 128, 0, 0.938);
+    --forelight: #fff;
+    --zebra: #c0f8c6;
+    --zebra2: #dcf3de;
+    --border: #827f7f;
+    --shadow: rgba(0, 0, 0, 0.2);
 }
 
 * {
@@ -47,7 +50,7 @@ header img {
     cursor: pointer;
     padding: 0.5rem;
 }
-  
+
 #modeIcon {
     position: absolute;
     bottom: 0.1rem;
@@ -55,7 +58,7 @@ header img {
     font-weight: bolder;
     font-size: 2.4rem;
     transition: transform 0.3s ease, color 0.3s ease;
-    color: #000; 
+    color: #000;
 }
 
 .top-header,
@@ -152,10 +155,10 @@ header img {
 
 .breadcrumb a {
     color: blue;
-    text-decoration: none; 
+    text-decoration: none;
     margin-right: 10px;
 }
-  
+
 .breadcrumb span {
     font-weight: bolder;
     font-size: 1.2rem;
@@ -209,9 +212,9 @@ main h3 {
     padding: 2px;
     margin-left: 2%;
     margin-right: 2%;
-	width: 96%;
+    width: 96%;
     max-width: 96%;
-	height: auto;
+    height: auto;
     flex-direction: column;
 }
 
@@ -224,7 +227,7 @@ main h3 {
     margin-bottom: 2%;
 }
 
-.oview p + p {
+.oview p+p {
     margin-top: 2%;
 }
 
@@ -314,7 +317,7 @@ main h3 {
     color: navy;
     margin-left: 4%;
     font-weight: bolder;
-} 
+}
 
 .tier .benefits {
     width: 100%;
@@ -390,8 +393,7 @@ main h3 {
 .eccf input[type="date"],
 .eccf select,
 .eccf input[type="number"],
-.eccf textarea
-{
+.eccf textarea {
     height: 60px;
     background-color: #eee;
     display: block;
@@ -452,12 +454,12 @@ main h3 {
 }
 
 .star-rating label:hover,
-.star-rating label:hover ~ label {
+.star-rating label:hover~label {
     color: gold;
     transform: scale(1.2);
 }
 
-.star-rating input:checked ~ label {
+.star-rating input:checked~label {
     color: gold;
 }
 
@@ -467,30 +469,34 @@ main h3 {
     border: none;
     background-image: linear-gradient(#132c9c, #130e6f);
     color: #fff;
+    font-size: 1rem;
     font-weight: bolder;
     border-radius: 6px;
-    padding: .8rem;
-    width:  100%;
+    padding: 0.8rem;
+    width: 80%;
     max-width: 300px;
     box-shadow: 1px 1px 4px #999;
     cursor: pointer;
     margin-bottom: 10px;
+    text-align: center;
+    text-wrap: wrap;
 }
 
 @keyframes fade {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
 }
 
 .fees {
-	width: 100%;
+    width: 100%;
     height: auto;
     max-width: 96%;
-	border-collapse: collapse;
+    border-collapse: collapse;
     text-wrap: wrap;
 }
 
@@ -504,26 +510,27 @@ main h3 {
 }
 
 thead tr:first-child {
-	background-color: var(--back);
-	color: var(--forelight);
-	font-size: 2rem;
-	font-weight: bold;
-}
-  
-thead tr:nth-child(2) {
-	background-color: var(--zebra);
-	color: rgb(2, 2, 223);
-    font-size: 1.4rem;
-	font-weight: 500;
+    background-color: var(--back);
+    color: var(--forelight);
+    font-size: 2rem;
+    font-weight: bold;
 }
 
-th, td {
+thead tr:nth-child(2) {
+    background-color: var(--zebra);
+    color: rgb(2, 2, 223);
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+th,
+td {
     padding: 12px;
-	border: 1px solid var(--border);
+    border: 1px solid var(--border);
     text-align: center;
-	align-items: center;
+    align-items: center;
     font-size: 1.1rem;
-	font-weight: bold;
+    font-weight: bold;
 }
 
 tbody tr:nth-child(odd) {
