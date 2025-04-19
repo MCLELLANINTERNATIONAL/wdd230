@@ -28,10 +28,6 @@
         margin-right: 1%;
     } 
 
-    .overview {
-        width: 100%;
-    }
-
     .oview,
     .wbjoin {
         grid-column: 1 / span 2;

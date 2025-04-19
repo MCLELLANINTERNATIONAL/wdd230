@@ -207,10 +207,10 @@ main h3 {
     justify-content: center;
     align-items: center;
     padding: 2px;
-    margin-left: 1%;
-    margin-right: 1%;
-	width: 100%;
-    max-width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+	width: 96%;
+    max-width: 96%;
 	height: auto;
     flex-direction: column;
 }
@@ -234,9 +234,6 @@ main h3 {
     color: rgb(93, 91, 91);
     font-weight: bold;
     font-size: 1.4rem;
-    margin-left: 1%;
-    margin-right: 1%;
-    margin-bottom: 2%;
     padding: 5%;
     line-height: 2rem;
     overflow-wrap: break-word;
@@ -253,8 +250,6 @@ main h3 {
     font-weight: bold;
     border-radius: 10px;
     margin-top: 2%;
-    margin-left: 1%;
-    margin-right: 1%;
     margin-bottom: 2%;
     padding: 5%;
     line-height: 2rem;
