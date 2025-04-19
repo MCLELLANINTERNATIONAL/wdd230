@@ -109,13 +109,6 @@
         width: 100%;
     }
 
-    .star-rating label {
-        grid-column: 2;
-    }
-
-    .eccf input[type="submit"] {
-        grid-column: 2;
-    }
 
     .fees {
         grid-column: 1;
