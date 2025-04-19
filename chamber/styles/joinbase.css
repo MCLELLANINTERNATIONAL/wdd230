@@ -465,7 +465,7 @@ main h3 {
 
 .eccf input[type="submit"] {
     width: 90%;
-    display: flexbox;
+    display: flex;
     justify-self: center; 
     text-align: center;
     white-space: normal;
