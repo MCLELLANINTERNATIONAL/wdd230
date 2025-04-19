@@ -192,6 +192,8 @@ main {
   
 #welcome {
     display: flex;
+    width: 95%;
+    max-width: 1000px;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -317,7 +319,8 @@ main h3 {
     font-size: 24px;
 }
 
-.events-banner p {
+#events h3 {
+    display: column;
     text-align: center;
     text-wrap: wrap;
 }
@@ -553,6 +556,7 @@ main h3 {
     padding: 30px;
     border-radius: 10px;
     max-width: 900px;
+    width: 100%;
     margin: 10px auto;
     text-align: left;
     gap: 10px;
@@ -626,6 +630,7 @@ main h3 {
     background-color: rgba(0, 166, 255, 0.688);
     padding: 30px;
     border-radius: 10px;
+    width: 100%;
     max-width: 900px;
     margin: 0 auto;
     text-align: left;
@@ -637,6 +642,7 @@ main h3 {
     background-color: darkorange;
     padding: 30px;
     border-radius: 10px;
+    width: 100%;
     max-width: 900px;
     margin: 0 auto;
     text-align: left;
