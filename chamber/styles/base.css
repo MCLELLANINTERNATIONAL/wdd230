@@ -192,7 +192,7 @@ main {
   
 #welcome {
     display: flex;
-    width: 95%;
+    width: 100%;
     max-width: 1000px;
     flex-direction: column;
     align-items: center;
