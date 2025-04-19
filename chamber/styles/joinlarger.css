@@ -117,6 +117,10 @@
         grid-column: 2;
     }
 
+    .eccf input[type="submit"] {
+        grid-column: 2; 
+    }
+
     .fees {
         grid-column: 1;
         grid-row: 2;
