@@ -1,37 +1,24 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const breadcrumbContainer = document.getElementById("breadcrumb");
-    if (!breadcrumbContainer) return;
-  
-    const basePath = "/wdd230/chamber/";
-    const fullPath = window.location.pathname;
-  
-    // Remove base path and trailing slash if present
-    const relativePath = fullPath.replace(basePath, "").replace(/\/$/, "");
-  
-    if (!relativePath || relativePath === "index.html") {
-      breadcrumbContainer.style.display = "none";
-      return;
-    }
-  
-    const pathSegments = relativePath.split("/");
-  
-    let breadcrumbHTML = `<a href="${basePath}">Home</a>`;
-    let currentPath = basePath;
-  
-    pathSegments.forEach((segment, index) => {
-      const cleanSegment = segment.replace(".html", "");
-      const title = cleanSegment
-        .replace(/[-_]/g, " ")
-        .replace(/\b\w/g, (char) => char.toUpperCase());
-  
-      currentPath += segment.includes(".html") ? "" : `${segment}/`;
-  
-      if (index === pathSegments.length - 1) {
-        breadcrumbHTML += ` &gt; <span>${title}</span>`;
-      } else {
-        breadcrumbHTML += ` &gt; <a href="${currentPath}">${title}</a>`;
-      }
-    });
-  
-    breadcrumbContainer.innerHTML = breadcrumbHTML;
-  });
+  const breadcrumbContainer = document.getElementById("breadcrumb");
+  if (!breadcrumbContainer) return;
+
+  const fullPath = window.location.pathname;
+  const filename = fullPath.substring(fullPath.lastIndexOf("/") + 1);
+
+  if (filename === "" || filename === "index.html") {
+    breadcrumbContainer.style.display = "none";
+    return;
+  }
+
+  const pageTitle = filename
+    .replace(".html", "")
+    .replace(/[-_]/g, " ")
+    .replace(/\b\w/g, (char) => char.toUpperCase());
+
+  breadcrumbContainer.innerHTML = `
+    <a href="/wdd230/chamber/">Home</a> &gt;
+    <span>${pageTitle}</span>
+  `;
+});
+
+
